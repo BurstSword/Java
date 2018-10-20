@@ -11,11 +11,11 @@ public class Ejercicio13 {
         n2 = teclado.nextInt();
 
         if (n1 + n2 > 0) {
-            System.out.println("Su suma es positiva");
+            System.out.println("Su suma es positiva " + (n1+n2));
         } else if (n1 + n2 < 0) {
-            System.out.println("Su suma es negativa");
+            System.out.println("Su suma es negativa " + (n1+n2));
         } else {
-            System.out.println("Su suma es 0");
+            System.out.println("Su suma es 0 " + (n1+n2));
         }
     }
 }
