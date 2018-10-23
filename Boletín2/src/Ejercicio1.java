@@ -4,7 +4,11 @@ public class Ejercicio1 {
     public static void main(String[] args) {
         Scanner teclado = new Scanner(System.in);
         int mayor;
+<<<<<<< HEAD
         System.out.println("Ingrese 3 números ");
+=======
+        System.out.print("Ingrese 3 números ");
+>>>>>>> master
         int num1 = teclado.nextInt();
         int num2 = teclado.nextInt();
         int num3 = teclado.nextInt();
