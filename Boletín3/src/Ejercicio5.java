@@ -2,24 +2,29 @@ import java.util.Scanner;
 
 public class Ejercicio5 {
     public static void main(String[] args) {
-        int[] menor = new int['n'];
         int n;
-        int min = menor[1];
+        int[] menor;
+        int min;
 
 
         Scanner teclado = new Scanner(System.in);
         System.out.println("Ingrese la cantidad de números que quiera ingresar  e ingrese los números y se buscará el" +
-                "menor de todos");
+                " menor de todos");
         n = teclado.nextInt();
+        menor = new int[n];
 
-        for (int i = 0; i < n; i++) {
+        for (int i = 0; i < menor.length; i++) {
             System.out.println("Ingrese un número");
             menor[i] = teclado.nextInt();
-            if (menor[i] < min) {
-                min = menor[i];
+
+
+        }
+        min = menor[0];
+        for (int j = 0; j < menor.length; j++) {
+            if (menor[j] < min) {
+                min = menor[j];
             }
         }
-
         System.out.println("El número menor es :" + min);
     }
 }

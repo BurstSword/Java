@@ -9,7 +9,7 @@ public class Ejercicio3 {
         int media2 = 0;
 
 
-        for (int i = 0; i < 5; i++) {
+        for (int i = 0; i < curso1.length; i++) {
             System.out.println("Ingrese la nota del alumno del curso 1");
             curso1[i] = teclado.nextInt();
             media1 = media1 + curso1[i];
@@ -22,7 +22,7 @@ public class Ejercicio3 {
 
         }
 
-        for (int j = 0; j < 5; j++) {
+        for (int j = 0; j < curso2.length; j++) {
             System.out.println("Ingrese la nota del alumno del curso 2");
             curso2[j] = teclado.nextInt();
             media2 = media2 + curso2[j];

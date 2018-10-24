@@ -5,7 +5,7 @@ public class Ejercicio2 {
         int num[] = new int[5];
         Scanner teclado = new Scanner(System.in);
 
-        for (int i = 0; i < 5; i++) {
+        for (int i = 0; i < num.length; i++) {
             System.out.println("Ingrese un número");
             num[i] = teclado.nextInt();
 

@@ -6,7 +6,7 @@ public class Ejercicio1 {
         int media = 0;
         Scanner teclado = new Scanner(System.in);
 
-        for (int i = 0; i < 5; i++) {
+        for (int i = 0; i < numeros.length; i++) {
             System.out.println("Ingrese un número");
             numeros[i] = teclado.nextInt();
             media = media + numeros[i];

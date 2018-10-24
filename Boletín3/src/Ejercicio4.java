@@ -11,7 +11,7 @@ public class Ejercicio4 {
                 "de todos los elementos");
         n = teclado.nextInt();
 
-        for (int i = 0; i < n; i++) {
+        for (int i = 0; i < elementos.length; i++) {
             System.out.println("Ingrese un número");
             elementos[i] = teclado.nextInt();
             suma = suma + elementos[i];
