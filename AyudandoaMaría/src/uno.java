@@ -10,6 +10,8 @@ public class uno {
         num2 = teclado.nextInt();
         num3 = teclado.nextInt();
 
+        
+
         if (num1 > num2 && num2 > num3) {
             System.out.println(num1 + " " + num2 + " " + num3);
         } else if (num1 > num2 && num3 > num2) {
