@@ -1,12 +1,13 @@
 import java.util.Scanner;
 
 public class Ejercicio2 {
-    public static void main(String[] args) {
+    public static void main(String[] args) {        /*Declaramos el Scanner y los 5 números a ingresar, y media que es
+                                                        dónde almacenaremos la media*/
         Scanner teclado = new Scanner(System.in);
         int n1, n2, n3, n4, n5;
         double media;
 
-
+        //Ingresamos los 5 números//
         System.out.println("Ingrese 5 números enteros");
         n1 = teclado.nextInt();
         n2 = teclado.nextInt();
