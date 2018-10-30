@@ -2,7 +2,6 @@ import java.util.Scanner;
 
 public class Ejercicio4 {
     public static void main(String[] args) {
-        int[] elementos = new int['n'];
         int n, suma = 0;
         Scanner teclado = new Scanner(System.in);
 
@@ -11,6 +10,7 @@ public class Ejercicio4 {
                 "de todos los elementos");
         n = teclado.nextInt();
 
+        int[] elementos = new int[n];
         for (int i = 0; i < elementos.length; i++) {
             System.out.println("Ingrese un número");
             elementos[i] = teclado.nextInt();
