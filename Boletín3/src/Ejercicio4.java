@@ -4,14 +4,14 @@ public class Ejercicio4 {
     public static void main(String[] args) { /*Declaramos las variables del array, el número de la dimensión del array
                                              y la variable suma, dónde almacenaremos la suma de los valores del array*/
         int[] elementos;
-        int n, suma = 0;
+        int num, suma = 0;
         Scanner teclado = new Scanner(System.in);
 
 
         System.out.println("Ingrese la cantidad de números que quiera ingresar e ingrese los números y se hará la suma " +
                 "de todos los elementos");
-        n = teclado.nextInt();                      //declaramos cuántos números queremos en el array//
-        elementos = new int[n];
+        num = teclado.nextInt();                      //declaramos cuántos números queremos en el array//
+        elementos = new int[num];
 
                                                 //Hacemos un bucle para darle datos al array//
         for (int i = 0; i < elementos.length; i++) {
