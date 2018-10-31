@@ -11,7 +11,7 @@ public class Ejercicio7 {
         month = teclado.nextInt();
 
         System.out.print("Has nacido el " + day + "/" + month + ", así que eres: ");
-        if ((month == 1 && day <= 20) || (month == 12 && day >= 22)) {
+        if ((month == 1 && day <= 20) || (month = 12 && day >= 22)) {
             System.out.print("Capricornio");
         } else if ((month == 1 && day >= 21) || (month == 2 && day <= 19)) {
             System.out.print("Acuario");

@@ -1,10 +1,15 @@
 import java.util.Scanner;
 
 public class Ejercicio4 {
+<<<<<<< HEAD
     public static void main(String[] args) { /*Declaramos las variables del array, el número de la dimensión del array
                                              y la variable suma, dónde almacenaremos la suma de los valores del array*/
         int[] elementos;
         int num, suma = 0;
+=======
+    public static void main(String[] args) {
+        int n, suma = 0;
+>>>>>>> master
         Scanner teclado = new Scanner(System.in);
 
 
@@ -13,7 +18,11 @@ public class Ejercicio4 {
         num = teclado.nextInt();                      //declaramos cuántos números queremos en el array//
         elementos = new int[num];
 
+<<<<<<< HEAD
                                                 //Hacemos un bucle para darle datos al array//
+=======
+        int[] elementos = new int[n];
+>>>>>>> master
         for (int i = 0; i < elementos.length; i++) {
             System.out.println("Ingrese un número");
             elementos[i] = teclado.nextInt();
