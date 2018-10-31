@@ -11,7 +11,6 @@ public class Ejercicio3 {
         int media2 = 0;
 
 
-
         for (int i = 0; i < curso1.length; i++) {            //Hacemos un bucle para darle datos al array del curso 1//
             System.out.println("Ingrese la nota del alumno del curso 1");
             curso1[i] = teclado.nextInt();
@@ -20,7 +19,7 @@ public class Ejercicio3 {
         media1 = media1 / curso1.length;                    /* Calculamos la media, que es los números ingresados entre
                                                                                    la dimensión del array */
         System.out.println("La media de la clase 1 es : " + media1 + "");
-        System.out.println("La nota de los alumnos es : ");
+        System.out.println("La nota de los alumnos son : ");
         for (int i = 0; i < 5; i++) {                   //Mostramos las notas del curso 1//
             System.out.println(curso1[i]);
 

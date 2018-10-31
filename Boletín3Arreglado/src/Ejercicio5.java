@@ -11,10 +11,10 @@ public class Ejercicio5 {
 
         Scanner teclado = new Scanner(System.in);
         System.out.println("Ingrese la cantidad de números que quiera ingresar  e ingrese los números y se buscará el" +
-                " menor de todos");
+                " menor de todos"); //Utilizamos la variable n para decir cuántos elementos va a tener el array//
         n = teclado.nextInt();
         menor = new int[n];
-        //Hacemos un bucle para darle datos al array//
+        //Hacemos un bucle para rellenar el array//
         for (int i = 0; i < menor.length; i++) {
             System.out.println("Ingrese un número");
             menor[i] = teclado.nextInt();

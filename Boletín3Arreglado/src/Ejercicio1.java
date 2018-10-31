@@ -6,7 +6,7 @@ public class Ejercicio1 {
         int[] numeros = new int[5];
         int media = 0;
         Scanner teclado = new Scanner(System.in);
-
+        System.out.println("Vamos a ver que números son mayores que la media");
         for (int i = 0; i < numeros.length; i++) {      //Hacemos un bucle para darle datos al array//
             System.out.println("Ingrese un número");
             numeros[i] = teclado.nextInt();
