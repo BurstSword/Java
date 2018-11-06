@@ -1,17 +1,17 @@
 import java.util.Scanner;
 
-public class Ejercicio3 {
+public class Ejercicio6 {
     public static void main(String[] args) {
-        Ejercicio3 ej = new Ejercicio3();
+        Ejercicio6 ej = new Ejercicio6();
         int num;
         String comprobacion;
 
-        num = ej.leerNumero();
-        comprobacion = ej.comprobarSigno(num);
+        num = ej.leerEntero();
+        comprobacion = ej.comprobarMayorque10(num);
         System.out.println(comprobacion);
     }
 
-    int leerNumero() {
+    int leerEntero() {
         int num1;
 
         System.out.println("Ingrese un número y veremos si es positivo, negativo o 0");
@@ -20,16 +20,15 @@ public class Ejercicio3 {
         return num1;
     }
 
-    String comprobarSigno(int num1) {
+    String comprobarMayorque10(int num1) {
         String comprobacion;
 
-        if (num1 > 0) {
-            comprobacion = "Es positivo";
-        } else if (num1 < 0) {
-            comprobacion = "Es negativo";
-        } else {
-            comprobacion = "Es 0";
+        if (num1 > 10 && num1 > 5) {
+            comprobacion = "Mayor que 5";
+        } else
+            comprobacion = "Es menor que 5";
+        {
+            return comprobacion;
         }
-        return comprobacion;
     }
 }
