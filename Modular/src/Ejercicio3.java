@@ -6,9 +6,17 @@ public class Ejercicio3 {
         int num;
         String comprobacion;
 
+<<<<<<< Updated upstream
         num = ej.leerNumero();
         comprobacion = ej.comprobarSigno(num);
+=======
+
+
+        num = ej.recibNum();
+        comprobacion = ej.comprob(num);
+>>>>>>> Stashed changes
         System.out.println(comprobacion);
+
     }
 
     int leerNumero() {
