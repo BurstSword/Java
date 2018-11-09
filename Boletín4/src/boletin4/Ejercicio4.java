@@ -4,13 +4,16 @@ import java.util.Scanner;
 
 public class Ejercicio4 {
     public static void main(String[] args) {
+
+        //Declaramos un array de String y llamamos a los métodos para comprobar el signo zodiacal según la fecha//
         String[] fechaNac = leerFecha();
         String signo = comprobarSigno(fechaNac);
         mostrarSigno(signo, fechaNac);
 
     }
 
-    public static String[] leerFecha() {
+    public static String[] leerFecha() { //Leemos la fecha en este método en formato dd/mm, dividimos ese String en
+                                        // un array y lo devolvemos
         Scanner teclado = new Scanner(System.in);
         String fecha;
         String[] fechaNac;
@@ -21,9 +24,11 @@ public class Ejercicio4 {
         return fechaNac;
     }
 
-    public static String comprobarSigno(String[] fechaNac) {
+    public static String comprobarSigno(String[] fechaNac) { //Tomamos los valores del Arra y los transformamos en//
+                                        // enteros para así poder comprobar el signo Zodiacal y devolver el resultado//
         int month, day;
         String signo = "";
+
         month = Integer.parseInt(fechaNac[1]);
         day = Integer.parseInt(fechaNac[0]);
         if ((month == 1 && day <= 20) || (month == 12 && day >= 22)) {
@@ -54,6 +59,7 @@ public class Ejercicio4 {
         }
         return signo;
     }
+        //Tomamos el resultado obtenido en el método anterior y lo mostramos//
 
     public static void mostrarSigno(String signo, String[] fechaNac) {
         System.out.println("Usted ha nacido el " + fechaNac[0] + "/" + fechaNac[1] +

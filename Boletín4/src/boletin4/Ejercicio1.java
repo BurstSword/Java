@@ -4,15 +4,17 @@ import java.util.Scanner;
 
 public class Ejercicio1 {
     public static void main(String[] args) {
-        Ejercicio1 ej = new Ejercicio1();
+        //Declaramos las variables de los dos números a sumar y dónde almacenaremos la suma//
         int num1, num2, suma;
-        num1 = ej.leerNum();
-        num2 = ej.leerNum();
-        suma = ej.suma(num1, num2);
-        ej.mostrarSuma(suma);
+
+        //Hacemos la llamada a los métodos de leer número, realizar la suma y mostrar el resultado//
+        num1 = leerNum();
+        num2 = leerNum();
+        suma = suma(num1, num2);
+        mostrarSuma(suma);
     }
 
-    int leerNum() {
+    public static int leerNum() { //Este método nos permite leer números y devolverlos al main//
         int num1;
         Scanner teclado = new Scanner(System.in);
 
@@ -21,13 +23,14 @@ public class Ejercicio1 {
         return num1;
     }
 
-    int suma(int num1, int num2) {
+    public static int suma(int num1, int num2) { //Con este método tomamos por parámetros los anteriores números y
+        // realizamos y devolvemos el valor de la suma//
         int suma = num1 + num2;
 
         return suma;
     }
-
-    void mostrarSuma(int suma) {
+        //En este método omamos por parámetro el resultado de la suma y lo mostramos en pantalla//
+    public static void mostrarSuma(int suma) {
         System.out.println("El resultado es: " + suma);
     }
 }
