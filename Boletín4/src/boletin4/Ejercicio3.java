@@ -9,7 +9,7 @@ public class Ejercicio3 {
         //Llamamos a los métodos para ingresar números y de comprobación de si es múltiplo y no, dentro
         // del de mostrar resultado
         num1 = leerNumero();
-        mostrarResultado(esMultiploDeDos(num1), esMultiploDeCinco(num1), num1);
+        mostrarResultado(esMultiploDeX(num1), esMultiploDeX(num1), num1);
     }
 
     public static int leerNumero() { //Este método nos permite leer números y devolverlos al main//
@@ -20,28 +20,23 @@ public class Ejercicio3 {
         return num1;
     }
 
-    public static boolean esMultiploDeDos(int num1) { //Mediante el uso de booleanos nos permite comprobar si es//
-                                                    // múltiplo de 2 o no tomando por parámetro el número ingresado//
-        boolean esMultiplo2;
-        if (num1 % 2 == 0) {
-            esMultiplo2 = true;
+    public static boolean esMultiploDeX(int num1) { //Mediante el uso de booleanos nos permite comprobar si es//
+        // múltiplo de 2 o no tomando por parámetro el número ingresado//
+        int dividendo;
+        Scanner teclado = new Scanner(System.in);
+        boolean esMultiploX;
+        System.out.println("Ingrese el número por el que quiere ver si es múltiplo o no");
+        dividendo = teclado.nextInt();
+
+        if (num1 % dividendo == 0) {
+            esMultiploX = true;
         } else {
-            esMultiplo2 = false;
+            esMultiploX = false;
         }
 
-        return esMultiplo2;
+        return esMultiploX;
     }
 
-    public static boolean esMultiploDeCinco(int num1) { //Mediante el uso de booleanos nos permite comprobar si es//
-                                                    // múltiplo de 5 o no tomando por parámetro el número ingresado//
-        boolean esMultiplo5;
-        if (num1 % 5 == 0) {
-            esMultiplo5 = true;
-        } else {
-            esMultiplo5 = false;
-        }
-        return esMultiplo5;
-    }
 
     public static void mostrarResultado(boolean esMultiplo2, boolean esMultiplo5, int num1) {
         // Comprobamos mediante los booleanos si es múltiplo de ambos, de uno de los dos o de ninguno,//

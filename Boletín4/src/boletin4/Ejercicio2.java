@@ -13,7 +13,7 @@ public class Ejercicio2 {
     }
 
 
-        //Con este método vamos ingresando números hasta que pulsemos el 0, y contará todos esos números menos el 0//
+    //Con este método vamos ingresando números hasta que pulsemos el 0, y contará todos esos números menos el 0//
     public static int contarEnteros() {
         boolean esCero;
         int num, contador = 0;
@@ -22,9 +22,10 @@ public class Ejercicio2 {
             System.out.println("Ingrese un número y cuando quiera acabar pulse 0");
             num = teclado.nextInt();
             if (num == 0) {         //Vamos ingresando números hasta que pulsemos el 0, entonces cambia el valor a false
-                                    // y sale del bucle
+                // y sale del bucle
                 esCero = true;
             } else {
+                System.out.println(num + " es distinto de 0, para acabar pulse 0");
                 esCero = false;
                 contador++;
             }

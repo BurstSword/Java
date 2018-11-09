@@ -13,19 +13,25 @@ public class Ejercicio4 {
     }
 
     public static String[] leerFecha() { //Leemos la fecha en este método en formato dd/mm, dividimos ese String en
-                                        // un array y lo devolvemos
+        // un array y lo devolvemos
         Scanner teclado = new Scanner(System.in);
+        String dia;
+        String mes;
         String fecha;
         String[] fechaNac;
 
-        System.out.println("Ingrese su fecha de nacimiento(día/mes)");
-        fecha = teclado.next();
+        System.out.println("Ingrese su día de nacimiento");
+        dia = teclado.next();
+        System.out.println("Ingrese un mes de nacimiento");
+        mes = teclado.next();
+        fecha = dia + "/" + mes;
         fechaNac = fecha.split("/");
+
         return fechaNac;
     }
 
     public static String comprobarSigno(String[] fechaNac) { //Tomamos los valores del Arra y los transformamos en//
-                                        // enteros para así poder comprobar el signo Zodiacal y devolver el resultado//
+        // enteros para así poder comprobar el signo Zodiacal y devolver el resultado//
         int month, day;
         String signo = "";
 
@@ -59,7 +65,7 @@ public class Ejercicio4 {
         }
         return signo;
     }
-        //Tomamos el resultado obtenido en el método anterior y lo mostramos//
+    //Tomamos el resultado obtenido en el método anterior y lo mostramos//
 
     public static void mostrarSigno(String signo, String[] fechaNac) {
         System.out.println("Usted ha nacido el " + fechaNac[0] + "/" + fechaNac[1] +
