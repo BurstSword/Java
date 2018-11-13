@@ -9,7 +9,7 @@ public class Ejercicio6 {
         int aux;
 
 
-        System.out.println("Ingrese 3 números y los ordenadoremos de menor a mayor");
+        System.out.println("Ingrese 3 números y los ordenaremos de menor a mayor");
         for (int i = 0; i < orden.length; i++) {    //Recorremos el array para cargar los datos en ella//
             orden[i] = teclado.nextInt();
         }

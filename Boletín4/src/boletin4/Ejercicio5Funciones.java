@@ -35,7 +35,7 @@ public class Ejercicio5Funciones {
     }
 
     public static void mostrarResultado(int sumatorio) { //Tomamos por parámetro el sumatorio//
-                                                // y lo mostramos en pantalla//
+        // y lo mostramos en pantalla//
         System.out.println("La suma de los valores ingresados es: " + sumatorio);
     }
 
