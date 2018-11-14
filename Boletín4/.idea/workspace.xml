@@ -50,48 +50,57 @@
     <session id="1455304152">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="3" />
+          <entry key="project.closed" value="6" />
           <entry key="project.open.time.11" value="1" />
+          <entry key="project.open.time.13" value="1" />
           <entry key="project.open.time.14" value="1" />
           <entry key="project.open.time.2" value="1" />
-          <entry key="project.opened" value="3" />
+          <entry key="project.open.time.9" value="2" />
+          <entry key="project.opened" value="6" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
+          <entry key="dummy" value="42" />
           <entry key="java" value="3347" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="JAVA" value="3347" />
+          <entry key="PLAIN_TEXT" value="42" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="6" />
+          <entry key="java" value="7" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="6" />
+          <entry key="JAVA" value="7" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+<<<<<<< Updated upstream
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/boletin4/Ejercicio1.java">
+=======
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/boletin4/Ejercicio1Suma.java">
+>>>>>>> Stashed changes
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="14" column="5" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
+            <state relative-caret-position="272">
+              <caret line="16" column="5" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/boletin4/Ejercicio2.java">
+        <entry file="file://$PROJECT_DIR$/src/boletin4/Ejercicio2Contar.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="663">
               <caret line="39" selection-start-line="39" selection-end-line="39" />
@@ -104,15 +113,16 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/boletin4/Ejercicio3.java">
+        <entry file="file://$PROJECT_DIR$/src/boletin4/Ejercicio3Multiplos.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="459">
-              <caret line="27" column="82" selection-start-line="27" selection-start-column="82" selection-end-line="27" selection-end-column="82" />
+            <state relative-caret-position="595">
+              <caret line="35" selection-start-line="35" selection-end-line="35" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+<<<<<<< Updated upstream
         <entry file="file://$PROJECT_DIR$/src/boletin4/Ejercicio4.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="579">
@@ -120,15 +130,25 @@
               <folding>
                 <element signature="e#411#485#0" />
               </folding>
+=======
+        <entry file="file://$PROJECT_DIR$/src/boletin4/Ejercicio4Signo.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="799">
+              <caret line="47" selection-start-line="47" selection-end-line="47" />
+>>>>>>> Stashed changes
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/boletin4/Ejercicio5.java">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/boletin4/Ejercicio5SumaArray.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="306">
+<<<<<<< Updated upstream
               <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+=======
+              <caret line="18" selection-start-line="18" selection-end-line="18" />
+>>>>>>> Stashed changes
             </state>
           </provider>
         </entry>
@@ -136,8 +156,13 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/boletin4/Ejercicio5Funciones.java">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< Updated upstream
             <state relative-caret-position="629">
               <caret line="37" selection-start-line="37" selection-end-line="37" />
+=======
+            <state relative-caret-position="527">
+              <caret line="31" column="47" selection-start-line="31" selection-start-column="47" selection-end-line="31" selection-end-column="47" />
+>>>>>>> Stashed changes
             </state>
           </provider>
         </entry>
@@ -164,6 +189,14 @@
         <option value="$PROJECT_DIR$/src/boletin4/Ejercicio2.java" />
         <option value="$PROJECT_DIR$/src/boletin4/Ejercicio4.java" />
         <option value="$PROJECT_DIR$/src/boletin4/Ejercicio5Funciones.java" />
+<<<<<<< Updated upstream
+=======
+        <option value="$PROJECT_DIR$/src/boletin4/Ejercicio1Suma.java" />
+        <option value="$PROJECT_DIR$/src/boletin4/Ejercicio3Múltiplos.java" />
+        <option value="$PROJECT_DIR$/src/boletin4/Ejercicio3Multiplos.java" />
+        <option value="$PROJECT_DIR$/src/boletin4/Ejercicio4Signo.java" />
+        <option value="$PROJECT_DIR$/src/boletin4/Ejercicio5SumaArray.java" />
+>>>>>>> Stashed changes
       </list>
     </option>
   </component>
@@ -180,6 +213,7 @@
     </navigator>
     <panes>
       <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -206,8 +240,13 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+<<<<<<< Updated upstream
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1542103491274" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+=======
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1541955618243" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Boletín2arreglado/src/Ejercicio7.java" />
+>>>>>>> Stashed changes
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -221,9 +260,9 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Ejercicio4">
-    <configuration name="Ejercicio2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="boletin4.Ejercicio2" />
+  <component name="RunManager" selected="Application.Ejercicio4Signo">
+    <configuration name="Ejercicio2Contar" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="boletin4.Ejercicio2Contar" />
       <module name="Boletín4" />
       <extension name="coverage">
         <pattern>
@@ -235,8 +274,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Ejercicio3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="boletin4.Ejercicio3" />
+    <configuration name="Ejercicio3Multiplos" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="boletin4.Ejercicio3Multiplos" />
       <module name="Boletín4" />
       <extension name="coverage">
         <pattern>
@@ -248,8 +287,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Ejercicio4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="boletin4.Ejercicio4" />
+    <configuration name="Ejercicio4Signo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="boletin4.Ejercicio4Signo" />
       <module name="Boletín4" />
       <extension name="coverage">
         <pattern>
@@ -261,8 +300,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Ejercicio5" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="boletin4.Ejercicio5" />
+    <configuration name="Ejercicio5SumaArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="boletin4.Ejercicio5SumaArray" />
       <module name="Boletín4" />
       <extension name="coverage">
         <pattern>
@@ -288,19 +327,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Ejercicio2" />
-      <item itemvalue="Application.Ejercicio3" />
-      <item itemvalue="Application.Ejercicio4" />
-      <item itemvalue="Application.Ejercicio5" />
+      <item itemvalue="Application.Ejercicio2Contar" />
+      <item itemvalue="Application.Ejercicio3Multiplos" />
+      <item itemvalue="Application.Ejercicio4Signo" />
+      <item itemvalue="Application.Ejercicio5SumaArray" />
       <item itemvalue="Application.Ejercirig" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Ejercicio4" />
-        <item itemvalue="Application.Ejercicio2" />
-        <item itemvalue="Application.Ejercicio3" />
+        <item itemvalue="Application.Ejercicio4Signo" />
+        <item itemvalue="Application.Ejercicio2Contar" />
+        <item itemvalue="Application.Ejercicio3Multiplos" />
         <item itemvalue="Application.Ejercirig" />
-        <item itemvalue="Application.Ejercicio5" />
+        <item itemvalue="Application.Ejercicio5SumaArray" />
       </list>
     </recent_temporary>
   </component>
@@ -318,10 +357,13 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <layout>
+<<<<<<< Updated upstream
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.30030257" />
+=======
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.29637527" />
+>>>>>>> Stashed changes
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -360,27 +402,40 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/boletin4/Ejercirig.java">
+    <entry file="file://$PROJECT_DIR$/src/boletin4/Ejercirig.java" />
+    <entry file="file://$PROJECT_DIR$/src/boletin4/Ejercicio5Funciones.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="31" selection-start-line="10" selection-start-column="31" selection-end-line="10" selection-end-column="31" />
+        <state relative-caret-position="527">
+          <caret line="31" column="47" selection-start-line="31" selection-start-column="47" selection-end-line="31" selection-end-column="47" />
         </state>
       </provider>
     </entry>
+<<<<<<< Updated upstream
     <entry file="file://$PROJECT_DIR$/src/boletin4/Ejercicio5Funciones.java">
+=======
+    <entry file="file://$PROJECT_DIR$/src/boletin4/Ejercicio1Suma.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="5" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/boletin4/Ejercicio2Contar.java">
+>>>>>>> Stashed changes
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="629">
           <caret line="37" selection-start-line="37" selection-end-line="37" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/boletin4/Ejercicio3.java">
+    <entry file="file://$PROJECT_DIR$/src/boletin4/Ejercicio3Multiplos.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="27" column="82" selection-start-line="27" selection-start-column="82" selection-end-line="27" selection-end-column="82" />
+        <state relative-caret-position="595">
+          <caret line="35" selection-start-line="35" selection-end-line="35" />
         </state>
       </provider>
     </entry>
+<<<<<<< Updated upstream
     <entry file="file://$PROJECT_DIR$/src/boletin4/Ejercicio5.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
@@ -396,16 +451,27 @@
             <element signature="e#1402#1403#0" expanded="true" />
             <element signature="e#1542#1543#0" expanded="true" />
           </folding>
+=======
+    <entry file="file://$PROJECT_DIR$/src/boletin4/Ejercicio4Signo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="799">
+          <caret line="47" selection-start-line="47" selection-end-line="47" />
+>>>>>>> Stashed changes
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/boletin4/Ejercicio4.java">
+    <entry file="file://$PROJECT_DIR$/src/boletin4/Ejercicio5SumaArray.java">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< Updated upstream
         <state relative-caret-position="579">
           <caret line="36" selection-start-line="36" selection-end-line="36" />
           <folding>
             <element signature="e#411#485#0" />
           </folding>
+=======
+        <state relative-caret-position="306">
+          <caret line="18" selection-start-line="18" selection-end-line="18" />
+>>>>>>> Stashed changes
         </state>
       </provider>
     </entry>

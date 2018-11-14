@@ -2,7 +2,7 @@ package boletin4;
 
 import java.util.Scanner;
 
-public class Ejercicio4 {
+public class Ejercicio4Signo {
     public static void main(String[] args) {
 
         //Declaramos un array de String y llamamos a los métodos para comprobar el signo zodiacal según la fecha//

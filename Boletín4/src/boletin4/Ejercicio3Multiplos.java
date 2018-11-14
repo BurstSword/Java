@@ -2,7 +2,7 @@ package boletin4;
 
 import java.util.Scanner;
 
-public class Ejercicio3 {
+public class Ejercicio3Multiplos {
     public static void main(String[] args) { //Declaramos la variable donde almacenaremos el número a comprobar//
         int num1;
 

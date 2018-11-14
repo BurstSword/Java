@@ -1,6 +1,6 @@
 package boletin4;
 
-public class Ejercicio5 {
+public class Ejercicio5SumaArray {
     public static void main(String[] args) {
         //Declaramos las variables del array, el número de la dimensión de la misma//
         // y dónde almacenaremos la suma de los valores del array//

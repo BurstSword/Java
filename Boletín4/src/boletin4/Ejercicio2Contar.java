@@ -2,13 +2,13 @@ package boletin4;
 
 import java.util.Scanner;
 
-public class Ejercicio2 {
+public class Ejercicio2Contar {
     public static void main(String[] args) {
         int contador;  //Declaramos la variable que va a almacenar la cantidad de números que ingresamos//
 
         //Hacemos la llamada a los métodos para contar los números que ingresamos y luego mostrarlos en pantalla//
-        contador = Ejercicio2.contarEnteros();
-        Ejercicio2.mostrarContador(contador);
+        contador = Ejercicio2Contar.contarEnteros();
+        Ejercicio2Contar.mostrarContador(contador);
 
     }
 

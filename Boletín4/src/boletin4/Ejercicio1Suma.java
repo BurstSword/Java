@@ -2,7 +2,7 @@ package boletin4;
 
 import java.util.Scanner;
 
-public class Ejercicio1 {
+public class Ejercicio1Suma {
     public static void main(String[] args) {
         //Declaramos las variables de los dos números a sumar y dónde almacenaremos la suma//
         int num1, num2, suma;
