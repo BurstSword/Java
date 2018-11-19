@@ -9,7 +9,7 @@ public class Ejercicio3Multiplos {
         //Llamamos a los métodos para ingresar números y de comprobación de si es múltiplo y no, dentro
         // del de mostrar resultado
         num1 = leerNumero();
-        mostrarResultado(esMultiploDeX(num1), esMultiploDeX(num1), num1);
+        mostrarResultado(esMultiploDe2(num1), esMultiploDe5(num1), num1);
     }
 
     public static int leerNumero() { //Este método nos permite leer números y devolverlos al main//
@@ -20,21 +20,31 @@ public class Ejercicio3Multiplos {
         return num1;
     }
 
-    public static boolean esMultiploDeX(int num1) { //Mediante el uso de booleanos nos permite comprobar si es//
+    public static boolean esMultiploDe2(int num1) { //Mediante el uso de booleanos nos permite comprobar si es//
         // múltiplo de 2 o no tomando por parámetro el número ingresado//
-        int dividendo;
-        Scanner teclado = new Scanner(System.in);
-        boolean esMultiploX;
-        System.out.println("Ingrese el número por el que quiere ver si es múltiplo o no");
-        dividendo = teclado.nextInt();
 
-        if (num1 % dividendo == 0) {
-            esMultiploX = true;
+        boolean esMultiplo2;
+
+        if (num1 % 2 == 0) {
+            esMultiplo2 = true;
         } else {
-            esMultiploX = false;
+            esMultiplo2 = false;
         }
 
-        return esMultiploX;
+        return esMultiplo2;
+    }
+    public static boolean esMultiploDe5(int num1) { //Mediante el uso de booleanos nos permite comprobar si es//
+        // múltiplo de 2 o no tomando por parámetro el número ingresado//
+
+        boolean esMultiplo5;
+
+        if (num1 % 5 == 0) {
+            esMultiplo5 = true;
+        } else {
+            esMultiplo5 = false;
+        }
+
+        return esMultiplo5;
     }
 
 

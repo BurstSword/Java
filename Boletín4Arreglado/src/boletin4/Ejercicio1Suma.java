@@ -23,8 +23,8 @@ public class Ejercicio1Suma {
         return num1;
     }
 
-    public static int suma(int num1, int num2) { //Con este método tomamos por parámetros los anteriores números y
-        // realizamos y devolvemos el valor de la suma//
+    public static int suma(int num1, int num2) { /*Con este método tomamos por parámetros los anteriores números y
+         realizamos y devolvemos el valor de la suma*/
         int suma = num1 + num2;
 
         return suma;

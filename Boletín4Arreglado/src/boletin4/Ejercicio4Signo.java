@@ -37,8 +37,8 @@ public class Ejercicio4Signo {
 
         month = Integer.parseInt(fechaNac[1]);
         day = Integer.parseInt(fechaNac[0]);
-        if ((month == 1 && day <= 20) || (month == 12 && day >= 22)) {
 
+        if ((month == 1 && day <= 20) || (month == 12 && day >= 22)) {
             signo = "Capricornio";
         } else if ((month == 1 && day >= 21) || (month == 2 && day <= 19)) {
             signo = "Acuario";
