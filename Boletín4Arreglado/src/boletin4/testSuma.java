@@ -56,6 +56,7 @@ public class testSuma {
             }
         }
 
+
         Assert.assertEquals(2 + 3, Ejercicio1Suma.suma(2, 3));
         Assert.assertEquals(5 + 3, Ejercicio1Suma.suma(5, 3));
         Assert.assertEquals(7 + 3, Ejercicio1Suma.suma(7, 3));
