@@ -1,7 +1,7 @@
 package boletin4;
 
-import org.junit.Test;
 import org.junit.Assert;
+import org.junit.Test;
 
 public class testSuma {
     @Test
