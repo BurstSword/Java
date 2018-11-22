@@ -28,6 +28,7 @@ public class testSuma {
         Assert.assertFalse(Ejercicio3Multiplos.esMultiploDe2(-15));
 
 
+
         //Comprobamos que la función esMultiploDe5 devuelve true cuando realmente el número es un múltiplo de 5
         Assert.assertTrue(Ejercicio3Multiplos.esMultiploDe5(5));
         Assert.assertTrue(Ejercicio3Multiplos.esMultiploDe5(10));
