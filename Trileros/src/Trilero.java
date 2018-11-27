@@ -31,7 +31,7 @@ public class Trilero {
 
             if (triles == jugar) {
                 if (triles == 1) {
-                    System.out.println("!Que suerte, estaba en el cubo! " + triles);
+                    System.out.println("!Que suerte, estaba en el cubo " + triles + "!");
                     System.out.println("---------------------------------------------");
                     System.out.println("┌-----┐         ┌-----┐         ┌-----┐");
                     System.out.println("|     |         |     |         |     |");
@@ -40,7 +40,7 @@ public class Trilero {
                     System.out.println("└-----┘         └-----┘         └-----┘ ");
                 } else {
                     if (triles == 2) {
-                        System.out.println("!Que suerte, estaba en el cubo! " + triles);
+                        System.out.println("!Que suerte, estaba en el cubo " + triles + "!");
                         System.out.println("---------------------------------------------");
                         System.out.println("┌-----┐         ┌-----┐         ┌-----┐");
                         System.out.println("|     |         |     |        |     |");
@@ -48,7 +48,7 @@ public class Trilero {
                         System.out.println("|     |         |     |        |     |");
                         System.out.println("└-----┘         └-----┘         └-----┘ ");
                     } else {
-                        System.out.println("!Que suerte, estaba en el cubo! " + triles);
+                        System.out.println("!Que suerte, estaba en el cubo " + triles + "!");
                         System.out.println("---------------------------------------------");
                         System.out.println("┌-----┐         ┌-----┐         ┌-----┐");
                         System.out.println("|     |         |     |        |     |");
