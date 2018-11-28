@@ -4,17 +4,17 @@ public class Bombilla {
     int potencia, numEncendido;
     boolean encendida;
 
-    public Bombilla() {
-        potencia = 50;
-        numEncendido = 0;
-        encendida = false;
+
+
+    public void Apagar(){
+    encendida = false;
+    numEncendido=0;
     }
 
-    public void Apagar() {
-        encendida = false;
-    }
-
-    public void Encender() {
+    public void Encender(){
         encendida = true;
+        numEncendido=0;
     }
+
 }
+

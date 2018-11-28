@@ -5,7 +5,7 @@ Algoritmo Ejercicio2a
 	
 	//Le pedimos al usuario que ingrese números positivos y que cuando quiera terminar pulse 0
 	//Entonces le mostraremos el mayor número de todos
-	Mostrar "Ingrese números positivos, y cuando quiera finalizar pulse 0 y le mostraremos el mayor de todos los introducidos"
+	Mostrar "Ingrese números positivos, y cuando quiera finalizar pulse 0 y le mostraremos el menor de todos los introducidos"
 	
 	//Con este bucle hacemos al usuario ingresar números positivos
 	//Vamos almacenando el menor número introducido en la variable min
