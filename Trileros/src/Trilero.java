@@ -3,18 +3,18 @@ import java.util.Scanner;
 
 public class Trilero {
     public static void main(String[] args) {
-        int jugar, triles;
-        char seguir;
+        int cubo, triles;
+        char jugar;
 
         Random aleatorio = new Random();
         Scanner teclado = new Scanner(System.in);
 
         do {
             System.out.println("¿Una partida a los trileros? Y/N");
-            seguir = Character.toUpperCase(teclado.next().charAt(0));
-        } while (seguir != 'Y' && seguir != 'N');
+            jugar = Character.toUpperCase(teclado.next().charAt(0));
+        } while (jugar != 'Y' && jugar != 'N');
 
-        while (seguir == 'Y') {
+        while (jugar == 'Y') {
 
 
             triles = aleatorio.nextInt(3)+1;
@@ -22,14 +22,14 @@ public class Trilero {
 
             do {
                 System.out.println("Elija un cubo: 1 - 2 - 3");
-                jugar = teclado.nextInt();
-                while (jugar < 1 || jugar > 3) {
+                cubo = teclado.nextInt();
+                while (cubo < 1 || cubo > 3) {
                     System.out.println("!Sólo hay 3 cubos!");
-                    jugar = teclado.nextInt();
+                    cubo = teclado.nextInt();
                 }
-            } while (jugar < 1 && jugar > 3);
+            } while (cubo < 1 && cubo > 3);
 
-            if (triles == jugar) {
+            if (triles == cubo) {
                 if (triles == 1) {
                     System.out.println("!Que suerte, estaba en el cubo " + triles + "!");
                     System.out.println("---------------------------------------------");
@@ -91,8 +91,8 @@ public class Trilero {
 
             do {
                 System.out.println("¿Una partida a los trileros? Y/N");
-                seguir = Character.toUpperCase(teclado.next().charAt(0));
-            } while (seguir != 'Y' && seguir != 'Y');
+                jugar = Character.toUpperCase(teclado.next().charAt(0));
+            } while (jugar != 'Y' && jugar != 'Y');
 
         }
 
