@@ -5,15 +5,21 @@ public class Bombilla {
     boolean encendida;
 
 
+    public Bombilla() {
+        this.potencia = 50;
+        this.numEncendido = 0;
+        this.encendida = false;
 
-    public void Apagar(){
-    encendida = false;
-    numEncendido=0;
     }
 
-    public void Encender(){
-        encendida = true;
-        numEncendido=0;
+    public void Apagar() {
+        this.encendida = false;
+
+    }
+
+    public void Encender() {
+        this.encendida = true;
+
     }
 
 }
