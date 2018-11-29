@@ -12,6 +12,12 @@ public class Ejercicio1Suma {
         num2 = leerNum();
         suma = suma(num1, num2);
         mostrarSuma(suma);
+
+        searchCousins(588,613);
+    }
+
+    private static void searchCousins(int i, int i1) {
+        System.out.println();
     }
 
     public static int leerNum() { //Este método nos permite leer números y devolverlos al main//
