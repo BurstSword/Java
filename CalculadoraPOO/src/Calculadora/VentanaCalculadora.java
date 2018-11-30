@@ -124,7 +124,7 @@ public class VentanaCalculadora extends JFrame {
             calcularResultado();
         } else if (tecla.equals("C")) {
             resultado = 0;
-            pantalla.setText("0");
+            pantalla.setText("");
             nuevaOperacion = true;
         } else {
             operacion = tecla;
