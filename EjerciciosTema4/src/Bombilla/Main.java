@@ -1,23 +1,68 @@
 package Bombilla;
 
+import java.util.Scanner;
+
 public class Main {
+    private static Bombilla bombilla = new Bombilla();
+
     public static void main(String[] args) {
-        PruebaBombilla bomb1 = new PruebaBombilla();
-        int contEncender = 0;
+        int boton;
+        Scanner teclado = new Scanner(System.in);
+
+        do {
+
+            do {
+                Main.mostrarMenu();
+                boton = teclado.nextInt();
+
+            } while (boton != 1 && boton != 2 && boton != 0);
 
 
-        for (int i = 0; i <= 200; i++) {
-            if (bomb1.getEncendida()) {
-                bomb1.Apagar();
-            } else {
-                bomb1.Encender();
-                contEncender++;
+            switch (boton) {
+                case 1:
+                    encenderBombilla();
+                    break;
+                case 2:
+                    apagarBombilla();
+                    break;
             }
-            if (contEncender == 100) {
-                bomb1.setFundida(true);
-            }
+        } while (!bombilla.isFundida() && boton != 0);
+
+        if (bombilla.isFundida()) {
+            System.out.println("La bombilla se ha fundido");
+        } else {
+            System.out.println("Adiós");
         }
-
-        System.out.println(bomb1.getFundida());
     }
+
+    public static void mostrarMenu() {
+
+        System.out.println("1. Encender bombilla");
+        System.out.println("2. Apagar bombilla");
+        System.out.println("0. Salir");
+        System.out.println("Recuerde que si está encendida no la puede encender otra vez y viceversa");
+        System.out.println("Pulse 1 o 2: ");
+    }
+
+    public static void encenderBombilla() {
+
+        if (bombilla.isEncendida()) {
+            System.out.println("Error");
+        } else {
+            bombilla.cambiarAEncendida();
+            System.out.println("Bombilla encendida");
+        }
+    }
+
+    public static void apagarBombilla() {
+
+        if (!bombilla.isEncendida()) {
+            System.out.println("Error");
+        } else {
+            bombilla.setEncendida(false);
+            System.out.println("Bombilla apagada");
+        }
+    }
+
+
 }
