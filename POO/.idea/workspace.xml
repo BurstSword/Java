@@ -1,7 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ebe04fe6-d9b8-4625-9f95-4cc3ef9baba9" name="Default Changelist" comment="" />
+    <list default="true" id="ebe04fe6-d9b8-4625-9f95-4cc3ef9baba9" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../EjerciciosTema4/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../EjerciciosTema4/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../EjerciciosTema4/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../EjerciciosTema4/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../EjerciciosTema4/EjerciciosTema4.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../EjerciciosTema4/src/Bombilla/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../EjerciciosTema4/src/Bombilla/PruebaBombilla.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CalculadoraPOO/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../CalculadoraPOO/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CalculadoraPOO/src/Calculadora/VentanaCalculadora.java" beforeDir="false" afterPath="$PROJECT_DIR$/../CalculadoraPOO/src/Calculadora/VentanaCalculadora.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/POO/Ejercicio2BombillaRedux/Bombilla.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/POO/Ejercicio2BombillaRedux/Bombilla.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/POO/Ejercicio2BombillaRedux/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/POO/Ejercicio2BombillaRedux/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Ejercicio2BombillaRedux/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Ejercicio2BombillaRedux/Main.java" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -13,15 +27,15 @@
     <session id="-755590987">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="8" />
-          <entry key="project.open.time.0" value="2" />
-          <entry key="project.open.time.1" value="1" />
+          <entry key="project.closed" value="11" />
+          <entry key="project.open.time.0" value="4" />
+          <entry key="project.open.time.1" value="2" />
           <entry key="project.open.time.12" value="1" />
           <entry key="project.open.time.13" value="1" />
           <entry key="project.open.time.2" value="1" />
           <entry key="project.open.time.25" value="1" />
           <entry key="project.open.time.26" value="1" />
-          <entry key="project.opened" value="8" />
+          <entry key="project.opened" value="11" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -31,7 +45,7 @@
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="20" />
+          <entry key="JAVA" value="30" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
@@ -41,7 +55,7 @@
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="2083" />
+          <entry key="JAVA" value="2170" />
         </counts>
       </usages-collector>
     </session>
@@ -77,7 +91,26 @@
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Ejercicio2BombillaRedux/Bombilla.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="663">
+              <caret line="54" column="5" lean-forward="true" selection-start-line="45" selection-end-line="54" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Ejercicio2BombillaRedux/Main.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="221">
+              <caret line="13" column="26" lean-forward="true" selection-start-line="13" selection-start-column="18" selection-end-line="13" selection-end-column="26" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -123,7 +156,6 @@
     </navigator>
     <panes>
       <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -136,15 +168,28 @@
               <item name="POO" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="POO" type="b2602c69:ProjectViewProjectNode" />
+              <item name="POO" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Ejercicio1Persona" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="POO" type="b2602c69:ProjectViewProjectNode" />
+              <item name="POO" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Ejercicio2BombillaRedux" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1543571598455" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../CalculadoraPOO" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1543918298453" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="copyright" />
   </component>
   <component name="RecentsManager">
@@ -260,9 +305,10 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.28304905" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2965204" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -336,10 +382,34 @@
     <entry file="file://$PROJECT_DIR$/src/Ejercicio2Bombilla/Bombilla.java" />
     <entry file="file://$PROJECT_DIR$/src/EjercicioHechoEstudiante/Estudiante.java" />
     <entry file="file://$PROJECT_DIR$/src/EjercicioHechoEstudiante/PruebaEstudiante.java" />
-    <entry file="file://$PROJECT_DIR$/src/Ejercicio1Persona/Main.java" />
-    <entry file="file://$PROJECT_DIR$/src/Ejercicio1Persona/Persona.java" />
-    <entry file="file://$PROJECT_DIR$/src/Ejercicio2BombillaRedux/Bombilla.java" />
-    <entry file="file://$PROJECT_DIR$/src/Ejercicio2BombillaRedux/Main.java" />
+    <entry file="file://$PROJECT_DIR$/src/Ejercicio1Persona/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Ejercicio1Persona/Persona.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Ejercicio2BombillaRedux/Bombilla.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="663">
+          <caret line="54" column="5" lean-forward="true" selection-start-line="45" selection-end-line="54" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Ejercicio2BombillaRedux/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="26" lean-forward="true" selection-start-line="13" selection-start-column="18" selection-end-line="13" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
   </component>
   <component name="masterDetails">
     <states>

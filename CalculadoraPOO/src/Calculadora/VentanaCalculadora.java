@@ -76,9 +76,9 @@ public class VentanaCalculadora extends JFrame {
     }
 
 
-    private void nuevoBotonNumerico(String digito) {
+    private void nuevoBotonNumerico(String numero) {
         JButton btn = new JButton();
-        btn.setText(digito);
+        btn.setText(numero);
         btn.addMouseListener(new MouseAdapter() {
 
             @Override
@@ -109,11 +109,11 @@ public class VentanaCalculadora extends JFrame {
     }
 
 
-    private void numeroPulsado(String digito) {
+    private void numeroPulsado(String numero) {
         if (pantalla.getText().equals("0") || nuevaOperacion) {
-            pantalla.setText(digito);
+            pantalla.setText(numero);
         } else {
-            pantalla.setText(pantalla.getText() + digito);
+            pantalla.setText(pantalla.getText() + numero);
         }
         nuevaOperacion = false;
     }

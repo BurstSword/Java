@@ -7,12 +7,13 @@ public class Main {
         Bombilla bomb1 = new Bombilla();
 
 
+
         if (bomb1.getEncendida()) {
             bomb1.Apagar();
         } else {
             bomb1.Encender();
         }
-        System.out.println(bomb1.getEncendida());
+        System.out.println(bomb1.toString());
 
 
     }
