@@ -2,7 +2,7 @@ package Armario;
 
 public class Main {
     public static void main(String[] args) {
-        Armario armario = new Armario(2, 4, "marron", false, false, false);
+        Armario armario = new Armario(2, 4, "marrón", false, false, false);
 
         System.out.println("\nArmario creado, tiene esto:");
         System.out.println(armario.toString());
