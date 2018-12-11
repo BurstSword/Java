@@ -1,7 +1,7 @@
 package Armario;
 
 public class Armario {
-    private int puertas, cajones;
+    private int puertas, cajones, vecesAbierta;
     private String color;
     private boolean pinturaEstaEstropeada, puertaEstaAbierta, cajonEstaAbierto;
 
@@ -13,15 +13,17 @@ public class Armario {
         this.pinturaEstaEstropeada = false;
         this.puertaEstaAbierta = false;
         this.cajonEstaAbierto = false;
+        this.vecesAbierta = 0;
     }
 
-    public Armario(int puertas, int cajones, String color, boolean pinturaEstaEstropeada, boolean puertaEstaAbierta, boolean cajonEstaAbierto) {
+    public Armario(int puertas, int cajones, String color, boolean pinturaEstaEstropeada, boolean puertaEstaAbierta, boolean cajonEstaAbierto, int vecesAbierta) {
         this.puertas = puertas;
         this.cajones = cajones;
         this.color = color;
         this.pinturaEstaEstropeada = pinturaEstaEstropeada;
         this.puertaEstaAbierta = puertaEstaAbierta;
         this.cajonEstaAbierto = cajonEstaAbierto;
+        this.vecesAbierta = vecesAbierta;
     }
 
     public int getPuertas() {
@@ -75,6 +77,10 @@ public class Armario {
         } else {
             seHaAbierto = true;
             this.puertaEstaAbierta = true;
+            this.vecesAbierta++;
+            if (this.vecesAbierta == 100) {
+                this.pinturaEstaEstropeada = true;
+            }
         }
         return seHaAbierto;
     }
@@ -118,6 +124,7 @@ public class Armario {
             seHaPintado = true;
             this.color = color;
             this.pinturaEstaEstropeada = false;
+            this.vecesAbierta = 0;
         } else {
             seHaPintado = false;
 
@@ -127,9 +134,9 @@ public class Armario {
 
     @Override
     public String toString() {
-        return "Este armario de color "+this.color+(this.pinturaEstaEstropeada ? " dañado ":" ")
-                +"tiene "+this.puertas+" puertas que están "+(this.puertaEstaAbierta ?
-                "abiertas":"cerradas")+ ", "+ this.cajones+" cajones que están "+(this.cajonEstaAbierto
-                ? "abiertos":"cerrados");
+        return "Este armario de color " + this.color + (this.pinturaEstaEstropeada ? " dañado " : " ")
+                + "tiene " + this.puertas + " puertas que están " + (this.puertaEstaAbierta ?
+                "abiertas" : "cerradas") + " y " + this.cajones + " cajones que están " + (this.cajonEstaAbierto
+                ? "abiertos" : "cerrados");
     }
 }

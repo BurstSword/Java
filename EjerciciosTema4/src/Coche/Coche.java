@@ -12,9 +12,9 @@ public class Coche {
         this.motorEstaEncendido = false;
         this.kmRecorridos = 0;
         this.gasolina = 0;
-        this.kmPorLitro = 0;
-        this.capacidadMaxGas = 0;
-        this.capacidadReservaGas = 0;
+        this.kmPorLitro = 100;
+        this.capacidadMaxGas = 60;
+        this.capacidadReservaGas = 15;
     }
 
     public Coche(boolean motorEstaEncendido, double kmRecorridos, double gasolina, int kmPorLitro, double capacidadMaxGas, double capacidadReservaGas) {
@@ -68,7 +68,7 @@ public class Coche {
      * Devuelve -1 en caso de que no se haya podido rodar esos kilómetros porque no tiene nada de gasolina
      * Devuelve -2 en caso de que no tenga gasolina suficiente
      * Devuelve -3 en caso de que el coche esté apagado
-     * Si se pueden rodar, devuelve la cantidad de gasolina disponible
+     * Si se pueden rodar, devuelve la cantidad de gasolina restante
      *
      * @param kilometros Los kilómetros a rodar
      * @return double

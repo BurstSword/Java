@@ -66,7 +66,8 @@ public class Libro {
     /**
      * Función que pone la disponibilidad en false en caso de que se alquile el libro y pone la ID del usuario al que lo quiera alquilar
      * @param IDusuario
-     * @return
+     * @return Esta función nos devuelve -1 en caso de que el libro no esté disponible, y 0 en caso de que el libro se haya podido alquilar
+     * correctamente
      */
     public int alquilarLibro(int IDusuario){
         int ret;
