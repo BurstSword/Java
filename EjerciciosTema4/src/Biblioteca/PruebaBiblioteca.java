@@ -3,8 +3,6 @@ package Biblioteca;
 public class PruebaBiblioteca {
     public static void main(String[] args) {
 
-
-
         System.out.println("\nVamos a hacer que el usuario 1 alquile el libro 1");
         System.out.println(Datos.listaLibros.get(0).alquilarLibro(1));
         System.out.println(Datos.listaLibros.get(0).toString());

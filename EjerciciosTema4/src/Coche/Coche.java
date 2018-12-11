@@ -75,7 +75,7 @@ public class Coche {
      */
     public double rodarKilometros(double kilometros) {
         double ret;
-        double litrosDEGASOLINAconsumidos;
+        double litrosDeGasolinaConsumidos;
 
         if (!this.motorEstaEncendido) {
             ret = -3;
@@ -83,15 +83,15 @@ public class Coche {
         else if (this.gasolina == 0) {
             ret = -1;
         } else {
-            litrosDEGASOLINAconsumidos = kilometros / this.kmPorLitro;
-            if (litrosDEGASOLINAconsumidos > this.gasolina) {
+            litrosDeGasolinaConsumidos = kilometros / this.kmPorLitro;
+            if (litrosDeGasolinaConsumidos > this.gasolina) {
                 this.kmRecorridos += this.kmPorLitro * this.gasolina;
                 this.gasolina = 0;
                 ret = -2;
 
             } else {
                 this.kmRecorridos += kilometros;
-                this.gasolina -= litrosDEGASOLINAconsumidos;
+                this.gasolina -= litrosDeGasolinaConsumidos;
                 ret = this.gasolina;
             }
         }
@@ -118,7 +118,8 @@ public class Coche {
 
     @Override
     public String toString() {
-        return "El coche está " +(this.motorEstaEncendido ? "encendido":"apagado")+", tiene recorridos " +this.kmRecorridos
+        return "El coche está " +(this.motorEstaEncendido ? "encendido":"apagado")
+                +", tiene recorridos " +this.kmRecorridos
                 +" km, tiene "
                 + this.gasolina+"/"+this.capacidadMaxGas
                 +" litros disponibles, gasta 1L de gasolina cada "

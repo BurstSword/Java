@@ -127,6 +127,9 @@ public class Armario {
 
     @Override
     public String toString() {
-        return "Este armario de color "+this.color+(this.pinturaEstaEstropeada ? " dañado ":" ")+"tiene "+this.puertas+" puertas que están "+(this.puertaEstaAbierta ? "abiertas":"cerradas")+ ", "+ this.cajones+" cajones que están "+(this.cajonEstaAbierto ? "abiertos":"cerrados");
+        return "Este armario de color "+this.color+(this.pinturaEstaEstropeada ? " dañado ":" ")
+                +"tiene "+this.puertas+" puertas que están "+(this.puertaEstaAbierta ?
+                "abiertas":"cerradas")+ ", "+ this.cajones+" cajones que están "+(this.cajonEstaAbierto
+                ? "abiertos":"cerrados");
     }
 }

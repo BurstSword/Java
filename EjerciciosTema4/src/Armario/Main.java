@@ -40,7 +40,7 @@ public class Main {
         System.out.println(armario.toString());
 
         armario.pintarArmario("morado");
-        System.out.println("\nHemos pintado el armario");
+        System.out.println("\nHemos intentado pintar el armario pero no podemos puesto que la pintura no está dañada");
         System.out.println(armario.toString());
 
         System.out.println("\nHemos estropeado la pintura");
