@@ -4,6 +4,7 @@ import java.util.Scanner;
 
 public class Main {
     private static Bombilla bombilla = new Bombilla();
+    //private static Bombilla bombillaRegalada = new Bombilla(false,false,34);
 
     public static void main(String[] args) {
         int boton;
