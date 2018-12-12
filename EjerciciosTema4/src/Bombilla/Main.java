@@ -13,7 +13,7 @@ public class Main {
         do {
 
             do {
-                Main.mostrarMenu();
+                mostrarMenu();
                 boton = teclado.nextInt();
 
             } while (boton != 1 && boton != 2 && boton != 0);

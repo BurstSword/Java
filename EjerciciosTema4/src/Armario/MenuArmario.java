@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class MenuArmario {
     public static void main(String[] args) {
-        Armario armario = new Armario(2, 4, "marrón", false, false, false, 99);
+        Armario armario = new Armario(2, 4, "marrón", true, false, false, 99);
         int boton;
         Scanner teclado = new Scanner(System.in);
         Scanner tecladoStr = new Scanner(System.in);

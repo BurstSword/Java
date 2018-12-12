@@ -3,24 +3,24 @@ package Armario;
 public class Armario {
     private int puertas, cajones, vecesAbierta;
     private String color;
-    private boolean pinturaEstaEstropeada, puertaEstaAbierta, cajonEstaAbierto;
+    private boolean pinturaEstaEnBuenEstado, puertaEstaAbierta, cajonEstaAbierto;
 
 
     public Armario() {
         this.puertas = 0;
         this.cajones = 0;
         this.color = "";
-        this.pinturaEstaEstropeada = false;
+        this.pinturaEstaEnBuenEstado = true;
         this.puertaEstaAbierta = false;
         this.cajonEstaAbierto = false;
         this.vecesAbierta = 0;
     }
 
-    public Armario(int puertas, int cajones, String color, boolean pinturaEstaEstropeada, boolean puertaEstaAbierta, boolean cajonEstaAbierto, int vecesAbierta) {
+    public Armario(int puertas, int cajones, String color, boolean pinturaEstaEnBuenEstado, boolean puertaEstaAbierta, boolean cajonEstaAbierto, int vecesAbierta) {
         this.puertas = puertas;
         this.cajones = cajones;
         this.color = color;
-        this.pinturaEstaEstropeada = pinturaEstaEstropeada;
+        this.pinturaEstaEnBuenEstado = pinturaEstaEnBuenEstado;
         this.puertaEstaAbierta = puertaEstaAbierta;
         this.cajonEstaAbierto = cajonEstaAbierto;
         this.vecesAbierta = vecesAbierta;
@@ -47,11 +47,11 @@ public class Armario {
     }
 
     public boolean isPinturaEstaEstropeada() {
-        return pinturaEstaEstropeada;
+        return pinturaEstaEnBuenEstado;
     }
 
     public void setPinturaEstaEstropeada(boolean pinturaEstaEstropeada) {
-        this.pinturaEstaEstropeada = pinturaEstaEstropeada;
+        this.pinturaEstaEnBuenEstado = pinturaEstaEstropeada;
     }
 
     public boolean isPuertaEstaAbierta() {
@@ -79,7 +79,7 @@ public class Armario {
             this.puertaEstaAbierta = true;
             this.vecesAbierta++;
             if (this.vecesAbierta == 100) {
-                this.pinturaEstaEstropeada = true;
+                this.pinturaEstaEnBuenEstado = true;
             }
         }
         return seHaAbierto;
@@ -120,10 +120,10 @@ public class Armario {
 
     public boolean pintarArmario(String color) {
         boolean seHaPintado;
-        if (this.pinturaEstaEstropeada) {
+        if (this.pinturaEstaEnBuenEstado) {
             seHaPintado = true;
             this.color = color;
-            this.pinturaEstaEstropeada = false;
+            this.pinturaEstaEnBuenEstado = false;
             this.vecesAbierta = 0;
         } else {
             seHaPintado = false;
@@ -134,7 +134,7 @@ public class Armario {
 
     @Override
     public String toString() {
-        return "Este armario de color " + this.color + (this.pinturaEstaEstropeada ? " dañado " : " ")
+        return "Este armario de color " + this.color + (this.pinturaEstaEnBuenEstado ? " " : " dañado ")
                 + "tiene " + this.puertas + " puertas que están " + (this.puertaEstaAbierta ?
                 "abiertas" : "cerradas") + " y " + this.cajones + " cajones que están " + (this.cajonEstaAbierto
                 ? "abiertos" : "cerrados");

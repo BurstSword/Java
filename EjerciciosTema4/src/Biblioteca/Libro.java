@@ -65,17 +65,18 @@ public class Libro {
 
     /**
      * Función que pone la disponibilidad en false en caso de que se alquile el libro y pone la ID del usuario al que lo quiera alquilar
+     *
      * @param IDusuario
      * @return Esta función nos devuelve -1 en caso de que el libro no esté disponible, y 0 en caso de que el libro se haya podido alquilar
      * correctamente
      */
-    public int alquilarLibro(int IDusuario){
+    public int alquilarLibro(int IDusuario) {
         int ret;
-        if(this.disponible){
-            this.disponible=false;
-            this.IDusuario=IDusuario;
-            ret=0;
-        }else{
+        if (this.disponible) {
+            this.disponible = false;
+            this.IDusuario = IDusuario;
+            ret = 0;
+        } else {
             ret = -1;
         }
         return ret;
@@ -83,8 +84,8 @@ public class Libro {
 
     @Override
     public String toString() {
-        return "El libro "+this.nombreLibro+" con ID "+this.ID+" "+
+        return "El libro " + this.nombreLibro + " con ID " + this.ID + " " +
                 (this.disponible ? "está disponible" :
-                        "está alquilado por el usuario "+Datos.listaUsuarios.get(this.IDusuario-1).getNombreUsuario());
+                        "está alquilado por el usuario " + Datos.listaUsuarios.get(this.IDusuario - 1).getNombreUsuario());
     }
 }
