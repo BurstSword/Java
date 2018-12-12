@@ -4,8 +4,10 @@ import java.util.Scanner;
 
 public class MenuBiblioteca {
     public static void main(String[] args) {
-        int boton, usuario, libro, contrasenaAdmin;
+        int boton, usuario, libro, contrasenaAdmin, seleccLibro, seleccUsuario;
         String nombreLibro, nombreUsuario;
+        final int contrasena = 1234;
+
 
         Scanner teclado = new Scanner(System.in);
         Scanner tecladoStr = new Scanner(System.in);
@@ -63,14 +65,25 @@ public class MenuBiblioteca {
                 case 4:
                     System.out.println("Esta acción es sólo para administradores, ingrese la contraseña");
                     contrasenaAdmin = teclado.nextInt();
-                    if (contrasenaAdmin == 1234) {
+                    if (contrasenaAdmin == contrasena) {
                         System.out.println("Contraseña correcta");
-                        System.out.println("Escriba el número correspondiente a su usuario");
-                        for (int i = 0; i < Datos.listaUsuarios.size(); i++) {
-                            System.out.println(i + ". " + Datos.listaUsuarios.get(i).getNombreUsuario());
+                        if (Datos.listaUsuarios.size() == 0) {
+                            System.out.println("Aquí no hay nada que hacer");
+                        } else {
+                            do {
+                                System.out.println("Escriba el número correspondiente a su usuario");
+                                for (int i = 0; i < Datos.listaUsuarios.size(); i++) {
+                                    System.out.println(i + ". " + Datos.listaUsuarios.get(i).getNombreUsuario());
+                                }
+                                seleccUsuario=teclado.nextInt();
+                            }while(seleccUsuario<0 || seleccUsuario>Datos.listaUsuarios.size());
+                            if(!GestoraUsuarios.comprobarLibrosAlquilados(Datos.listaUsuarios.get(seleccUsuario).getID())) {
+                                Datos.listaUsuarios.remove(seleccUsuario);
+                                System.out.println("Usuario dado de baja con éxito");
+                            }else{
+                                System.out.println(Datos.listaUsuarios.get(seleccUsuario).getNombreUsuario()+" tiene algún libro por devolver");
+                            }
                         }
-                        Datos.listaUsuarios.remove(teclado.nextInt());
-                        System.out.println("Usuario dado de baja con éxito");
                     } else {
                         System.out.println("Contraseña incorrecta");
                     }
@@ -84,27 +97,38 @@ public class MenuBiblioteca {
                 case 6:
                     System.out.println("Esta acción es sólo para administradores, ingrese la contraseña");
                     contrasenaAdmin = teclado.nextInt();
-                    if (contrasenaAdmin == 1234) {
-                        System.out.println("Contraseña correcta");
-                        System.out.println("Ingrese el número del libro que quiere dar de baja");
-                        for (int i = 0; i < Datos.listaLibros.size(); i++) {
-                            System.out.println(i + ". " + Datos.listaLibros.get(i).getNombreLibro());
-                        }
-                        Datos.listaLibros.remove(teclado.nextInt());
-                        System.out.println("Libro dado de baja con éxito");
+                    if (Datos.listaLibros.size() == 0) {
+                        System.out.println("Aquí no hay nada que hacer");
                     } else {
-                        System.out.println("Contraseña incorrecta");
+                        if (contrasenaAdmin == contrasena) {
+                            System.out.println("Contraseña correcta");
+                            do {
+                                System.out.println("Ingrese el número del libro que quiere dar de baja");
+                                for (int i = 0; i < Datos.listaLibros.size(); i++) {
+                                    System.out.println(i + ". " + Datos.listaLibros.get(i).getNombreLibro());
+                                }
+                                seleccLibro = teclado.nextInt();
+                            } while (seleccLibro < 0 || seleccLibro > Datos.listaLibros.size());
+                            if (Datos.listaLibros.get(seleccLibro).isDisponible()) {
+                                Datos.listaLibros.remove(seleccLibro);
+                                System.out.println("Libro dado de baja con éxito");
+                            } else {
+                                System.out.println(Datos.listaLibros.get(seleccLibro).toString());
+                            }
+                        } else {
+                            System.out.println("Contraseña incorrecta");
+                        }
                     }
-
                     break;
                 case 7:
-                    for (int i = 0; i < Datos.listaUsuarios.size(); i++)
-                        for (int j = 0; j < Datos.listaLibros.size(); j++)
+                    for (int i = 0; i < Datos.listaUsuarios.size(); i++) {
+                        System.out.println(Datos.listaUsuarios.get(i).getNombreUsuario());
+                        for (int j = 0; j < Datos.listaLibros.size(); j++) {
                             if (Datos.listaUsuarios.get(i).getID() == Datos.listaLibros.get(j).getIDusuario()) {
-                                System.out.println(Datos.listaLibros.get(j));
-                            } else {
-
+                                System.out.println(" " + Datos.listaLibros.get(j).getNombreLibro());
                             }
+                        }
+                    }
                     break;
                 case 0:
                     System.out.println("Saliendo de la biblioteca");
