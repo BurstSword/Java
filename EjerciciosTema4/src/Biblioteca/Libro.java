@@ -86,6 +86,7 @@ public class Libro {
     public String toString() {
         return "El libro " + this.nombreLibro + " con ID " + this.ID + " " +
                 (this.disponible ? "está disponible" :
-                        "está alquilado por el usuario " + Datos.listaUsuarios.get(this.IDusuario - 1).getNombreUsuario());
+                        "está alquilado por el usuario " +
+                                Datos.listaUsuarios.get(this.IDusuario - 1).getNombreUsuario());
     }
 }

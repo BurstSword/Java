@@ -7,21 +7,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4c80b9dd-6046-4db1-b893-f727d2950ccf" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/EjerciciosTema4/Armario/Armario.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/EjerciciosTema4/Armario/Armario.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/EjerciciosTema4/Armario/MenuArmario.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/EjerciciosTema4/Armario/MenuArmario.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/EjerciciosTema4/Biblioteca/Datos.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/EjerciciosTema4/Biblioteca/Datos.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/EjerciciosTema4/Biblioteca/GestoraMenus.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/EjerciciosTema4/Biblioteca/GestoraMenus.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/EjerciciosTema4/Biblioteca/Libro.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/EjerciciosTema4/Biblioteca/Libro.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/EjerciciosTema4/Biblioteca/MenuBiblioteca.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/EjerciciosTema4/Biblioteca/MenuBiblioteca.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/EjerciciosTema4/Bombilla/Bombilla.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/EjerciciosTema4/Bombilla/Bombilla.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Armario/Armario.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Armario/Armario.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Armario/MenuArmario.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Armario/MenuArmario.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Biblioteca/Datos.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Biblioteca/Datos.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Biblioteca/GestoraMenus.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Biblioteca/GestoraMenus.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Biblioteca/Libro.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Biblioteca/Libro.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Biblioteca/MenuBiblioteca.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Biblioteca/MenuBiblioteca.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Bombilla/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Bombilla/Main.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -72,9 +58,10 @@
     <session id="-1045335998">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="1" />
+          <entry key="project.closed" value="2" />
           <entry key="project.open.time.17" value="1" />
-          <entry key="project.opened" value="1" />
+          <entry key="project.open.time.39" value="1" />
+          <entry key="project.opened" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
@@ -84,18 +71,18 @@
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="1163" />
+          <entry key="JAVA" value="1164" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Biblioteca/Datos.java">
           <provider selected="true" editor-type-id="text-editor">
             <state>
-              <caret column="19" lean-forward="true" selection-start-column="19" selection-end-column="19" />
+              <caret column="19" selection-start-column="19" selection-end-column="19" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -107,7 +94,7 @@
         <entry file="file://$PROJECT_DIR$/src/Biblioteca/GestoraMenus.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="238">
-              <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+              <caret line="14" selection-start-line="14" selection-end-line="14" />
             </state>
           </provider>
         </entry>
@@ -115,25 +102,16 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Biblioteca/Libro.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-435">
-              <caret line="6" column="4" lean-forward="true" selection-start-line="6" selection-start-column="4" selection-end-line="6" selection-end-column="31" />
+            <state relative-caret-position="89">
+              <caret line="71" column="7" lean-forward="true" selection-start-line="71" selection-start-column="7" selection-end-line="71" selection-end-column="7" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Biblioteca/GestoraUsuarios.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="242">
-              <caret line="11" selection-start-line="11" selection-end-line="11" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Biblioteca/MenuBiblioteca.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="396">
+            <state relative-caret-position="53">
               <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
             </state>
           </provider>
@@ -173,7 +151,6 @@
         <option value="$PROJECT_DIR$/src/Coche/GestoraMenus.java" />
         <option value="$PROJECT_DIR$/src/Coche/Coche.java" />
         <option value="$PROJECT_DIR$/src/Coche/MenuCoche.java" />
-        <option value="$PROJECT_DIR$/src/Biblioteca/Libro.java" />
         <option value="$PROJECT_DIR$/src/ProyectoPOO/Datos.java" />
         <option value="$PROJECT_DIR$/src/ProyectoPOO/BaseDeDatos.java" />
         <option value="$PROJECT_DIR$/src/Bombilla/Main.java" />
@@ -184,6 +161,7 @@
         <option value="$PROJECT_DIR$/src/Biblioteca/GestoraUsuarios.java" />
         <option value="$PROJECT_DIR$/src/Biblioteca/GestoraMenus.java" />
         <option value="$PROJECT_DIR$/src/Biblioteca/MenuBiblioteca.java" />
+        <option value="$PROJECT_DIR$/src/Biblioteca/Libro.java" />
       </list>
     </option>
   </component>
@@ -229,7 +207,7 @@
     <property name="GenerateAntBuildDialog.enableUiFormCompile" value="true" />
     <property name="GenerateAntBuildDialog.forceTargetJdk" value="true" />
     <property name="GenerateAntBuildDialog.outputFileNameProperty" value="ejerciciostema4" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1544633497880" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1544704529150" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../Boletín4Arreglado" />
     <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.0" />
@@ -341,11 +319,20 @@
     </task>
     <servers />
   </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.25426438" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25416037" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -354,15 +341,15 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.3286334" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.6590164" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3991323" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Terminal" order="7" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.3295082" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.3295082" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" weight="0.329718" />
-      <window_info anchor="bottom" id="Version Control" order="9" />
-      <window_info anchor="bottom" id="Messages" order="10" weight="0.329718" />
+      <window_info anchor="bottom" id="Version Control" order="9" weight="0.3295082" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.3295082" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -444,16 +431,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Biblioteca/Datos.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="19" lean-forward="true" selection-start-column="19" selection-end-column="19" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Biblioteca/PruebaBiblioteca.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
@@ -461,24 +438,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Biblioteca/Libro.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-435">
-          <caret line="6" column="4" lean-forward="true" selection-start-line="6" selection-start-column="4" selection-end-line="6" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Biblioteca/GestoraUsuarios.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="11" selection-start-line="11" selection-end-line="11" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Biblioteca/GestoraUsuarios.java" />
     <entry file="file://$PROJECT_DIR$/src/Biblioteca/GestoraMenus.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
-          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Biblioteca/Libro.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="89">
+          <caret line="71" column="7" lean-forward="true" selection-start-line="71" selection-start-column="7" selection-end-line="71" selection-end-column="7" />
         </state>
       </provider>
     </entry>
@@ -494,8 +465,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Biblioteca/MenuBiblioteca.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
+        <state relative-caret-position="53">
           <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Biblioteca/Datos.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="19" selection-start-column="19" selection-end-column="19" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
