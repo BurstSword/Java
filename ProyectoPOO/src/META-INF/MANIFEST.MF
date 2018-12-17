@@ -1,3 +1,9 @@
+<<<<<<< Updated upstream
 Manifest-Version: 1.0
 Main-Class: Somaville
 
+=======
+Manifest-Version: 1.0
+Main-Class: Somaville
+
+>>>>>>> Stashed changes
