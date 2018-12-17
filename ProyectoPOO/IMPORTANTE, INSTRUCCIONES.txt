@@ -1,0 +1,83 @@
+Ejecutar primero el .jar para ver el programa funcionar correctamente.
+En Eclipse no funciona todo correctamente por como está hecho Eclipse, se puede ejecutar, 
+pero algunas de las funcionalidades solo se ven si se ejecutan en IntelIJ o si se ejecuta desde la consola o desde PowerShell
+
+Instrucciones para abrirlo por si acaso:
+- Shift + Click derecho en cualquier lado de la carpeta
+- Abrir la ventana de PowerShell aquí
+- Introducir 'java -jar Somaville.jar' (sin comillas)
+- Ponerme un 10
+
+Instrucciones para probarlo todo:
+- Hay un menú secreto introduciendo el 527
+- Hay unos mensajes secretos para hablar con el rey, que son "motherlode" y "Sacre Bleu!", ambos sin comillas
+- Ponerme otro 10
+
+No hay PDF porque he documentado todo en el programa y con JavaDoc
+Para abrir la documentación de JavaDoc, entrar en la carpeta 'JavaDoc' y abrir 'index.html'.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Y otro 10
