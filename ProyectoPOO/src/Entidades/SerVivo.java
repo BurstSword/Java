@@ -19,7 +19,8 @@ public class SerVivo {
 
     /**
      * Construsctor que inicializa los atributos con los valores traídos por parámetros
-     * @param vida La vida del ser vivo
+     *
+     * @param vida   La vida del ser vivo
      * @param ataque El ataque del ser vivo
      * @param nombre El nombre del ser vivo
      */
@@ -28,6 +29,7 @@ public class SerVivo {
         this.ataque = ataque;
         this.nombre = nombre;
     }
+
     //Getters y Setters
     public int getVida() {
         return vida;
@@ -55,6 +57,7 @@ public class SerVivo {
 
     /**
      * Procedimiento que le resta vida al ser vivo
+     *
      * @param vida
      */
     public void recibirDano(int vida) {
@@ -63,6 +66,7 @@ public class SerVivo {
 
     /**
      * Función que devuelve el estado del ser vivo actual en forma de String
+     *
      * @return Devuelve el estado actual del ser vivo en forma de String
      */
     @Override

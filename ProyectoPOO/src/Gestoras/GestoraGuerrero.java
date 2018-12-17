@@ -16,6 +16,7 @@ public class GestoraGuerrero {
 
     /**
      * Función que genera un guerrero a partir del nombre pasado por parámetros y a los valores que tenemos almacenados en la misma clase
+     *
      * @param nombre El nombre del guerrero traído por parámetro
      * @return Devuelve un guerrero con todos sus atributos incializados
      */
