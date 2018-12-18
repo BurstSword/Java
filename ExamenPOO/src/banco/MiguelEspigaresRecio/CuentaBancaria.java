@@ -15,33 +15,44 @@ public class CuentaBancaria {
 
     public void ingresarDinero(int dinero) {
         if(this.cuentaBloqueada==true){
-            System.out.println("No puedes realizar ingresos puesto que está bloqueada tu cuenta");
+            System.out.println("No puedes realizar ingresos puesto que está bloqueada tu cuenta, utilice la opción Desbloquear" +
+                    " cuenta");
         }
         if (dinero <= 0) {
             System.out.println("No puede ingresar 0 euros");
         } else {
-            System.out.println("Ingreso de" + dinero+ " euros realizado con éxito");
+            System.out.println("Ingreso de " + dinero+ " euros realizado con éxito");
             this.dineroCuenta += dinero;
         }
 
     }
 
     public void retirarDinero(int dinero) {
-        if (dinero <= 0) {
-            System.out.println("No puede retirar 0 euros");
-        } else if (dinero > 600) {
-            System.out.println("No puede retirar más de 600 euros");
-        } else {
-            System.out.println("Retirada de " + dinero + " euros realizada con éxito");
-            this.dineroCuenta -= dinero;
+        if (this.cuentaBloqueada){
+            System.out.println("No puede retirar dinero ya que su cuenta se encuentra bloqueada");
+        }else{
+            if (dinero <= 0) {
+                System.out.println("No puede retirar 0 euros");
+            } else if (dinero > 600) {
+                System.out.println("No puede retirar más de 600 euros");
+            } else {
+                System.out.println("Retirada de " + dinero + " euros realizada con éxito");
+                this.dineroCuenta -= dinero;
+            }
         }
+
     }
 
     public void bloquearCuenta() {
-        if (this.dineroCuenta < 0) {
-            System.out.println("Cuenta bloqueada");
-            this.cuentaBloqueada = true;
+        if (this.cuentaBloqueada){
+
+        }else{
+            if (this.dineroCuenta < 0) {
+                System.out.println("Cuenta bloqueada");
+                this.cuentaBloqueada = true;
+            }
         }
+
     }
 
     public void desbloquearCuenta(int dinero) {

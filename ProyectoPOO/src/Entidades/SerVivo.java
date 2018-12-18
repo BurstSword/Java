@@ -19,12 +19,7 @@ public class SerVivo {
 
     /**
      * Construsctor que inicializa los atributos con los valores traídos por parámetros
-<<<<<<< Updated upstream
-     *
-     * @param vida   La vida del ser vivo
-=======
      * @param vida La vida del ser vivo
->>>>>>> Stashed changes
      * @param ataque El ataque del ser vivo
      * @param nombre El nombre del ser vivo
      */
@@ -33,10 +28,6 @@ public class SerVivo {
         this.ataque = ataque;
         this.nombre = nombre;
     }
-<<<<<<< Updated upstream
-
-=======
->>>>>>> Stashed changes
     //Getters y Setters
     public int getVida() {
         return vida;
@@ -64,10 +55,6 @@ public class SerVivo {
 
     /**
      * Procedimiento que le resta vida al ser vivo
-<<<<<<< Updated upstream
-     *
-=======
->>>>>>> Stashed changes
      * @param vida
      */
     public void recibirDano(int vida) {
@@ -76,10 +63,6 @@ public class SerVivo {
 
     /**
      * Función que devuelve el estado del ser vivo actual en forma de String
-<<<<<<< Updated upstream
-     *
-=======
->>>>>>> Stashed changes
      * @return Devuelve el estado actual del ser vivo en forma de String
      */
     @Override
