@@ -6,79 +6,7 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fe1046fb-5056-4a35-9288-a8564badc1a9" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../ExamenPOO/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ExamenPOO/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ExamenPOO/out/production/ExamenPOO/CuentaBancaria.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ExamenPOO/out/production/ExamenPOO/PruebaBanco.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ExamenPOO/src/banco/MiguelEspigaresRecio/CuentaBancaria.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ExamenPOO/src/banco/MiguelEspigaresRecio/CuentaBancaria.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ExamenPOO/src/banco/MiguelEspigaresRecio/PruebaBanco.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ExamenPOO/src/banco/MiguelEspigaresRecio/PruebaBanco.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ExamenPOO/src/comandas/MiguelEspigaresRecio/Camarero.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ExamenPOO/src/comandas/MiguelEspigaresRecio/Datos.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ExamenPOO/src/comandas/MiguelEspigaresRecio/MenuCamarero.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/artifacts/ProyectoPOO_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/ProyectoPOO_jar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/IMPORTANTE, INSTRUCCIONES.txt" beforeDir="false" afterPath="$PROJECT_DIR$/IMPORTANTE, INSTRUCCIONES.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaDoc/Entidades/Guerrero.html" beforeDir="false" afterPath="$PROJECT_DIR$/JavaDoc/Entidades/Guerrero.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaDoc/Entidades/Monstruo.html" beforeDir="false" afterPath="$PROJECT_DIR$/JavaDoc/Entidades/Monstruo.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaDoc/Entidades/SerVivo.html" beforeDir="false" afterPath="$PROJECT_DIR$/JavaDoc/Entidades/SerVivo.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaDoc/Entidades/package-frame.html" beforeDir="false" afterPath="$PROJECT_DIR$/JavaDoc/Entidades/package-frame.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaDoc/Entidades/package-summary.html" beforeDir="false" afterPath="$PROJECT_DIR$/JavaDoc/Entidades/package-summary.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaDoc/Entidades/package-tree.html" beforeDir="false" afterPath="$PROJECT_DIR$/JavaDoc/Entidades/package-tree.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaDoc/Gestoras/GestoraGuerrero.html" beforeDir="false" afterPath="$PROJECT_DIR$/JavaDoc/Gestoras/GestoraGuerrero.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaDoc/Gestoras/GestoraMenus.html" beforeDir="false" afterPath="$PROJECT_DIR$/JavaDoc/Gestoras/GestoraMenus.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaDoc/Gestoras/GestoraMonstruo.html" beforeDir="false" afterPath="$PROJECT_DIR$/JavaDoc/Gestoras/GestoraMonstruo.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaDoc/Gestoras/GestoraPeleas.html" beforeDir="false" afterPath="$PROJECT_DIR$/JavaDoc/Gestoras/GestoraPeleas.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaDoc/Gestoras/GestoraTienda.html" beforeDir="false" afterPath="$PROJECT_DIR$/JavaDoc/Gestoras/GestoraTienda.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaDoc/Gestoras/package-frame.html" beforeDir="false" afterPath="$PROJECT_DIR$/JavaDoc/Gestoras/package-frame.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaDoc/Gestoras/package-summary.html" beforeDir="false" afterPath="$PROJECT_DIR$/JavaDoc/Gestoras/package-summary.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaDoc/Gestoras/package-tree.html" beforeDir="false" afterPath="$PROJECT_DIR$/JavaDoc/Gestoras/package-tree.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaDoc/Pruebas/Pruebas.html" beforeDir="false" afterPath="$PROJECT_DIR$/JavaDoc/Pruebas/Pruebas.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaDoc/Pruebas/package-frame.html" beforeDir="false" afterPath="$PROJECT_DIR$/JavaDoc/Pruebas/package-frame.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaDoc/Pruebas/package-summary.html" beforeDir="false" afterPath="$PROJECT_DIR$/JavaDoc/Pruebas/package-summary.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaDoc/Pruebas/package-tree.html" beforeDir="false" afterPath="$PROJECT_DIR$/JavaDoc/Pruebas/package-tree.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaDoc/Somaville.html" beforeDir="false" afterPath="$PROJECT_DIR$/JavaDoc/Somaville.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaDoc/Utilidades/Utilidades.html" beforeDir="false" afterPath="$PROJECT_DIR$/JavaDoc/Utilidades/Utilidades.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaDoc/Utilidades/package-frame.html" beforeDir="false" afterPath="$PROJECT_DIR$/JavaDoc/Utilidades/package-frame.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaDoc/Utilidades/package-summary.html" beforeDir="false" afterPath="$PROJECT_DIR$/JavaDoc/Utilidades/package-summary.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaDoc/Utilidades/package-tree.html" beforeDir="false" afterPath="$PROJECT_DIR$/JavaDoc/Utilidades/package-tree.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaDoc/allclasses-frame.html" beforeDir="false" afterPath="$PROJECT_DIR$/JavaDoc/allclasses-frame.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaDoc/allclasses-noframe.html" beforeDir="false" afterPath="$PROJECT_DIR$/JavaDoc/allclasses-noframe.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaDoc/constant-values.html" beforeDir="false" afterPath="$PROJECT_DIR$/JavaDoc/constant-values.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaDoc/deprecated-list.html" beforeDir="false" afterPath="$PROJECT_DIR$/JavaDoc/deprecated-list.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaDoc/help-doc.html" beforeDir="false" afterPath="$PROJECT_DIR$/JavaDoc/help-doc.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaDoc/index-files/index-1.html" beforeDir="false" afterPath="$PROJECT_DIR$/JavaDoc/index-files/index-1.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaDoc/index-files/index-10.html" beforeDir="false" afterPath="$PROJECT_DIR$/JavaDoc/index-files/index-10.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaDoc/index-files/index-11.html" beforeDir="false" afterPath="$PROJECT_DIR$/JavaDoc/index-files/index-11.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaDoc/index-files/index-12.html" beforeDir="false" afterPath="$PROJECT_DIR$/JavaDoc/index-files/index-12.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaDoc/index-files/index-2.html" beforeDir="false" afterPath="$PROJECT_DIR$/JavaDoc/index-files/index-2.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaDoc/index-files/index-3.html" beforeDir="false" afterPath="$PROJECT_DIR$/JavaDoc/index-files/index-3.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaDoc/index-files/index-4.html" beforeDir="false" afterPath="$PROJECT_DIR$/JavaDoc/index-files/index-4.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaDoc/index-files/index-5.html" beforeDir="false" afterPath="$PROJECT_DIR$/JavaDoc/index-files/index-5.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaDoc/index-files/index-6.html" beforeDir="false" afterPath="$PROJECT_DIR$/JavaDoc/index-files/index-6.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaDoc/index-files/index-7.html" beforeDir="false" afterPath="$PROJECT_DIR$/JavaDoc/index-files/index-7.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaDoc/index-files/index-8.html" beforeDir="false" afterPath="$PROJECT_DIR$/JavaDoc/index-files/index-8.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaDoc/index-files/index-9.html" beforeDir="false" afterPath="$PROJECT_DIR$/JavaDoc/index-files/index-9.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaDoc/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/JavaDoc/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaDoc/overview-frame.html" beforeDir="false" afterPath="$PROJECT_DIR$/JavaDoc/overview-frame.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaDoc/overview-summary.html" beforeDir="false" afterPath="$PROJECT_DIR$/JavaDoc/overview-summary.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaDoc/overview-tree.html" beforeDir="false" afterPath="$PROJECT_DIR$/JavaDoc/overview-tree.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaDoc/package-frame.html" beforeDir="false" afterPath="$PROJECT_DIR$/JavaDoc/package-frame.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaDoc/package-list" beforeDir="false" afterPath="$PROJECT_DIR$/JavaDoc/package-list" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaDoc/package-summary.html" beforeDir="false" afterPath="$PROJECT_DIR$/JavaDoc/package-summary.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaDoc/package-tree.html" beforeDir="false" afterPath="$PROJECT_DIR$/JavaDoc/package-tree.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaDoc/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/JavaDoc/script.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaDoc/stylesheet.css" beforeDir="false" afterPath="$PROJECT_DIR$/JavaDoc/stylesheet.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ProyectoPOO/META-INF/MANIFEST.MF" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ProyectoPOO/META-INF/MANIFEST.MF" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Entidades/Monstruo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Entidades/Monstruo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Entidades/SerVivo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Entidades/SerVivo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Gestoras/GestoraGuerrero.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Gestoras/GestoraGuerrero.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Gestoras/GestoraMenus.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Gestoras/GestoraMenus.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Gestoras/GestoraMonstruo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Gestoras/GestoraMonstruo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Gestoras/GestoraTienda.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Gestoras/GestoraTienda.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/META-INF/MANIFEST.MF" beforeDir="false" afterPath="$PROJECT_DIR$/src/META-INF/MANIFEST.MF" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Pruebas/Pruebas.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Pruebas/Pruebas.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Utilidades/Utilidades.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Utilidades/Utilidades.java" afterDir="false" />
-    </list>
+    <list default="true" id="fe1046fb-5056-4a35-9288-a8564badc1a9" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -124,12 +52,13 @@
     <session id="-1302392505">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="5" />
+          <entry key="project.closed" value="6" />
           <entry key="project.open.time.0" value="1" />
           <entry key="project.open.time.1" value="2" />
           <entry key="project.open.time.10" value="1" />
           <entry key="project.open.time.11" value="1" />
-          <entry key="project.opened" value="5" />
+          <entry key="project.open.time.21" value="1" />
+          <entry key="project.opened" value="6" />
         </counts>
       </usages-collector>
     </session>
@@ -139,7 +68,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Somaville.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1615">
+            <state relative-caret-position="1547">
               <caret line="104" column="38" selection-start-line="104" selection-start-column="38" selection-end-line="104" selection-end-column="38" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -151,7 +80,7 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Utilidades/Utilidades.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-3229">
+            <state relative-caret-position="17">
               <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
             </state>
           </provider>
@@ -160,7 +89,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Gestoras/GestoraPeleas.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1071">
+            <state relative-caret-position="986">
               <caret line="63" selection-start-line="63" selection-end-line="63" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -172,7 +101,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Entidades/Monstruo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="86">
+            <state relative-caret-position="357">
               <caret line="21" column="7" selection-start-line="21" selection-start-column="7" selection-end-line="21" selection-end-column="7" />
             </state>
           </provider>
@@ -256,7 +185,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
@@ -285,6 +213,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -293,7 +222,7 @@
     <property name="GenerateAntBuildDialog.forceTargetJdk" value="true" />
     <property name="GenerateAntBuildDialog.outputFileNameProperty" value="proyectopoo" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1545119318523" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../ExamenPOO" />
     <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -368,7 +297,7 @@
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.15733737" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.15960665" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -504,7 +433,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Somaville.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1615">
+        <state relative-caret-position="1547">
           <caret line="104" column="38" selection-start-line="104" selection-start-column="38" selection-end-line="104" selection-end-column="38" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -514,11 +443,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Gestoras/GestoraPeleas.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1071">
+        <state relative-caret-position="986">
           <caret line="63" selection-start-line="63" selection-end-line="63" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Entidades/Monstruo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="21" column="7" selection-start-line="21" selection-start-column="7" selection-end-line="21" selection-end-column="7" />
         </state>
       </provider>
     </entry>
@@ -543,16 +479,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Entidades/Monstruo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="86">
-          <caret line="21" column="7" selection-start-line="21" selection-start-column="7" selection-end-line="21" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Utilidades/Utilidades.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-3229">
+        <state relative-caret-position="17">
           <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
         </state>
       </provider>
