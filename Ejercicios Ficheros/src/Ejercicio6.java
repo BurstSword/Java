@@ -1,4 +1,7 @@
-import java.io.*;
+import java.io.BufferedWriter;
+import java.io.File;
+import java.io.FileWriter;
+import java.io.IOException;
 import java.util.Scanner;
 
 public class Ejercicio6 {
@@ -9,7 +12,7 @@ public class Ejercicio6 {
         FileWriter fw = null;
         BufferedWriter bw = null;
         try {
-            file = new File("C:\\Users\\cloud\\Desktop\\Java\\Ejercicios Ficheros\\src\\Ejercicio6.txt");
+            file = new File("C:\\Users\\Usuario\\Desktop\\Java\\Ejercicios Ficheros\\src\\Ejercicio6.txt");
             fw = new FileWriter(file, true);
             bw = new BufferedWriter(fw);
             System.out.println("Escriba");

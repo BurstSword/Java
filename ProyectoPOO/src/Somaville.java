@@ -139,7 +139,7 @@ public class Somaville {
                                 Utilidades.subirDinero(guerrero.getDinero(), 500);
                                 guerrero.manejarDinero(500);
                             } else {
-                                System.out.println("Has recibido una poción de revivir");
+                                System.out.println("Has recibido una poción de revivir de parte de Su Majestad");
                                 guerrero.setPocionRevivir(true);
                             }
                             boton = -2;

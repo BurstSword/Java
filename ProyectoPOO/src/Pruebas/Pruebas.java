@@ -9,9 +9,9 @@ import Utilidades.Utilidades;
 
 public class Pruebas {
     public static void main(String[] args) {
-        Guerrero guerrero = GestoraGuerrero.generarGuerrero("Óscar");
+     /*   Guerrero guerrero = GestoraGuerrero.generarGuerrero("Óscar");
         Monstruo monstruo = GestoraMonstruo.generarMonstruo(guerrero.getVidaMax(),guerrero.getAtaque());
-       /* char[] arrayFinPartida = {'F', 'i', 'n', ' ', 'd', 'e', ' ', 'p', 'a', 'r', 't', 'i', 'd', 'a'};
+        char[] arrayFinPartida = {'F', 'i', 'n', ' ', 'd', 'e', ' ', 'p', 'a', 'r', 't', 'i', 'd', 'a'};
         String mensajeCompleto = "";
 
 
@@ -22,8 +22,8 @@ public class Pruebas {
             else
                 System.out.print(mensajeCompleto);
             Utilidades.esperarFin();
-        }
-*/
+       }
+
         //GestoraPeleas.pelear(monstruo,guerrero);
 
        /* System.out.println("   |\\                     /)\n" +
@@ -41,9 +41,10 @@ public class Pruebas {
                 "           //`:::`\\\\\n" +
                 "          //   '   \\\\\n" +
                 "         |/         \\\\");
-*/
+
         //Utilidades.mejorarEquipamiento();
         Utilidades.subirDinero(300, 50);
+        */
     }
 
 

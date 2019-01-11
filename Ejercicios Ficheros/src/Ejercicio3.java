@@ -1,4 +1,7 @@
-import java.io.*;
+import java.io.BufferedWriter;
+import java.io.File;
+import java.io.FileWriter;
+import java.io.IOException;
 
 public class Ejercicio3 {
     public static void main(String[] args) {
@@ -14,11 +17,11 @@ public class Ejercicio3 {
             bw.flush();
         } catch (IOException e) {
             e.getMessage();
-        }finally {
+        } finally {
             try {
                 bw.close();
                 fw.close();
-            } catch (IOException |NullPointerException e) {
+            } catch (IOException | NullPointerException e) {
                 e.printStackTrace();
             }
 

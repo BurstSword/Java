@@ -1,4 +1,7 @@
-import java.io.*;
+import java.io.BufferedWriter;
+import java.io.File;
+import java.io.FileWriter;
+import java.io.IOException;
 
 public class Ejercicio4 {
     public static void main(String[] args) {
@@ -7,9 +10,9 @@ public class Ejercicio4 {
         BufferedWriter bw = null;
         try {
             file = new File("C:\\Users\\cloud\\Desktop\\Java\\Ejercicios Ficheros\\src\\Ejercicio4.txt");
-            if(!file.exists()){
+            if (!file.exists()) {
                 System.out.println("El archivo no existía antes de escribir");
-            }else{
+            } else {
                 System.out.println("El archivo existía antes de escribir");
             }
             fw = new FileWriter(file);
@@ -18,11 +21,11 @@ public class Ejercicio4 {
             bw.flush();
         } catch (IOException e) {
             e.getMessage();
-        }finally {
+        } finally {
             try {
                 bw.close();
                 fw.close();
-            } catch (IOException |NullPointerException e) {
+            } catch (IOException | NullPointerException e) {
                 e.printStackTrace();
             }
 
