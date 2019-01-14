@@ -18,6 +18,12 @@ import java.util.Scanner;
 /**
  * Clase principal desde la que se ejecuta el juego
  */
+
+    //TODO FICHEROS QUE DEJEN SIGN IN, SIGN OUT Y LOGGEARTE
+    //TODO ABRIR PARTIDA GUARDADA, CREAR PARTIDA NUEVA Y BORRAR PARTIDA GUARDADA
+    //TODO MENU PARA LA PARTIDA YA EMPEZADA APARTE DEL MENU PARA PARTIDA NUEVA
+    //TODO MOSTRAR FOTO DE LA TIENDA
+    //TODO ARCHIVO DONDE SE ACTUALICEN LAS ESTADÍSISTICAS DEL GUERRERO DESPUÉS DE CADA PELEA
 public class Somaville {
     public static void main(String[] args) {
         //Variables

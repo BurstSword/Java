@@ -1,6 +1,6 @@
 package Utilidades;
 
-import com.sun.xml.internal.bind.v2.TODO;
+
 
 /**
  * Clase de utilidades que se podrán usar por todo el programa
