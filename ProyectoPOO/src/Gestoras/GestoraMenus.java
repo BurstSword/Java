@@ -7,7 +7,7 @@ public class GestoraMenus {
     /**
      * Muestra el menú de la primera pantalla del juego
      */
-    public static void mostrarMenuPrincipal(){
+    public static void mostrarMenuPrincipal() {
         System.out.println("\n1. Ir a pelear");
         System.out.println("2. Ir a la tienda");
         System.out.println("0. Platicar con el rey");
@@ -16,7 +16,7 @@ public class GestoraMenus {
     /**
      * Muestra el menú de la primera pantalla del juego pero cuando le toca luchar contra un jefe
      */
-    public static void mostrarMenuPrincipalJefe(){
+    public static void mostrarMenuPrincipalJefe() {
         System.out.println("\n1. Ir a pelear con el jefe");
         System.out.println("2. Ir a la tienda");
         System.out.println("0. Platicar con el rey");
@@ -25,7 +25,7 @@ public class GestoraMenus {
     /**
      * Muestra el menú de la pantalla de la tienda
      */
-    public static void mostrarMenuTienda(){
+    public static void mostrarMenuTienda() {
         System.out.println("\n1. Aumentar en 4 puntos el daño de tu arma (50 somacoins)");
         System.out.println("2. Aumentar en 3 puntos de vida tu escudo (40 somacoins");
         System.out.println("3. Aumentar en 4 puntos tu vida máxima (70 somacoins)");
@@ -39,7 +39,7 @@ public class GestoraMenus {
     /**
      * Muestra el menú secreto del juego, shhh
      */
-    public static void mostrarMenuSecreto(){
+    public static void mostrarMenuSecreto() {
         System.out.println("1. Ponerte dinero");
         System.out.println("2. Darte una poción de revivir");
         System.out.println("3. Cambiarte la vida máxima");
@@ -51,5 +51,10 @@ public class GestoraMenus {
         System.out.println("0. Salir");
     }
 
-
+    public static void mostrarMenuRegistro() {
+        System.out.println("1. Crear perfil nuevo");
+        System.out.println("2. Acceder a una partida guardada");
+        System.out.println("3. Borrar perfil");
+        System.out.println("0. Salir");
+    }
 }
