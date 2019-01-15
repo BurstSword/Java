@@ -35,7 +35,7 @@ public class GestoraRegistro {
         BufferedWriter bw = null;
         try {
 
-            file = new File("Jugadores\\" + nombrePerfil + "\\contraseña.txt");
+            file = new File("Jugadores\\" + nombrePerfil + "\\contrasena.txt");
             fw = new FileWriter(file);
             bw = new BufferedWriter(fw);
             bw.write(contrasena);

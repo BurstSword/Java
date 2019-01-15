@@ -44,7 +44,7 @@ public class Somaville {
                 GestoraLogin.login();
                 break;
             case 3:
-                //Proceso de borrar perfil
+                GestoraUnregister.Unregister();
                 break;
         }
         GestoraArchivos.mensajeBienvenida(nombreGuerrero);

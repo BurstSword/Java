@@ -3,6 +3,8 @@
   <component name="Encoding">
     <file url="file://$PROJECT_DIR$/IMPORTANTE, INSTRUCCIONES.txt" charset="windows-1252" />
     <file url="file://$PROJECT_DIR$/src/Gestoras/GestoraArchivos.java" charset="ISO-8859-1" />
+    <file url="file://$PROJECT_DIR$/src/Gestoras/GestoraLogin.java" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/src/Gestoras/GestoraRegistro.java" charset="windows-1252" />
     <file url="file://$PROJECT_DIR$/src/Somaville.java" charset="ISO-8859-1" />
   </component>
 </project>

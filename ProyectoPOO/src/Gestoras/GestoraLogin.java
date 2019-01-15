@@ -1,5 +1,6 @@
 package Gestoras;
 
+
 import java.io.*;
 import java.util.Scanner;
 
@@ -31,7 +32,7 @@ public class GestoraLogin {
         FileReader fr = null;
         BufferedReader br = null;
         try {
-            file = new File("Jugadores\\" + nombrePerfil + "\\contraseña.txt");
+            file = new File("Jugadores\\" + nombrePerfil + "\\contrasena.txt");
             fr = new FileReader(file);
             br = new BufferedReader(fr);
             contrasenaCorrecta = br.readLine();
