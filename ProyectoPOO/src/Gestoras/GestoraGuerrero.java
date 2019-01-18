@@ -7,12 +7,13 @@ import Entidades.Guerrero;
  */
 public class GestoraGuerrero {
 
-    private final static int escudoMax = 15;
+
     private final static int dano = 7;
     private final static int dinero = 25;
     private final static boolean pocionRevivir = false;
     private final static int probCritico = 14;
     private final static int vidaMax = 18;
+    private final static int escudoMax = 15;
 
     /**
      * Función que genera un guerrero a partir del nombre pasado por parámetros y a los valores que tenemos almacenados en la misma clase
