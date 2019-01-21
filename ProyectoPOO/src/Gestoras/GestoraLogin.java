@@ -28,7 +28,7 @@ public class GestoraLogin {
     private static boolean escribirContraseña(String contrasenaIntroducida, String nombrePerfil) {
         boolean contrasenaCoincide;
         String contrasenaCorrecta = "";
-        File file = null;
+        File file ;
         FileReader fr = null;
         BufferedReader br = null;
         try {
