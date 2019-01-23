@@ -6,41 +6,48 @@ import java.util.Scanner;
 public class GestoraRegistro {
     private static boolean comprobarNombre(String nombrePerfil) {
         boolean nombreExiste = false;
+        File Usuarios;
+        FileReader fr;
+        BufferedReader br;
+        String line;
+        String usuario;
+        String[] usuarios={};
+        int i;
+        try {
+            Usuarios = new File("Usuarios_Contrasenas.txt");
+            fr = new FileReader(Usuarios);
+            br = new BufferedReader(fr);
+            while ((line = br.readLine()) != null) {
+                usuarios = line.split("/");
 
-        File carpetaLista = new File("Jugadores");
-
-        String usuarios[] = carpetaLista.list();
-
-        for (int i = 0; i < usuarios.length && !nombreExiste; i++) {
-
-            if (usuarios[i].equals(nombrePerfil)) {
-                nombreExiste = true;
-
-            } else {
-                nombreExiste = false;
             }
+            for (i = 0; i < usuarios.length; i++) ;
+            {
+                if (nombrePerfil.equals(usuarios[i])) {
+                    nombreExiste = true;
+                }
+            }
+
+
+        } catch (IOException e) {
+            e.printStackTrace();
         }
+
         return nombreExiste;
     }
 
-    private static void crearUsuario(String nombrePerfil) {
-        boolean usuario = new File("Jugadores\\" + nombrePerfil).mkdir();
-
-    }
-
-    private static void crearContrasena(String nombrePerfil, String contrasena) {
-
-        File file = null;
+    private static void crearUsuarioYContrasena(String nombrePerfil, String contrasena) {
+        File escribir = null;
         FileWriter fw = null;
         BufferedWriter bw = null;
+
         try {
-
-            file = new File("Jugadores\\" + nombrePerfil + "\\contrasena.txt");
-            fw = new FileWriter(file);
+            escribir = new File("Usuarios_Contrasenas.txt");
+            fw = new FileWriter(escribir, true);
             bw = new BufferedWriter(fw);
-            bw.write(contrasena);
+            bw.newLine();
+            bw.write(nombrePerfil + "/" + contrasena);
             bw.flush();
-
         } catch (IOException e) {
             e.printStackTrace();
         } finally {
@@ -50,13 +57,14 @@ public class GestoraRegistro {
             } catch (IOException e) {
                 e.printStackTrace();
             }
-
         }
+
     }
+
 
     public static void registro() {
         Scanner teclado = new Scanner(System.in);
-        String nombrePerfil, contrasena;
+        String nombrePerfil, contrasena = "";
         boolean nombreExiste;
 
         do {
@@ -68,14 +76,16 @@ public class GestoraRegistro {
                 System.out.println("Este nombre ya existe, elija otro");
             }
         } while (nombreExiste);
-
-        crearUsuario(nombrePerfil);
         do {
             System.out.println("Introduzca su contraseña");
             contrasena = teclado.next();
         } while (contrasena.equals(""));
 
-        crearContrasena(nombrePerfil, contrasena);
+        crearUsuarioYContrasena(nombrePerfil, contrasena);
+
 
     }
+
+
 }
+

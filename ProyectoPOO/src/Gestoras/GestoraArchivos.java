@@ -10,7 +10,7 @@ public class GestoraArchivos {
         FileReader fr = null;
         BufferedReader br = null;
         try {
-            mensajeBienvenida = new File("Jugadores\\MensajeBienvenida.txt");
+            mensajeBienvenida = new File("MensajeBienvenida.txt");
             fr = new FileReader(mensajeBienvenida);
             br = new BufferedReader(fr);
             mensaje = br.readLine();

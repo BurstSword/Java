@@ -58,14 +58,10 @@ public class GestoraUnregister {
     private static void borrarRegistro(String nombrePerfil) {
         File file = null;
         FileReader fr = null;
-        try {
-            file = new File("Jugadores\\" + nombrePerfil);
-            fr = new FileReader(file);
-            file.delete();
 
-        } catch (NullPointerException | FileNotFoundException e) {
-            e.printStackTrace();
-        }
+        file = new File("Jugadores\\" + nombrePerfil+"\\contrasena");
+        file.delete();
+
     }
 
     public static void Unregister() {
