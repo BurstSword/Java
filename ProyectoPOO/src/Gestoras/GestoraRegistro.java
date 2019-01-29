@@ -11,7 +11,7 @@ public class GestoraRegistro {
         BufferedReader br;
         String line;
         String usuario;
-        String[] usuarios={};
+        String[] usuarios;
         int i;
         try {
             Usuarios = new File("Usuarios_Contrasenas.txt");
@@ -20,12 +20,6 @@ public class GestoraRegistro {
             while ((line = br.readLine()) != null) {
                 usuarios = line.split("/");
 
-            }
-            for (i = 0; i < usuarios.length; i++) ;
-            {
-                if (nombrePerfil.equals(usuarios[i])) {
-                    nombreExiste = true;
-                }
             }
 
 
