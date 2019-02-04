@@ -42,19 +42,19 @@ public class Trilero {
                     if (triles == 2) {
                         System.out.println("!Que suerte, estaba en el cubo " + triles + "!");
                         System.out.println("---------------------------------------------");
-                        System.out.println("┌-----┐         ┌-----┐         ┌-----┐");
+                        System.out.println("┌-----┐         ┌-----┐        ┌-----┐");
                         System.out.println("|     |         |     |        |     |");
                         System.out.println("|     |         |  O  |        |     |");
                         System.out.println("|     |         |     |        |     |");
-                        System.out.println("└-----┘         └-----┘         └-----┘ ");
+                        System.out.println("└-----┘         └-----┘        └-----┘ ");
                     } else {
                         System.out.println("!Que suerte, estaba en el cubo " + triles + "!");
                         System.out.println("---------------------------------------------");
-                        System.out.println("┌-----┐         ┌-----┐         ┌-----┐");
+                        System.out.println("┌-----┐         ┌-----┐        ┌-----┐");
                         System.out.println("|     |         |     |        |     |");
                         System.out.println("|     |         |     |        |  O  |");
                         System.out.println("|     |         |     |        |     |");
-                        System.out.println("└-----┘          └-----┘        └-----┘ ");
+                        System.out.println("└-----┘         └-----┘        └-----┘ ");
                     }
                 }
             } else {
@@ -62,28 +62,28 @@ public class Trilero {
                 if (triles == 1) {
                     System.out.println("La bolita estaba en el cubo: " + triles);
                     System.out.println("---------------------------------------------");
-                    System.out.println("┌-----┐        ┌-----┐         ┌-----┐");
+                    System.out.println("┌-----┐        ┌-----┐        ┌-----┐");
                     System.out.println("|     |        |     |        |     |");
                     System.out.println("|  O  |        |     |        |     |");
                     System.out.println("|     |        |     |        |     |");
-                    System.out.println("└-----┘        └-----┘         └-----┘ ");
+                    System.out.println("└-----┘        └-----┘        └-----┘ ");
                 } else {
                     if (triles == 2) {
                         System.out.println("La bolita estaba en el cubo: " + triles);
                         System.out.println("---------------------------------------------");
-                        System.out.println("┌-----┐         ┌-----┐        ┌-----┐");
+                        System.out.println("┌-----┐         ┌-----┐       ┌-----┐");
                         System.out.println("|     |         |     |       |     |");
                         System.out.println("|     |         |  O  |       |     |");
                         System.out.println("|     |         |     |       |     |");
-                        System.out.println("└-----┘         └-----┘        └-----┘ ");
+                        System.out.println("└-----┘         └-----┘       └-----┘ ");
                     } else {
                         System.out.println("La bolita estaba en el cubo: " + triles);
                         System.out.println("---------------------------------------------");
-                        System.out.println("┌-----┐        ┌-----┐          ┌-----┐");
+                        System.out.println("┌-----┐        ┌-----┐         ┌-----┐");
                         System.out.println("|     |        |     |         |     |");
                         System.out.println("|     |        |     |         |  O  |");
                         System.out.println("|     |        |     |         |     |");
-                        System.out.println("└-----┘        └-----┘          └-----┘ ");
+                        System.out.println("└-----┘        └-----┘         └-----┘ ");
                     }
                 }
             }
