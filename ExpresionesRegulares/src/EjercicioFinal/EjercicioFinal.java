@@ -13,14 +13,16 @@ public class EjercicioFinal {
             do {
                 GestoraMenus.Menu();
                 boton = teclado.nextInt();
+                if (boton < 1 || boton > 5)
+                    System.out.println("Opción incorrecta");
+
             } while (boton < 1 || boton > 5);
-
-
+            
             switch (boton) {
                 case 1:
                     System.out.print("Nombre: ");
                     nombre = tecladoStr.nextLine();
-                    GestoraComprobar.Nombre(nombre);
+                    GestoraComprobar.nombre(nombre);
                     break;
                 case 2:
                     System.out.print("Edad: ");
