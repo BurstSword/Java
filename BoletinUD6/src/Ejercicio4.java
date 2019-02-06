@@ -9,9 +9,10 @@ public class Ejercicio4 {
         nombre = teclado.nextLine();
         aMayusculas(nombre);
     }
-    public static void aMayusculas(String nombre){
-        int contador=0;
-        while(nombre!=null && contador!=5){
+
+    public static void aMayusculas(String nombre) {
+        int contador = 0;
+        while (nombre != null && contador != 5) {
             contador++;
             System.out.println(nombre.toUpperCase());
         }

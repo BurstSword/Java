@@ -8,7 +8,6 @@ public class EjercicioFinal {
         int boton;
         String nombre, edad, tlf, email;
         Scanner teclado = new Scanner(System.in);
-        Scanner tecladoStr = new Scanner(System.in);
         do {
             do {
                 GestoraMenus.Menu();
@@ -17,26 +16,26 @@ public class EjercicioFinal {
                     System.out.println("Opción incorrecta");
 
             } while (boton < 1 || boton > 5);
-            
+
             switch (boton) {
                 case 1:
                     System.out.print("Nombre: ");
-                    nombre = tecladoStr.nextLine();
-                    GestoraComprobar.nombre(nombre);
+                    nombre = teclado.nextLine();
+                    GestoraComprobar.validacionCadenaLetras(nombre);
                     break;
                 case 2:
                     System.out.print("Edad: ");
-                    edad = tecladoStr.nextLine();
+                    edad = teclado.nextLine();
                     GestoraComprobar.edad(edad);
                     break;
                 case 3:
                     System.out.print("Teléfono: ");
-                    tlf = tecladoStr.nextLine();
+                    tlf = teclado.nextLine();
                     GestoraComprobar.tlf(tlf);
                     break;
                 case 4:
                     System.out.print("Email: ");
-                    email = tecladoStr.nextLine();
+                    email = teclado.nextLine();
                     GestoraComprobar.mail(email);
                     break;
                 case 5:

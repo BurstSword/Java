@@ -19,7 +19,7 @@ public class Ejercicio3 {
 
     public static void mostrar(String matricula, String nombre, String tlf) {
         if (leerMatricula(matricula)) {
-            System.out.println(matricula + " matricula correcta");
+            System.out.println(matricula + " matrícula correcta");
         } else {
             System.out.println(matricula + " formato incorrecto");
         }
