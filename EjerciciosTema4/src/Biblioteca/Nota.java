@@ -1,14 +1,14 @@
 package Biblioteca;
 
 
-public class Libro {
-    private static int generadorID = 1;
+public class Nota {
+    private static int generadorID = 0;
     private int ID;
     private boolean disponible;
     private int IDusuario;
     private String nombreLibro;
 
-    public Libro(String nombre) {
+    public Nota(String nombre) {
         this.disponible = true;
         this.IDusuario = this.ID;
         this.ID = generadorID++;
@@ -44,13 +44,7 @@ public class Libro {
     }
 
 
-    /**
-     * Función que pone la disponibilidad en true y la ID del usuario a 0 en caso de que se devuelva el libro
-     * <p>
-     *
-     * @return Esta función nos devuelve el valor -1 en caso de que intente devolver un libro ya devuelto
-     * En caso de que la devolución sea posible, devolverá el valor 0
-     */
+
     public int devolverLibro() {
         int ret;
         if (this.disponible) {
@@ -63,13 +57,7 @@ public class Libro {
         return ret;
     }
 
-    /**
-     * Función que pone la disponibilidad en false en caso de que se alquile el libro y pone la ID del usuario al que lo quiera alquilar
-     *
-     * @param IDusuario
-     * @return Esta función nos devuelve -1 en caso de que el libro no esté disponible, y 0 en caso de que el libro se haya podido alquilar
-     * correctamente
-     */
+
     public int alquilarLibro(int IDusuario) {
         int ret;
         if (this.disponible) {

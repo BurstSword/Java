@@ -38,7 +38,7 @@ public class MenuBiblioteca {
                             System.out.println("Escriba el número correspondiente al libro");
                             libro = teclado.nextInt();
                         } while (libro < 0 || libro > Datos.listaLibros.size() - 1);
-                        System.out.println(Datos.listaLibros.get(libro).alquilarLibro(Datos.listaUsuarios.get(usuario).getID()) == 0 ? "Libro alquilado" : "Libro no disponible");
+                        System.out.println(Datos.listaLibros.get(libro).alquilarLibro(Datos.listaUsuarios.get(usuario).getID()) == 0 ? "Nota alquilado" : "Nota no disponible");
 
                     }
                     break;
@@ -53,7 +53,7 @@ public class MenuBiblioteca {
                             }
                             libro = teclado.nextInt();
                         } while (libro < 0 || libro > Datos.listaLibros.size() - 1);
-                        System.out.println(Datos.listaLibros.get(libro).devolverLibro() == 0 ? "Libro devuelto" : "El libro ya estaba devuelto de antes");
+                        System.out.println(Datos.listaLibros.get(libro).devolverLibro() == 0 ? "Nota devuelto" : "El libro ya estaba devuelto de antes");
                     }
                     break;
                 case 3:
@@ -92,7 +92,7 @@ public class MenuBiblioteca {
                     System.out.println("Ingrese el nombre del libro que quiere donar");
                     nombreLibro = tecladoStr.nextLine();
                     Datos.listaLibros.add(new Libro(nombreLibro));
-                    System.out.println("Libro " + nombreLibro + " registrado con éxito");
+                    System.out.println("Nota " + nombreLibro + " registrado con éxito");
                     break;
                 case 6:
                     System.out.println("Esta acción es sólo para administradores, ingrese la contraseña");
@@ -111,7 +111,7 @@ public class MenuBiblioteca {
                             } while (seleccLibro < 0 || seleccLibro > Datos.listaLibros.size());
                             if (Datos.listaLibros.get(seleccLibro).isDisponible()) {
                                 Datos.listaLibros.remove(seleccLibro);
-                                System.out.println("Libro dado de baja con éxito");
+                                System.out.println("Nota dado de baja con éxito");
                             } else {
                                 System.out.println(Datos.listaLibros.get(seleccLibro).toString());
                             }

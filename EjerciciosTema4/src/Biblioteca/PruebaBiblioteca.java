@@ -41,7 +41,7 @@ public class PruebaBiblioteca {
         System.out.println(Datos.listaLibros.get(0).toString());
         System.out.println(Datos.listaLibros.get(1).toString());
 
-        //Datos.listaLibros.add(new Libro("El último caso de Hércules Poirot"));
+        //Datos.listaLibros.add(new Nota("El último caso de Hércules Poirot"));
 
     }
 }
