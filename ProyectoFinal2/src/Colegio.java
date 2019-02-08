@@ -11,7 +11,6 @@ public class Colegio {
         int boton;
         float nota;
 
-
         do {
             do {
                 System.out.println("\nIntroduce el número de la opción que quiera realizar");
@@ -25,7 +24,7 @@ public class Colegio {
                     do {
                         System.out.println("Debe estar en el formato correcto. Ejemplo: 7,5 o 7");
                         nota = teclado.nextFloat();
-                    } while (nota > 10 || nota < 1);
+                    } while (nota > 10 || nota < 0);
                     GestoraDatos.anadirNota(nota);
                     break;
                 case 2:

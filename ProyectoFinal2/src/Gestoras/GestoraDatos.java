@@ -77,9 +77,15 @@ public class GestoraDatos {
             System.out.println("ID: " + i + " Nota: " + notas.get(i));
         }
         */
-        Collections.sort(notas);
-        for (int i = 0; i < notas.size(); i++) {
-            System.out.println("ID: " + i + " Nota: " + notas.get(i));
+    	if(!notas.isEmpty()) {
+    		Collections.sort(notas);
+            for (int i = 0; i < notas.size(); i++) {
+                System.out.println("ID: " + i + " Nota: " + notas.get(i));
+    	}
+    	}else{
+    		System.out.println("No hay datos registrados");
+    	}
+       
         }
     }
-}
+
