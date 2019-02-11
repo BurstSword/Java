@@ -3,6 +3,7 @@ package Gestoras;
 
 import java.util.ArrayList;
 import java.util.Collections;
+import java.util.InputMismatchException;
 import java.util.Scanner;
 
 public class GestoraDatos {
@@ -20,7 +21,11 @@ public class GestoraDatos {
         System.out.println("Introduzca la ID del alumno del que quiere modificar su nota");
         do {
             System.out.println("La ID debe corresponderse con una de la lista");
-            ID = teclado.nextInt();
+            try {
+                ID = teclado.nextInt();
+            } catch (InputMismatchException e) {
+                teclado.nextLine();
+            }
         } while (ID > notas.size());
         do {
             System.out.println("Introduzca la nota nueva");
@@ -45,7 +50,11 @@ public class GestoraDatos {
         System.out.println("Introduzca la ID del alumno del que quiere eliminar su nota");
         do {
             System.out.println("La ID debe corresponderse con una de la lista");
-            ID = teclado.nextInt();
+            try {
+                ID = teclado.nextInt();
+            } catch (InputMismatchException e) {
+                teclado.nextLine();
+            }
         } while (ID > notas.size());
         notas.remove(ID);
         System.out.println("Cambio realizado");
@@ -77,15 +86,15 @@ public class GestoraDatos {
             System.out.println("ID: " + i + " Nota: " + notas.get(i));
         }
         */
-    	if(!notas.isEmpty()) {
-    		Collections.sort(notas);
+        if (!notas.isEmpty()) {
+            Collections.sort(notas);
             for (int i = 0; i < notas.size(); i++) {
                 System.out.println("ID: " + i + " Nota: " + notas.get(i));
-    	}
-    	}else{
-    		System.out.println("No hay datos registrados");
-    	}
-       
+            }
+        } else {
+            System.out.println("No hay datos registrados");
         }
+
     }
+}
 

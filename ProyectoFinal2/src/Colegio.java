@@ -3,19 +3,25 @@ import Gestoras.GestoraDatos;
 import Gestoras.GestoraMenús;
 
 
+import java.util.InputMismatchException;
 import java.util.Scanner;
 
 public class Colegio {
     public static void main(String[] args) {
         Scanner teclado = new Scanner(System.in);
         int boton;
-        float nota;
+        float nota=0;
 
         do {
             do {
                 System.out.println("\nIntroduce el número de la opción que quiera realizar");
                 GestoraMenús.menuPrincipal();
-                boton = teclado.nextInt();
+                boton=0;
+                try {
+                    boton = teclado.nextInt();
+                } catch (InputMismatchException e) {
+                    teclado.nextLine();
+                }
             } while (boton < 1 || boton > 5);
 
             switch (boton) {
@@ -23,8 +29,12 @@ public class Colegio {
                     System.out.println("Introduzca la nota");
                     do {
                         System.out.println("Debe estar en el formato correcto. Ejemplo: 7,5 o 7");
-                        nota = teclado.nextFloat();
-                    } while (nota > 10 || nota < 0);
+                        try{
+                            nota = teclado.nextFloat();
+                        }catch (InputMismatchException e){
+                            teclado.nextLine();
+                        }
+                    } while (nota > 10 || nota <= 0);
                     GestoraDatos.anadirNota(nota);
                     break;
                 case 2:
