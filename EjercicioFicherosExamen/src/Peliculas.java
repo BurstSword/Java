@@ -78,47 +78,55 @@ public class Peliculas {
     //Método encargado de mostrar las películas y su puntuación
     private static void mostrarPuntuaciones() {
         f = crearArchivo();
-        FileReader fr;
-        BufferedReader br;
+        if (!f.exists() || f.getTotalSpace() == 0) {
+            System.out.println("El fichero se encuentra vacío o no existe");
+        } else {
+            FileReader fr;
+            BufferedReader br;
 
-        try {
-            fr = new FileReader(f);
-            br = new BufferedReader(fr);
-            while (br.ready()) {
-                System.out.print("Película:");
-                System.out.println(br.readLine());
-                System.out.print("Puntuación:");
-                System.out.println(br.readLine());
-                System.out.println("<-------------------->");
+            try {
+                fr = new FileReader(f);
+                br = new BufferedReader(fr);
+                while (br.ready()) {
+                    System.out.print("Película:");
+                    System.out.println(br.readLine());
+                    System.out.print("Puntuación:");
+                    System.out.println(br.readLine());
+                    System.out.println("<-------------------->");
+                }
+            } catch (IOException e1) {
+                e1.printStackTrace();
             }
-        } catch (IOException e1) {
-            e1.printStackTrace();
         }
     }
 
     //Método encargado de mostrar la película con mayor puntuación y su puntuación
     private static void mostrarMayorPuntuacion() {
         f = crearArchivo();
-        FileReader fr;
-        BufferedReader br;
-        String película, puntuacion, películatmp = "";
-        float punt, puntTmp = 0;
-        try {
-            fr = new FileReader(f);
-            br = new BufferedReader(fr);
-            while (br.ready()) {
-                película = br.readLine();
-                puntuacion = br.readLine();
-                punt = Float.parseFloat(puntuacion);
+        if (!f.exists() || f.getTotalSpace() == 0) {
+            System.out.println("El fichero se encuentra vacío o no existe");
+        } else {
+            FileReader fr;
+            BufferedReader br;
+            String película, puntuacion, películatmp = "";
+            float punt, puntTmp = 0;
+            try {
+                fr = new FileReader(f);
+                br = new BufferedReader(fr);
+                while (br.ready()) {
+                    película = br.readLine();
+                    puntuacion = br.readLine();
+                    punt = Float.parseFloat(puntuacion);
 
-                if (punt > puntTmp) {
-                    puntTmp = punt;
-                    películatmp = película;
+                    if (punt > puntTmp) {
+                        puntTmp = punt;
+                        películatmp = película;
+                    }
                 }
+                System.out.println("La película con mayor puntuacion es " + películatmp + " con una puntuación de " + puntTmp);
+            } catch (IOException e) {
+                e.printStackTrace();
             }
-            System.out.println("La película con mayor puntuacion es " + películatmp + " con una puntuación de " + puntTmp);
-        } catch (IOException e) {
-            e.printStackTrace();
         }
     }
 
