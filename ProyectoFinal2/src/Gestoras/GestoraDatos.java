@@ -74,11 +74,11 @@ public class GestoraDatos {
     public static void ordenarNotas() {
         /*
         for (int i = 0; i < notas.size(); i++) {
-            for (int j = 0; j < notas.size()-1; j++) {
-                if (notas.get(i) < notas.get(i + 1)) {
+            for (int j = 0; j < notas.size() - 1; j++) {
+                if (notas.get(i) < notas.get(j)) {
                     float tmp = notas.get(i);
-                    notas.toArray()[i] = notas.get(i+1);
-                    notas.toArray()[i+1] = tmp;
+                    notas.toArray()[i] = notas.get(i + 1);
+                    notas.toArray()[i + 1] = tmp;
                 }
             }
         }
@@ -86,6 +86,7 @@ public class GestoraDatos {
             System.out.println("ID: " + i + " Nota: " + notas.get(i));
         }
         */
+
         if (!notas.isEmpty()) {
             Collections.sort(notas);
             for (int i = 0; i < notas.size(); i++) {
@@ -96,5 +97,7 @@ public class GestoraDatos {
         }
 
     }
+
+
 }
 
