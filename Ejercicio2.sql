@@ -70,4 +70,5 @@ where dni = 2567567 ;
 15)
 
 CREATE TABLE NOMBRE_DE_ALUMNOS (
-nombre completo varchar2);
+nombre completo) AS SELECT Nombre||' '||Apellido1||' '||Apellido2 AS NombreCompleto
+FROM Alumnos;
