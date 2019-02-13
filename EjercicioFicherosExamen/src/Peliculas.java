@@ -4,6 +4,8 @@ import java.util.Scanner;
 public class Peliculas {
     private static File f; //Declara el objeto File
     private static Scanner teclado = new Scanner(System.in); //Declara el objeto Scanner
+    private static FileReader fr;
+    private static BufferedReader br;
 
     public static void main(String[] args) {
         System.out.println("Bienvenido a su videoclub favorito");
@@ -81,8 +83,6 @@ public class Peliculas {
         if (!f.exists() || f.getTotalSpace() == 0) {
             System.out.println("El fichero se encuentra vacío o no existe");
         } else {
-            FileReader fr;
-            BufferedReader br;
 
             try {
                 fr = new FileReader(f);
@@ -106,8 +106,6 @@ public class Peliculas {
         if (!f.exists() || f.getTotalSpace() == 0) {
             System.out.println("El fichero se encuentra vacío o no existe");
         } else {
-            FileReader fr;
-            BufferedReader br;
             String película, puntuacion, películatmp = "";
             float punt, puntTmp = 0;
             try {
