@@ -15,11 +15,11 @@ public class Ejercicio6 {
         String[] codigos = nombreYApellidos.split(" ");
         String parte1, parte2, parte3;
 
-        parte1 = codigos[2].substring(0,3);
-        parte2 = codigos[1].substring(0,3);
-        parte3 = codigos[0].substring(0,3);
+        parte1 = codigos[2].substring(0, 3);
+        parte2 = codigos[1].substring(0, 3);
+        parte3 = codigos[0].substring(0, 3);
 
-        System.out.println(parte1+parte2+parte3);
+        System.out.println(parte1 + parte2 + parte3);
 
     }
 }

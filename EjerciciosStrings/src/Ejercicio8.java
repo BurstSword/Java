@@ -6,14 +6,14 @@ public class Ejercicio8 {
     public static void main(String[] args) {
         Scanner teclado = new Scanner(System.in);
         String palabra;
-        System.out.println("Escriba una palabra y veremos si es un palÃ­ndromo o no");
+        System.out.println("Escriba una palabra y veremos si es un palíndromo o no");
         palabra = teclado.nextLine();
 
 
-        if(comprobarPalindromo(palabra)){
-            System.out.println("Es un palÃ­ndromo");
-        }else{
-            System.out.println("No es un palÃ­ndromo");
+        if (comprobarPalindromo(palabra)) {
+            System.out.println("Es un palíndromo");
+        } else {
+            System.out.println("No es un palíndromo");
         }
     }
 
@@ -24,9 +24,9 @@ public class Ejercicio8 {
                 palabraOrdenada = palabraOrdenada + palabra.charAt(i);
             }
            if(palabra.equals(palabraOrdenada)){
-               System.out.println("La palabra " + palabra + " es un palÃ­ndromo");
+               System.out.println("La palabra " + palabra + " es un palíndromo");
            }else{
-               System.out.println("La palabra " + palabra + " no es un palÃ­ndromo");
+               System.out.println("La palabra " + palabra + " no es un palíndromo");
            }
         }
         */
@@ -48,9 +48,9 @@ public class Ejercicio8 {
             }
         }
         if (!igual) {
-            System.out.println(palabra + " no es un palÃ­ndromo");
+            System.out.println(palabra + " no es un palíndromo");
         } else {
-            System.out.println(palabra + " es un palÃ­ndromo");
+            System.out.println(palabra + " es un palíndromo");
         }
     }
     */
