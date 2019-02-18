@@ -14,7 +14,7 @@ public class Ejercicio6 {
         nombreYApellidos = nombreYApellidos.toUpperCase();
         String[] codigos = nombreYApellidos.split(" ");
 
-        System.out.println("Su cÃ³digo es " + codigos[2].substring(0, 3) + codigos[1].substring(0, 3) + codigos[0].substring(0, 3));
+        System.out.println("Su código es " + codigos[1].substring(0, 3) + codigos[2].substring(0, 3) + codigos[0].substring(0, 3));
 
     }
 }

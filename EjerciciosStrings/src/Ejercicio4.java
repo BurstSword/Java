@@ -11,18 +11,20 @@ public class Ejercicio4 {
     }
 
     public static void contarVocalesYConsonantes(String palabra) {
-        int vocales = 0, consonantes = 0;
+        int vocales = 0, consonantes = 0, espacios = 0;
         palabra.toLowerCase();
 
         for (int i = 0; i < palabra.length(); i++) {
             char letra = palabra.charAt(i);
             if (letra == 'a' || letra == 'e' || letra == 'i' || letra == 'o' || letra == 'u') {
                 vocales++;
+            } else if (letra == ' ') {
+                espacios++;
             } else {
                 consonantes++;
             }
 
         }
-        System.out.println("La palabra " + palabra + " tiene " + vocales + " vocales y " + consonantes + " consonantes");
+        System.out.println("La palabra " + palabra + " tiene " + vocales + " vocal/es, " + consonantes + " consonante/s y " + espacios + " espacio/s");
     }
 }

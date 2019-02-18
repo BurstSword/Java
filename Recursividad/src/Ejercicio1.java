@@ -11,11 +11,12 @@ public class Ejercicio1 {
         System.out.println("\nEl factorial de " + num + " es: " + CalculoFactorial(num));
     }
 
-    public static int CalculoFactorial(int num) {
+    private static int CalculoFactorial(int num) {
         if (num == 0) {
-            return 1;
+            num = 1;
         } else
-            return num * CalculoFactorial(num - 1);
+            num = num * CalculoFactorial(num - 1);
+        return num;
     }
 }
 

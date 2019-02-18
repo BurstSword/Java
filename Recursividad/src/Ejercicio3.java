@@ -10,7 +10,7 @@ public class Ejercicio3 {
     }
 
 
-    public static int sumaDigitos(int numero) {
+    private static int sumaDigitos(int numero) {
 
         if (numero == 0) {
             return 0;

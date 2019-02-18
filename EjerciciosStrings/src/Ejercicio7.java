@@ -9,7 +9,7 @@ public class Ejercicio7 {
         reOrdenar(palabra);
     }
 
-    public static void reOrdenar(String palabra) {
+    private static void reOrdenar(String palabra) {
         String palabraOrdenada = "";
         for (int i = palabra.length() - 1; i >= 0; i--) {
             palabraOrdenada = palabraOrdenada + palabra.charAt(i);

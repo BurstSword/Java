@@ -5,14 +5,14 @@ public class Ejercicio2 {
         int base, exponente;
         Scanner teclado = new Scanner(System.in);
 
-        System.out.println("Introduzca la base");
+        System.out.print("Introduzca la base: ");
         base = teclado.nextInt();
-        System.out.println("Introduzca el exponente");
+        System.out.print("Introduzca el exponente: ");
         exponente = teclado.nextInt();
-        System.out.println(potencia(base,exponente));
+        System.out.print("El resultado de elevar " + base + " a " + exponente + " es " + potencia(base, exponente));
     }
 
-    public static int potencia(int base, int exponente) {
+    private static int potencia(int base, int exponente) {
 
         if (exponente == 0) {
             return 1;

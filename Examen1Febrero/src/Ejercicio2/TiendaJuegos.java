@@ -92,7 +92,7 @@ public class TiendaJuegos {
 
         try {
             stm = conexion.createStatement();
-            int Rst = stm.executeUpdate("INSERT INTO juego (codigo, titulo, autor) VALUES (\"cod\", \"juego\", \"autor\")");
+            int Rst = stm.executeUpdate("INSERT INTO juego (codigo, titulo, autor) VALUES (\' + cod + \', \' + juego+\', \'+autor+\')");
         } catch (SQLException e) {
             e.printStackTrace();
         }

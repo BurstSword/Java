@@ -18,7 +18,7 @@ public class Ejercicio8 {
     }
 
         /*
-        public static void reOrdenar(String palabra) {
+        private static void reOrdenar(String palabra) {
             String palabraOrdenada = "";
             for (int i = palabra.length() - 1; i >= 0; i--) {
                 palabraOrdenada = palabraOrdenada + palabra.charAt(i);
@@ -32,7 +32,7 @@ public class Ejercicio8 {
         */
 
     /*
-    public static void comprobarPalindromo(String palabra) {
+    private static void comprobarPalindromo(String palabra) {
         int principio = 0;
         int end = palabra.length() - 1;
         boolean igual = true;
@@ -55,7 +55,7 @@ public class Ejercicio8 {
     }
     */
 
-    public static boolean comprobarPalindromo(String palabra) {
+    private static boolean comprobarPalindromo(String palabra) {
 
         if (palabra.length() == 0 || palabra.length() == 1) {
             return true;

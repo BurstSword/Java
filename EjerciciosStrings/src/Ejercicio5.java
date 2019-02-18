@@ -11,7 +11,6 @@ public class Ejercicio5 {
     }
 
     private static String pasarAMayusculas(String cadena) {
-
         cadena = cadena.toUpperCase();
 
         return cadena;
