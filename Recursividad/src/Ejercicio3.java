@@ -6,16 +6,16 @@ public class Ejercicio3 {
         int numero;
         System.out.println("Introduzca un número");
         numero = teclado.nextInt();
-        System.out.println(sumaDigitos(numero));
+        System.out.println(sumaDigitosDeUnNumero(numero));
     }
 
 
-    private static int sumaDigitos(int numero) {
+    private static int sumaDigitosDeUnNumero(int numero) {
 
         if (numero == 0) {
             return 0;
         } else {
-            return sumaDigitos(numero / 10) + numero % 10;
+            return sumaDigitosDeUnNumero(numero / 10) + numero % 10;
         }
 
     }

@@ -17,20 +17,20 @@ public class Ejercicio8 {
         }
     }
 
-        /*
-        private static void reOrdenar(String palabra) {
-            String palabraOrdenada = "";
+       /*
+        private static void comprobarPalindromo(String palabra) {
+            StringBuilder palabraOrdenada = new StringBuilder();
             for (int i = palabra.length() - 1; i >= 0; i--) {
-                palabraOrdenada = palabraOrdenada + palabra.charAt(i);
+                palabraOrdenada.append(palabra.charAt(i));
             }
-           if(palabra.equals(palabraOrdenada)){
+           if(palabra.equals(palabraOrdenada.toString())){
                System.out.println("La palabra " + palabra + " es un palíndromo");
            }else{
                System.out.println("La palabra " + palabra + " no es un palíndromo");
            }
         }
-        */
 
+*/
     /*
     private static void comprobarPalindromo(String palabra) {
         int principio = 0;
@@ -67,4 +67,5 @@ public class Ejercicio8 {
 
         return false;
     }
+    
 }

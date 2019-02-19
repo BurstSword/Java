@@ -10,10 +10,19 @@ public class Ejercicio7 {
     }
 
     private static void reOrdenar(String palabra) {
+        StringBuilder palabraOrdenada = new StringBuilder();
+        for (int i = palabra.length() - 1; i >= 0; i--) {
+            palabraOrdenada.append(palabra.charAt(i));
+        }
+        System.out.println(palabraOrdenada);
+    }
+
+    /*private static void reOrdenar(String palabra) {
         String palabraOrdenada = "";
         for (int i = palabra.length() - 1; i >= 0; i--) {
             palabraOrdenada = palabraOrdenada + palabra.charAt(i);
         }
         System.out.println(palabraOrdenada);
     }
+    */
 }
