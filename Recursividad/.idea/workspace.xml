@@ -9,6 +9,17 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="-776734527">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="1" />
+          <entry key="project.open.time.0" value="1" />
+          <entry key="project.opened" value="1" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
@@ -20,7 +31,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Ejercicio2.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="357">
@@ -42,7 +53,11 @@
         <entry file="file://$PROJECT_DIR$/src/Ejercicio4.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="476">
+<<<<<<< HEAD
               <caret line="28" lean-forward="true" selection-start-line="28" selection-end-line="28" />
+=======
+              <caret line="28" selection-start-line="28" selection-end-line="28" />
+>>>>>>> master
             </state>
           </provider>
         </entry>
@@ -93,8 +108,16 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+<<<<<<< HEAD
       <pane id="PackagesPane" />
       <pane id="Scope" />
+=======
+      <pane id="Scope" />
+<<<<<<< Updated upstream
+      <pane id="PackagesPane" />
+=======
+>>>>>>> Stashed changes
+>>>>>>> master
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -111,6 +134,10 @@
           <select />
         </subPane>
       </pane>
+<<<<<<< Updated upstream
+=======
+      <pane id="PackagesPane" />
+>>>>>>> Stashed changes
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -178,6 +205,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <list>
+      <item itemvalue="Application.Ejercicio1" />
+      <item itemvalue="Application.Ejercicio2" />
+      <item itemvalue="Application.Ejercicio3" />
+      <item itemvalue="Application.Ejercicio4" />
+      <item itemvalue="Application.Prueba" />
+    </list>
     <recent_temporary>
       <list>
         <item itemvalue="Application.Ejercicio4" />
@@ -202,9 +236,19 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
+<<<<<<< Updated upstream
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <layout>
+<<<<<<< HEAD
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.28517398" />
+=======
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.27609682" />
+=======
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2750533" />
+>>>>>>> Stashed changes
+>>>>>>> master
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -222,6 +266,7 @@
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="9" />
       <window_info anchor="bottom" id="Messages" order="10" />
+      <window_info anchor="right" id="Maven Projects" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -231,6 +276,9 @@
       <window_info anchor="right" id="Capture Analysis" order="6" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
     </layout>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/Prueba.java" />
@@ -242,6 +290,7 @@
         </state>
       </provider>
     </entry>
+<<<<<<< Updated upstream
     <entry file="file://$PROJECT_DIR$/src/Ejercicio2.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="357">
@@ -257,6 +306,9 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Ejercicio5.java">
+=======
+    <entry file="file://$PROJECT_DIR$/src/Ejercicio3.java">
+>>>>>>> Stashed changes
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
           <caret line="18" column="5" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
@@ -265,8 +317,25 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Ejercicio4.java">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="476">
           <caret line="28" lean-forward="true" selection-start-line="28" selection-end-line="28" />
+=======
+<<<<<<< Updated upstream
+        <state relative-caret-position="255">
+          <caret line="15" column="26" lean-forward="true" selection-start-line="15" selection-start-column="26" selection-end-line="15" selection-end-column="26" />
+=======
+        <state relative-caret-position="476">
+          <caret line="28" selection-start-line="28" selection-end-line="28" />
+>>>>>>> Stashed changes
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Ejercicio2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="4" selection-start-line="14" selection-start-column="4" selection-end-line="14" selection-end-column="4" />
+>>>>>>> master
         </state>
       </provider>
     </entry>
