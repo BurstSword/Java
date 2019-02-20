@@ -6,8 +6,8 @@ public class Ejercicio4 {
         Scanner teclado = new Scanner(System.in);
         int cont = 1;
         System.out.println("Introduzca 5 valores y le daremos la suma de esos valores");
-        for (int i = 0; i < numeros.length; i++) {
 
+        for (int i = 0; i < numeros.length; i++) {
             System.out.println("Número " + cont);
             numeros[i] = teclado.nextInt();
             cont++;

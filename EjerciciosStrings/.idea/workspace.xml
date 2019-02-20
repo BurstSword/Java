@@ -60,7 +60,7 @@
         <entry file="file://$PROJECT_DIR$/src/Ejercicio6.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="340">
-              <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
+              <caret line="20" selection-start-line="20" selection-end-line="20" />
             </state>
           </provider>
         </entry>
@@ -77,8 +77,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Ejercicio8.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1039">
-              <caret line="69" column="4" selection-start-line="69" selection-start-column="4" selection-end-line="69" selection-end-column="4" />
+            <state relative-caret-position="476">
+              <caret line="28" selection-start-line="28" selection-end-line="28" />
             </state>
           </provider>
         </entry>
@@ -105,8 +105,8 @@
         <option value="$PROJECT_DIR$/src/Ejercicio4.java" />
         <option value="$PROJECT_DIR$/src/Ejercicio2.java" />
         <option value="$PROJECT_DIR$/src/Ejercicio6.java" />
-        <option value="$PROJECT_DIR$/src/Ejercicio8.java" />
         <option value="$PROJECT_DIR$/src/Ejercicio7.java" />
+        <option value="$PROJECT_DIR$/src/Ejercicio8.java" />
       </list>
     </option>
   </component>
@@ -124,8 +124,8 @@
     <panes />
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1550568290792" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1550656319765" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Recursividad" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -139,7 +139,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Ejercicio6">
+  <component name="RunManager" selected="Application.Ejercicio8">
     <configuration name="Ejercicio4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Ejercicio4" />
       <module name="EjerciciosStrings" />
@@ -184,9 +184,9 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Ejercicio8" />
         <item itemvalue="Application.Ejercicio6" />
         <item itemvalue="Application.Ejercicio4" />
-        <item itemvalue="Application.Ejercicio8" />
         <item itemvalue="Application.Ejercicio9" />
         <item itemvalue="Application.Ejercicio7" />
       </list>
@@ -305,7 +305,7 @@
     <entry file="file://$PROJECT_DIR$/src/Ejercicio6.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="340">
-          <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
+          <caret line="20" selection-start-line="20" selection-end-line="20" />
         </state>
       </provider>
     </entry>
@@ -318,8 +318,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Ejercicio8.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1039">
-          <caret line="69" column="4" selection-start-line="69" selection-start-column="4" selection-end-line="69" selection-end-column="4" />
+        <state relative-caret-position="476">
+          <caret line="28" selection-start-line="28" selection-end-line="28" />
         </state>
       </provider>
     </entry>
