@@ -9,28 +9,32 @@ public class Ejercicio8 {
         System.out.println("Escriba una palabra y veremos si es un palíndromo o no");
         palabra = teclado.nextLine();
 
+        comprobarPalindromo(palabra);
 
+/*
         if (comprobarPalindromo(palabra)) {
             System.out.println("Es un palíndromo");
         } else {
             System.out.println("No es un palíndromo");
         }
+        */
     }
 
-       /*
-        private static void comprobarPalindromo(String palabra) {
-            StringBuilder palabraOrdenada = new StringBuilder();
-            for (int i = palabra.length() - 1; i >= 0; i--) {
-                palabraOrdenada.append(palabra.charAt(i));
-            }
-           if(palabra.equals(palabraOrdenada.toString())){
-               System.out.println("La palabra " + palabra + " es un palíndromo");
-           }else{
-               System.out.println("La palabra " + palabra + " no es un palíndromo");
-           }
+
+    private static void comprobarPalindromo(String palabra) {
+        StringBuilder palabraOrdenada = new StringBuilder();
+        for (int i = palabra.length() - 1; i >= 0; i--) {
+            palabraOrdenada.append(palabra.charAt(i));
         }
 
-*/
+        if (palabra.equals(palabraOrdenada.toString())) {
+            System.out.println("La palabra " + palabra + " es un palíndromo");
+        } else {
+            System.out.println("La palabra " + palabra + " no es un palíndromo");
+        }
+    }
+
+
     /*
     private static void comprobarPalindromo(String palabra) {
         int principio = 0;
@@ -54,7 +58,7 @@ public class Ejercicio8 {
         }
     }
     */
-
+/*
     private static boolean comprobarPalindromo(String palabra) {
 
         if (palabra.length() == 0 || palabra.length() == 1) {
@@ -67,5 +71,5 @@ public class Ejercicio8 {
 
        return false;
     }
-    
+    */
 }
