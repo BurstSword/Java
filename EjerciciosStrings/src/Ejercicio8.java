@@ -65,7 +65,7 @@ public class Ejercicio8 {
             return comprobarPalindromo(palabra.substring(1, palabra.length() - 1));
         }
 
-        return false;
+       return false;
     }
     
 }
