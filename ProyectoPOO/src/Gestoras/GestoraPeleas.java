@@ -26,7 +26,7 @@ public class GestoraPeleas {
         System.out.println("Te has encontrado con un " + monstruo.getNombre());
         //Este do repite los turnos del guerrero y del monstruo hasta que uno de los dos muere
         do {
-            //Comeinza el turno del guerrero
+            //Comienza el turno del guerrero
             System.out.println("\nTu turno");
             System.out.println("Tienes " + guerrero.getVida() + " HP y " + guerrero.getEscudo() + " puntos de escudo");
 

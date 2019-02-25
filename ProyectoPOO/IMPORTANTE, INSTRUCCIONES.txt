@@ -17,7 +17,7 @@ No hay PDF porque he documentado todo en el programa y con JavaDoc
 Para abrir la documentación de JavaDoc, entrar en la carpeta 'JavaDoc' y abrir 'index.html'.
 
 
-
+r
 
 
 
