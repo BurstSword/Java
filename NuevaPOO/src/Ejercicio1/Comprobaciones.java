@@ -33,7 +33,7 @@ public class Comprobaciones {
 
     public static boolean comprobarDNI(String DNI) {
         boolean correcto;
-        pat = Pattern.compile("^[0-9]{8}[A-Z]{1}$");
+        pat = Pattern.compile("^[0-9]{8}[A-Z]$");
         mat = pat.matcher(DNI);
 
         if (mat.matches()) {

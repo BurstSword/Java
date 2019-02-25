@@ -1,6 +1,6 @@
 package Ejercicio1;
 
-import java.security.NoSuchAlgorithmException;
+
 import java.util.Scanner;
 
 
@@ -14,26 +14,24 @@ public class GestoraUsuarios {
     private static Scanner teclado = new Scanner(System.in);
 
 
-    public static Persona generarPersona() {
+    static Persona generarPersona() {
         boolean dniCorrecto, nombreCorrecto, fechaCorrecta;
         String nombreYApellidos, dni, fechaNac;
         System.out.println("<---Bienvenido al registro--->");
 
         do {
-            System.out.println("\nIntroduzca su nombre apellidos separados por espacios");
+            System.out.println("\nIntroduzca su nombre y apellidos separados por espacios");
             nombreYApellidos = teclado.nextLine();
-            nombreCorrecto = nombreYApellidos.matches("^([A-Za-zÁÉÍÓÚñáéíóúÑ]{0}?[A-Za-zÁÉÍÓÚñáéíóúÑ']+[\\s])+([A-Za-zÁÉÍÓÚñáéíóúÑ]{0}?[A-Za-zÁÉÍÓÚñáéíóúÑ'])+[\\s]?([A-Za-zÁÉÍÓÚñáéíóúÑ]{0}?[A-Za-zÁÉÍÓÚñáéíóúÑ'])?$");
+            nombreCorrecto = nombreYApellidos.matches("([A-Za-z]+\\s){2}[A-Za-z]+$");
         } while (!nombreCorrecto);
 
         nombreYApellidos = nombreYApellidos.toUpperCase();
         String[] codigos = nombreYApellidos.split(" ");
         nombre = codigos[0];
         nombreUsuario = Persona.generarNombreUsuario(nombreYApellidos);
-        try {
-            claveAcceso = Persona.generarClaveAcceso();
-        } catch (NoSuchAlgorithmException e) {
-            e.printStackTrace();
-        }
+
+        claveAcceso = Persona.generarClaveAcceso();
+
 
         do {
             System.out.println("\nIntroduzca su DNI en formato nnnnnnnnL");
@@ -50,6 +48,7 @@ public class GestoraUsuarios {
 
         fechaNacimiento = fechaNac;
         mayoriaEdad = Persona.esMayorEdad(fechaNac);
+
         return new Persona(nombre, DNI, fechaNacimiento, nombreUsuario, claveAcceso, mayoriaEdad);
     }
 

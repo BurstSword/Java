@@ -84,17 +84,21 @@ public class Persona {
         return nombreUser;
     }
 
-    public static String generarClaveAcceso() throws NoSuchAlgorithmException {
-        String[] symbols = {"0", "1", "2", "3", "4", "5", "6", "7", "8", "9", "a", "b", "c", "d", "e", "f"};
-        int length = 10;
-        Random random = SecureRandom.getInstanceStrong(); // as of JDK 8, this should return the strongest algorithm available to the JVM
-        StringBuilder sb = new StringBuilder(length);
-        for (int i = 0; i < length; i++) {
-            int indexRandom = random.nextInt(symbols.length);
-            sb.append(symbols[indexRandom]);
+    public static String generarClaveAcceso() {
+        String[] simbolos = {"0", "1", "2", "3", "4", "5", "6", "7", "8", "9", "a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k"};
+        int medida = 10;
+        Random random = null;
+        try {
+            random = SecureRandom.getInstanceStrong();
+        } catch (NoSuchAlgorithmException e) {
+            e.printStackTrace();
         }
-        String password = sb.toString();
-        return password;
+        StringBuilder sb = new StringBuilder(medida);
+        for (int i = 0; i < medida; i++) {
+            int indiceAleatorio = random.nextInt(simbolos.length);
+            sb.append(simbolos[indiceAleatorio]);
+        }
+        return sb.toString();
     }
 
     public static boolean esMayorEdad(String fechaNac) {
@@ -107,17 +111,13 @@ public class Persona {
         GregorianCalendar fechaNa = new GregorianCalendar(anho, mes, dia);
         Calendar fechaActual = Calendar.getInstance();
 
-        // Cálculo de las diferencias.
+
         int years = fechaActual.get(Calendar.YEAR) - fechaNa.get(Calendar.YEAR);
         int months = fechaActual.get(Calendar.MONTH) - fechaNa.get(Calendar.MONTH);
         int days = fechaActual.get(Calendar.DAY_OF_MONTH) - fechaNa.get(Calendar.DAY_OF_MONTH);
 
-        // Hay que comprobar si el día de su cumpleaños es posterior
-        // a la fecha actual, para restar 1 a la diferencia de años,
-        // pues aún no ha sido su cumpleaños.
-
-        if (months < 0 // Aún no es el mes de su cumpleaños
-                || (months == 0 && days < 0)) { // o es el mes pero no ha llegado el día.
+        if (months < 0
+                || (months == 0 && days < 0)) {
             years--;
         }
         if (years >= 18) {
