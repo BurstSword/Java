@@ -1,4 +1,13 @@
 package Ejercicio2;
 
-public class Vehiculo {
+abstract class Vehicle
+{
+    private int ruedas;
+    private boolean volante;
+    private int
+
+
+
+
+    abstract void start();
 }
