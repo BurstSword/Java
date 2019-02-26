@@ -37,7 +37,7 @@ public class GestoraMonstruo {
     }
 
     /**
-     * Función que nos genera un monstruo con características más fuerte en función de la vida máxima y daño del guerrero para
+     * Función que nos genera un monstruo con características más fuertes en función de la vida máxima y daño del guerrero para
      * balancear el monstruo generado
      * @param vidaGuerrero La vida máxima del guerrero
      * @param danoGuerrero El daño del guerrero

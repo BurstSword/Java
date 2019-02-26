@@ -15,7 +15,7 @@ public class GestoraUsuarios {
     private static Scanner teclado = new Scanner(System.in);
 
 
-    static Persona generarPersona() {
+    public static Persona generarPersona() {
         boolean dniCorrecto, nombreCorrecto, fechaCorrecta;
         String nombreYApellidos, dni, fechaNac;
         System.out.println("<---Bienvenido al registro--->");
