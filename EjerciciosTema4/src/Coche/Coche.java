@@ -17,6 +17,8 @@ public class Coche {
         this.capacidadReservaGas = 15;
     }
 
+
+
     public Coche(boolean motorEstaEncendido, double kmRecorridos, double gasolina, int kmPorLitro, double capacidadMaxGas, double capacidadReservaGas) {
         this.motorEstaEncendido = motorEstaEncendido;
         this.kmRecorridos = kmRecorridos;
