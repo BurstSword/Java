@@ -1,13 +1,20 @@
 package Ejercicio2;
 
-abstract class Vehicle
-{
-    private int ruedas;
-    private boolean volante;
-    private int
+public abstract class Vehiculo {
+    private String color;
+    private String modelo;
 
+    Vehiculo(String color, String modelo){
+        this.color = color;
+        this.modelo = modelo;
+    }
 
+    abstract void arrancar();
+    abstract void frenar();
+    abstract void aparcar();
 
-
-    abstract void start();
+    void bocina(){
+        System.out.println("MEC MEC");
+    }
 }
+
