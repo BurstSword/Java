@@ -1,18 +1,18 @@
-package Biblioteca;
+package Ejercicio3;
 
 
-public class Nota {
+public class Publicacion {
     private static int generadorID = 0;
     private int ID;
     private boolean disponible;
     private int IDusuario;
-    private String nombreLibro;
+    private String nombre;
 
-    public Nota(String nombre) {
+    public Publicacion(String nombre) {
         this.disponible = true;
         this.IDusuario = this.ID;
         this.ID = generadorID++;
-        this.nombreLibro = nombre;
+        this.nombre = nombre;
     }
 
     public boolean isDisponible() {
@@ -36,13 +36,12 @@ public class Nota {
     }
 
     public String getNombreLibro() {
-        return nombreLibro;
+        return nombre;
     }
 
-    public void setNombreLibro(String nombreLibro) {
-        this.nombreLibro = nombreLibro;
+    public void setNombreLibro(String nombre) {
+        this.nombre = nombre;
     }
-
 
 
     public int devolverLibro() {
@@ -72,7 +71,7 @@ public class Nota {
 
     @Override
     public String toString() {
-        return "El libro " + this.nombreLibro + " con ID " + this.ID + " " +
+        return "El libro " + this.nombre + " con ID " + this.ID + " " +
                 (this.disponible ? "está disponible" :
                         "está alquilado por el usuario " +
                                 Datos.listaUsuarios.get(this.IDusuario - 1).getNombreUsuario());
