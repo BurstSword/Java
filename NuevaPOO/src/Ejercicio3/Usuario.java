@@ -8,12 +8,12 @@ public class Usuario {
     private static int generadorID = 1;
     private int ID;
     private String nombreUsuario;
-    private ArrayList<Integer> listaFecha;
+    private ArrayList<Fecha> listaFecha;
 
     public Usuario(String nombre) {
         this.ID = generadorID++;
         this.nombreUsuario = nombre;
-        this.listaFecha = getListaFecha();
+        this.listaFecha = new ArrayList<>();
     }
 
     public int getID() {
@@ -40,15 +40,23 @@ public class Usuario {
         Usuario.generadorID = generadorID;
     }
 
-    public ArrayList<Integer> getListaFecha() {
-        this.listaFecha = new ArrayList<>();
-        return this.listaFecha;
+    public ArrayList<Fecha> getListaFecha() {
+        return listaFecha;
     }
 
-    public void setListaFecha(int dia, int mes) {
-        this.listaFecha = new ArrayList<>();
-        listaFecha.add(dia);
-        listaFecha.add(mes);
+    public void setListaFecha(ArrayList<Fecha> listaFecha) {
+        this.listaFecha = listaFecha;
+    }
+
+    public void anadirFecha(Fecha fecha) {
+        listaFecha.add(fecha);
+
+    }
+
+    public void anadirFecha(int dia, int mes) {
+        Fecha fecha = new Fecha(dia, mes);
+        listaFecha.add(fecha);
+
     }
 
 
