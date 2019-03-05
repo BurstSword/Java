@@ -1,11 +1,13 @@
 package Ejercicio3;
 
+
+import java.util.Calendar;
 import java.util.Scanner;
 
 public class MenuBiblioteca {
     public static void main(String[] args) {
-        int boton, usuario, libro, contrasenaAdmin, seleccLibro, seleccUsuario;
-        String nombreLibro, nombreUsuario;
+        int boton, usuario, libro, contrasenaAdmin, seleccLibro, seleccUsuario, eleccionReviLibro;
+        String nombrePublicacion, nombreUsuario;
         final int contrasena = 1234;
 
 
@@ -15,7 +17,7 @@ public class MenuBiblioteca {
             do {
                 GestoraMenus.mostrarMenu();
                 boton = teclado.nextInt();
-            } while (boton < 0 || boton > 7);
+            } while (boton < 0 || boton > 8);
 
             switch (boton) {
                 case 1:
@@ -38,8 +40,8 @@ public class MenuBiblioteca {
                             System.out.println("\nEscriba el número correspondiente a la publicación");
                             libro = teclado.nextInt();
                         } while (libro < 0 || libro > Datos.listaPublicaciones.size() - 1);
-                        System.out.println(Datos.listaPublicaciones.get(libro).alquilarLibro(Datos.listaUsuarios.get(usuario).getID()) == 0 ? "Publicación alquilada" : "Publicación no disponible");
-
+                        System.out.println(Datos.listaPublicaciones.get(libro).alquilarPublicacion(Datos.listaUsuarios.get(usuario).getID()) == 0 ? "Publicación alquilada" : "Publicación no disponible");
+                        Datos.listaUsuarios.get(usuario).setListaFecha(Calendar.DAY_OF_MONTH, Calendar.MONTH);
                     }
                     break;
                 case 2:
@@ -47,13 +49,13 @@ public class MenuBiblioteca {
                         System.out.println("Aquí no hay nada que hacer");
                     } else {
                         do {
-                            System.out.println("Seleccione el libro que quiera devolver");
+                            System.out.println("Seleccione la publicación que quiera devolver");
                             for (int i = 0; i < Datos.listaPublicaciones.size(); i++) {
                                 System.out.println(i + ". " + Datos.listaPublicaciones.get(i).getNombreLibro());
                             }
                             libro = teclado.nextInt();
                         } while (libro < 0 || libro > Datos.listaPublicaciones.size() - 1);
-                        System.out.println(Datos.listaPublicaciones.get(libro).devolverLibro() == 0 ? "Publicación devuelta" : "La publicación ya estaba devuelta de antes");
+                        System.out.println(Datos.listaPublicaciones.get(libro).devolverPublicacion() == 0 ? "Publicación devuelta" : "La publicación ya estaba devuelta de antes");
                     }
                     break;
                 case 3:
@@ -68,7 +70,7 @@ public class MenuBiblioteca {
                     if (contrasenaAdmin == contrasena) {
                         System.out.println("Contraseña correcta");
                         if (Datos.listaUsuarios.size() == 0) {
-                            System.out.println("Aquí no hay nada que hacer");
+                            System.out.println("Aquí  no hay nada que hacer");
                         } else {
                             do {
                                 System.out.println("Escriba el número correspondiente a su usuario");
@@ -89,10 +91,21 @@ public class MenuBiblioteca {
                     }
                     break;
                 case 5:
-                    System.out.println("Ingrese el nombre de la publicación que quiere donar");
-                    nombreLibro = tecladoStr.nextLine();
-                    Datos.listaPublicaciones.add(new Libro(nombreLibro));
-                    System.out.println("Publicacion " + nombreLibro + " registrado con éxito");
+                    System.out.println("Ingrese el nombre de la publicación que quiere donar e indique si es una revista o un libro");
+                    do {
+                        System.out.println("1. Revista");
+                        System.out.println("2. Libro");
+                        eleccionReviLibro = teclado.nextInt();
+                    } while (eleccionReviLibro < 1 || eleccionReviLibro > 2);
+                    if (eleccionReviLibro == 1) {
+                        nombrePublicacion = tecladoStr.nextLine();
+                        Datos.listaPublicaciones.add(new Revista(nombrePublicacion));
+                        System.out.println("Revista " + nombrePublicacion + " registrada con éxito");
+                    } else {
+                        nombrePublicacion = tecladoStr.nextLine();
+                        Datos.listaPublicaciones.add(new Libro(nombrePublicacion));
+                        System.out.println("Libro " + nombrePublicacion + " registrado con éxito");
+                    }
                     break;
                 case 6:
                     System.out.println("Esta acción es sólo para administradores, ingrese la contraseña");
@@ -111,7 +124,7 @@ public class MenuBiblioteca {
                             } while (seleccLibro < 0 || seleccLibro > Datos.listaPublicaciones.size());
                             if (Datos.listaPublicaciones.get(seleccLibro).isDisponible()) {
                                 Datos.listaPublicaciones.remove(seleccLibro);
-                                System.out.println("Publicación dada de baja con éxito");
+                                System.out.println("Publicación dada de baja con ?xito");
                             } else {
                                 System.out.println(Datos.listaPublicaciones.get(seleccLibro).toString());
                             }
@@ -126,6 +139,26 @@ public class MenuBiblioteca {
                         for (int j = 0; j < Datos.listaPublicaciones.size(); j++) {
                             if (Datos.listaUsuarios.get(i).getID() == Datos.listaPublicaciones.get(j).getIDusuario()) {
                                 System.out.println(" " + Datos.listaPublicaciones.get(j).getNombreLibro());
+                            }
+                        }
+                    }
+                    break;
+                case 8:
+                    System.out.println("¿Quién eres?");
+                    for (int i = 0; i < Datos.listaUsuarios.size(); i++) {
+                        System.out.println(i + ". " + Datos.listaUsuarios.get(i).getNombreUsuario());
+                    }
+                    do {
+                        System.out.println("\nEscriba el número correspondiente a su nombre");
+                        usuario = teclado.nextInt();
+                    } while (usuario < 0 || usuario > Datos.listaUsuarios.size() - 1);
+                    if (Datos.listaUsuarios.get(usuario).getListaFecha().isEmpty()) {
+                        System.out.println("No tiene libros alquilados");
+                    } else {
+                        for (int i = 0; i < Datos.listaUsuarios.get(usuario).getListaFecha().size() - 1; i++) {
+                            System.out.println("Día: " + Datos.listaUsuarios.get(usuario).getListaFecha().indexOf(i));
+                            for (int j = 1; i < Datos.listaUsuarios.get(usuario).getListaFecha().size() - 1; j++) {
+                                System.out.println("Mes: " + Datos.listaUsuarios.get(usuario).getListaFecha().indexOf(j));
                             }
                         }
                     }

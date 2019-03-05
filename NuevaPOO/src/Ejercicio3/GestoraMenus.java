@@ -9,6 +9,7 @@ public class GestoraMenus {
         System.out.println("5. Registrar una nueva publicación");
         System.out.println("6. Dar de baja una publicación");
         System.out.println("7. Listado de usuarios y sus publicaciones alquiladas");
+        System.out.println("8. Ver historial de alquileres");
         System.out.println("0. Salir");
     }
 }

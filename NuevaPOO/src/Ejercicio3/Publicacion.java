@@ -44,7 +44,7 @@ public class Publicacion {
     }
 
 
-    public int devolverLibro() {
+    int devolverPublicacion() {
         int ret;
         if (this.disponible) {
             ret = -1;
@@ -57,7 +57,7 @@ public class Publicacion {
     }
 
 
-    public int alquilarLibro(int IDusuario) {
+    int alquilarPublicacion (int IDusuario) {
         int ret;
         if (this.disponible) {
             this.disponible = false;
