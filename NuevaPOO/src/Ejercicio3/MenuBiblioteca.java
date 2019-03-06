@@ -166,8 +166,6 @@ public class MenuBiblioteca {
                                 System.out.println(Datos.listaPublicaciones.get(j).getNombreLibro() + Datos.listaUsuarios.get(usuario).getListaFecha().get(i));
                             }
                         }
-
-
                     }
                     break;
                 case 0:
