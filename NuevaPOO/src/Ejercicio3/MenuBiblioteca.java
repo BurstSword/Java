@@ -1,7 +1,6 @@
 package Ejercicio3;
 
 
-import java.util.ArrayList;
 import java.util.Calendar;
 import java.util.Scanner;
 
@@ -42,7 +41,7 @@ public class MenuBiblioteca {
                             libro = teclado.nextInt();
                         } while (libro < 0 || libro > Datos.listaPublicaciones.size() - 1);
                         System.out.println(Datos.listaPublicaciones.get(libro).alquilarPublicacion(Datos.listaUsuarios.get(usuario).getID()) == 0 ? "Publicación alquilada" : "Publicación no disponible");
-                        Datos.listaUsuarios.get(usuario).anadirFecha(Calendar.DAY_OF_MONTH, Calendar.MONTH);
+                        Datos.listaUsuarios.get(usuario).anadirFecha(Calendar.DAY_OF_MONTH+1, Calendar.MONTH+1);
                     }
                     break;
                 case 2:
@@ -159,13 +158,15 @@ public class MenuBiblioteca {
                         System.out.println("No tiene libros alquilados");
                     } else {
 
-
                         for (int j = 0; j < Datos.listaPublicaciones.size(); j++) {
                             if (Datos.listaUsuarios.get(usuario).getID() == Datos.listaPublicaciones.get(j).getIDusuario()) {
-                                for(int i=0; i<1;i++)
-                                System.out.println(Datos.listaPublicaciones.get(j).getNombreLibro() + Datos.listaUsuarios.get(usuario).getListaFecha().get(i));
+                                System.out.println(Datos.listaPublicaciones.get(j).getNombreLibro() + Datos.listaUsuarios.get(usuario).getListaFecha().get(Datos.listaUsuarios.get(usuario).getListaFecha().size()-1));
                             }
                         }
+<<<<<<< HEAD
+=======
+
+>>>>>>> master
                     }
                     break;
                 case 0:
