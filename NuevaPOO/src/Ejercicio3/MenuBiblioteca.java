@@ -1,6 +1,7 @@
 package Ejercicio3;
 
 
+import java.util.ArrayList;
 import java.util.Calendar;
 import java.util.Scanner;
 
@@ -41,7 +42,7 @@ public class MenuBiblioteca {
                             libro = teclado.nextInt();
                         } while (libro < 0 || libro > Datos.listaPublicaciones.size() - 1);
                         System.out.println(Datos.listaPublicaciones.get(libro).alquilarPublicacion(Datos.listaUsuarios.get(usuario).getID()) == 0 ? "Publicación alquilada" : "Publicación no disponible");
-                        Datos.listaUsuarios.get(usuario).setListaFecha(Calendar.DAY_OF_MONTH, Calendar.MONTH);
+                        Datos.listaUsuarios.get(usuario).anadirFecha(Calendar.DAY_OF_MONTH, Calendar.MONTH);
                     }
                     break;
                 case 2:
@@ -124,7 +125,7 @@ public class MenuBiblioteca {
                             } while (seleccLibro < 0 || seleccLibro > Datos.listaPublicaciones.size());
                             if (Datos.listaPublicaciones.get(seleccLibro).isDisponible()) {
                                 Datos.listaPublicaciones.remove(seleccLibro);
-                                System.out.println("Publicación dada de baja con ?xito");
+                                System.out.println("Publicación dada de baja con éxito");
                             } else {
                                 System.out.println(Datos.listaPublicaciones.get(seleccLibro).toString());
                             }
@@ -144,6 +145,7 @@ public class MenuBiblioteca {
                     }
                     break;
                 case 8:
+
                     System.out.println("¿Quién eres?");
                     for (int i = 0; i < Datos.listaUsuarios.size(); i++) {
                         System.out.println(i + ". " + Datos.listaUsuarios.get(i).getNombreUsuario());
@@ -151,23 +153,27 @@ public class MenuBiblioteca {
                     do {
                         System.out.println("\nEscriba el número correspondiente a su nombre");
                         usuario = teclado.nextInt();
-                    } while (usuario < 0 || usuario > Datos.listaUsuarios.size() - 1);
+
+                    } while (usuario > Datos.listaUsuarios.size() - 1);
                     if (Datos.listaUsuarios.get(usuario).getListaFecha().isEmpty()) {
                         System.out.println("No tiene libros alquilados");
                     } else {
-                        for (int i = 0; i < Datos.listaUsuarios.get(usuario).getListaFecha().size() - 1; i++) {
-                            System.out.println("Día: " + Datos.listaUsuarios.get(usuario).getListaFecha().indexOf(i));
-                            for (int j = 1; i < Datos.listaUsuarios.get(usuario).getListaFecha().size() - 1; j++) {
-                                System.out.println("Mes: " + Datos.listaUsuarios.get(usuario).getListaFecha().indexOf(j));
+
+
+                        for (int j = 0; j < Datos.listaPublicaciones.size(); j++) {
+                            if (Datos.listaUsuarios.get(usuario).getID() == Datos.listaPublicaciones.get(j).getIDusuario()) {
+                                for(int i=0; i<1;i++)
+                                System.out.println(Datos.listaPublicaciones.get(j).getNombreLibro() + Datos.listaUsuarios.get(usuario).getListaFecha().get(i));
                             }
                         }
+
+
                     }
                     break;
                 case 0:
                     System.out.println("Saliendo de la biblioteca");
                     break;
             }
-
         } while (boton != 0);
     }
 
