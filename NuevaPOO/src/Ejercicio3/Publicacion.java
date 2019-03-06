@@ -57,7 +57,7 @@ public class Publicacion {
     }
 
 
-    int alquilarPublicacion (int IDusuario) {
+    int alquilarPublicacion(int IDusuario) {
         int ret;
         if (this.disponible) {
             this.disponible = false;

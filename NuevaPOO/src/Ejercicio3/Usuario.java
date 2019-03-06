@@ -1,7 +1,6 @@
 package Ejercicio3;
 
 import java.util.ArrayList;
-import java.util.Calendar;
 
 
 public class Usuario {
@@ -9,11 +8,13 @@ public class Usuario {
     private int ID;
     private String nombreUsuario;
     private ArrayList<Fecha> listaFecha;
+    private boolean penalizado;
 
     public Usuario(String nombre) {
         this.ID = generadorID++;
         this.nombreUsuario = nombre;
         this.listaFecha = new ArrayList<>();
+        this.penalizado = false;
     }
 
     public int getID() {
@@ -48,6 +49,14 @@ public class Usuario {
         this.listaFecha = listaFecha;
     }
 
+    public boolean isPenalizado() {
+        return penalizado;
+    }
+
+    public void setPenalizado(boolean penalizado) {
+        this.penalizado = penalizado;
+    }
+
     public void anadirFecha(Fecha fecha) {
         listaFecha.add(fecha);
 
@@ -58,7 +67,6 @@ public class Usuario {
         listaFecha.add(fecha);
 
     }
-
 
     @Override
     public String toString() {
