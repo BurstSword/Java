@@ -18,7 +18,7 @@ public class MenuBiblioteca {
                 GestoraMenus.mostrarMenu();
                 boton = teclado.nextInt();
             } while (boton < 0 || boton > 8);
-
+            
             switch (boton) {
                 case 1:
                     if (Datos.listaUsuarios.size() == 0 || Datos.listaPublicaciones.size() == 0) {
@@ -163,10 +163,7 @@ public class MenuBiblioteca {
                                 System.out.println(Datos.listaPublicaciones.get(j).getNombreLibro() + Datos.listaUsuarios.get(usuario).getListaFecha().get(Datos.listaUsuarios.get(usuario).getListaFecha().size()-1));
                             }
                         }
-<<<<<<< HEAD
-=======
 
->>>>>>> master
                     }
                     break;
                 case 0:
