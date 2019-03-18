@@ -1,24 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4bb9d4d7-0ead-45f9-8249-ae51abeb2796" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Examen13_03.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Carpeta1/AlumnoPrimerCurso.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Carpeta1/AlumnoSegundoCurso.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Carpeta1/Datos.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Carpeta1/GestoraMenus.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Carpeta1/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Carpeta1/Profesor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Carpeta2/EjercicioRecursividad.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../NuevaPOO/src/Prueba.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../NuevaPOO/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../NuevaPOO/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../NuevaPOO/out/production/NuevaPOO/Ejercicio3/Publicacion.class" beforeDir="false" afterPath="$PROJECT_DIR$/../NuevaPOO/out/production/NuevaPOO/Ejercicio3/Publicacion.class" afterDir="false" />
-    </list>
+    <list default="true" id="4bb9d4d7-0ead-45f9-8249-ae51abeb2796" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -78,41 +61,11 @@
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
-    <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="Examen13_03" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Examen13_03" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Examen13_03" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Examen13_03" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Examen13_03" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Examen13_03" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Carpeta1" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Examen13_03" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Examen13_03" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Carpeta2" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-    </panes>
+    <panes />
   </component>
   <component name="PropertiesComponent">
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1552476505502" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../ProyectoPOO" />
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">

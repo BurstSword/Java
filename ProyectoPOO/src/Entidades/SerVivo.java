@@ -18,7 +18,7 @@ public class SerVivo {
     }
 
     /**
-     * Construsctor que inicializa los atributos con los valores traídos por parámetros
+     * Constructor que inicializa los atributos con los valores traídos por parámetros
      * @param vida La vida del ser vivo
      * @param ataque El ataque del ser vivo
      * @param nombre El nombre del ser vivo
