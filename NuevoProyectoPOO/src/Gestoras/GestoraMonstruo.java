@@ -7,15 +7,15 @@ import java.util.InputMismatchException;
 import java.util.Scanner;
 
 public class GestoraMonstruo {
-    private final static int probCritico = 10;
-    private final static int vidaMax = 20;
+    private final static int probCritico = 7;
+    private final static int vidaMax = 180;
 
     public static Monstruo generarMonstruo(String nombre) {
         Scanner teclado = new Scanner(System.in);
         int eleccion = -1;
         System.out.println("Seleccione su arma");
         for (int i = 0; i < AlmacenArmas.armas.size(); i++) {
-            System.out.println("Tipo de arma: " + AlmacenArmas.armas.get(i).getNombre() + " Daño: " + AlmacenArmas.armas.get(i));
+            System.out.println("Nº " + i + " Tipo de arma: " + AlmacenArmas.armas.get(i).getNombre() + " Daño: " + AlmacenArmas.armas.get(i).getDano());
         }
 
         do {

@@ -111,7 +111,7 @@ public class GestoraDado extends JFrame {
 
 
         graphics2D.setColor(Color.white);
-        graphics2D.drawString("Lanzar dados", 48, 80);
+        graphics2D.drawString("Lanzar", 48, 80);
 
 
         graphics2D.setColor(Color.red);
