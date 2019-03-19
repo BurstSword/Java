@@ -36,7 +36,6 @@ public class CombateMain {
                     GestoraDado.lanzarDado();
                     break;
                 case 2:
-                    System.out.println("\nIntroduzca el nombre del guerrero");
                     System.out.println("  ,^.\n" +
                             "  |||\n" +
                             "  |||       _T_\n" +
@@ -51,8 +50,8 @@ public class CombateMain {
                             "        | |     | |\n" +
                             "      <\\\\\\)     (///>");
                     nombreGuerrero = GestoraEntradaTeclado.introducirNombre();
+                    System.out.println("\nIntroduzca el nombre del guerrero");
                     Guerrero guerrero = GestoraGuerrero.generarGuerrero(nombreGuerrero);
-                    System.out.println("\nIntroduzca el nombre del monstruo");
                     System.out.println("                  (      )\n" +
                             "                  ((((()))\n" +
                             "                  |o\\ /o)|\n" +
@@ -76,6 +75,7 @@ public class CombateMain {
                             "                            / /\n" +
                             "                          _/,/'\n" +
                             "                        /,/,\"");
+                    System.out.println("\nIntroduzca el nombre del monstruo");
                     nombreMonstruo = GestoraEntradaTeclado.introducirNombre();
                     Monstruo monstruo = GestoraMonstruo.generarMonstruo(nombreMonstruo);
                     combateAcabado = GestoraPeleas.pelear(monstruo, guerrero);
