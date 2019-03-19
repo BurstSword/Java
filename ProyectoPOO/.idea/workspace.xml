@@ -7,8 +7,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fe1046fb-5056-4a35-9288-a8564badc1a9" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../Examen13_03/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Examen13_03/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Entidades/SerVivo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Entidades/SerVivo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NuevoProyectoPOO/src/Gestoras/GestoraPeleas.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ProyectoPOO/Entidades/Guerrero.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ProyectoPOO/Entidades/Monstruo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ProyectoPOO/Entidades/SerVivo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ProyectoPOO/Gestoras/GestoraGuerrero.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ProyectoPOO/Gestoras/GestoraMenus.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ProyectoPOO/Gestoras/GestoraMonstruo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ProyectoPOO/Gestoras/GestoraPeleas.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ProyectoPOO/Gestoras/GestoraTienda.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ProyectoPOO/Pruebas/Pruebas.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ProyectoPOO/Somaville.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ProyectoPOO/Utilidades/Utilidades.class" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -19,101 +30,14 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Somaville.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="867">
-              <caret line="64" column="63" selection-start-line="64" selection-start-column="63" selection-end-line="64" selection-end-column="63" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Utilidades/Utilidades.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="408">
-              <caret line="111" lean-forward="true" selection-start-line="111" selection-end-line="111" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Gestoras/GestoraPeleas.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="39" column="13" lean-forward="true" selection-start-line="39" selection-start-column="13" selection-end-line="39" selection-end-column="13" />
+            <state relative-caret-position="189">
+              <caret line="63" lean-forward="true" selection-start-line="63" selection-end-line="63" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Gestoras/GestoraTienda.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="612">
-              <caret line="39" selection-start-line="39" selection-end-line="39" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Entidades/Monstruo.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="544">
-              <caret line="32" column="23" selection-start-line="32" selection-start-column="23" selection-end-line="32" selection-end-column="23" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Entidades/Guerrero.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="8" column="3" selection-start-line="8" selection-start-column="3" selection-end-line="8" selection-end-column="64" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Entidades/SerVivo.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="10" column="7" selection-start-line="10" selection-start-column="7" selection-end-line="10" selection-end-column="7" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Gestoras/GestoraMonstruo.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="629">
-              <caret line="39" column="73" selection-start-line="39" selection-start-column="73" selection-end-line="39" selection-end-column="73" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Gestoras/GestoraMenus.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="782">
-              <caret line="46" column="51" selection-start-line="46" selection-start-column="51" selection-end-line="46" selection-end-column="51" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Gestoras/GestoraGuerrero.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="459">
-              <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
             </state>
           </provider>
         </entry>
@@ -150,10 +74,10 @@
         <option value="$PROJECT_DIR$/src/Utilidades/Utilidades.java" />
         <option value="$PROJECT_DIR$/src/Gestoras/GestoraMenus.java" />
         <option value="$PROJECT_DIR$/src/Somaville.java" />
-        <option value="$PROJECT_DIR$/src/Gestoras/GestoraPeleas.java" />
         <option value="$PROJECT_DIR$/src/Gestoras/GestoraMonstruo.java" />
         <option value="$PROJECT_DIR$/src/Entidades/SerVivo.java" />
         <option value="$PROJECT_DIR$/src/Gestoras/GestoraGuerrero.java" />
+        <option value="$PROJECT_DIR$/src/Gestoras/GestoraPeleas.java" />
       </list>
     </option>
   </component>
@@ -169,8 +93,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -217,6 +139,8 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -299,10 +223,9 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.123667374" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.15658094" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -397,16 +320,23 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/Utilidades/Utilidades.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1887">
+          <caret line="111" selection-start-line="111" selection-end-line="111" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/Gestoras/GestoraTienda.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="612">
+        <state relative-caret-position="529">
           <caret line="39" selection-start-line="39" selection-end-line="39" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Entidades/Monstruo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="544">
+        <state relative-caret-position="529">
           <caret line="32" column="23" selection-start-line="32" selection-start-column="23" selection-end-line="32" selection-end-column="23" />
         </state>
       </provider>
@@ -427,7 +357,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Gestoras/GestoraMonstruo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="629">
+        <state relative-caret-position="529">
           <caret line="39" column="73" selection-start-line="39" selection-start-column="73" selection-end-line="39" selection-end-column="73" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -437,7 +367,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Gestoras/GestoraMenus.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="782">
+        <state relative-caret-position="529">
           <caret line="46" column="51" selection-start-line="46" selection-start-column="51" selection-end-line="46" selection-end-column="51" />
         </state>
       </provider>
@@ -445,21 +375,14 @@
     <entry file="file://$PROJECT_DIR$/src/Gestoras/GestoraGuerrero.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="459">
-          <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Utilidades/Utilidades.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="111" lean-forward="true" selection-start-line="111" selection-end-line="111" />
+          <caret line="27" selection-start-line="27" selection-end-line="27" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Gestoras/GestoraPeleas.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="39" column="13" lean-forward="true" selection-start-line="39" selection-start-column="13" selection-end-line="39" selection-end-column="13" />
+        <state relative-caret-position="189">
+          <caret line="63" lean-forward="true" selection-start-line="63" selection-end-line="63" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
