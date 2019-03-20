@@ -49,8 +49,8 @@ public class CombateMain {
                             "        | \\     / |\n" +
                             "        | |     | |\n" +
                             "      <\\\\\\)     (///>");
-                    nombreGuerrero = GestoraEntradaTeclado.introducirNombre();
                     System.out.println("\nIntroduzca el nombre del guerrero");
+                    nombreGuerrero = GestoraEntradaTeclado.introducirNombre();
                     Guerrero guerrero = GestoraGuerrero.generarGuerrero(nombreGuerrero);
                     System.out.println("                  (      )\n" +
                             "                  ((((()))\n" +
@@ -82,7 +82,7 @@ public class CombateMain {
                     break;
 
                 case 3:
-                    System.out.println("Adiós");
+                    System.out.println("\nAdiós");
                     break;
 
 

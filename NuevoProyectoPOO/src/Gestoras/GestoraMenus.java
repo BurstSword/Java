@@ -7,10 +7,11 @@ public class GestoraMenus {
 
 	public static void menu() {
 
-		System.out.println("Elige una de las siguientes opciones"
-				+ "\n1: Lanzar Dado"
-				+ "\n2: Crear personajes y luchar"
-				+ "\n3: Salir");
+		System.out.println("\nElija una de las siguientes opciones");
+		System.out.println("1. Lanzar Dados");
+		System.out.println("2. Crear personajes y luchar");
+		System.out.println("3. Salir");
+
 	}
 
 }

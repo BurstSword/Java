@@ -8,17 +8,9 @@ import java.util.InputMismatchException;
 import java.util.Random;
 import java.util.Scanner;
 
-/**
- * Clase gestora que maneja las peleas en la aplicación
- */
+
 public class GestoraPeleas {
-    /**
-     * Función que devuelve un guerrero una vez cambiado los atributos del mismo guerrero pasado por parámetros después de pelear
-     *
-     * @param monstruo Monstruo traído por parámetros
-     * @param guerrero Guerrero traído por parámetros
-     * @return Devuelve el guerrero traído por parámetros una vez se hayan alterado los atributos en la pelea
-     */
+
     public static boolean pelear(Monstruo monstruo, Guerrero guerrero) {
         //Variables y objetos
         boolean combateRealizado;
@@ -58,9 +50,9 @@ public class GestoraPeleas {
             Utilidad.esperar();
             if (probCriticoGuerrero <= guerrero.getProbCritico()) {
                 danoGuerrero *= 2;
-                System.out.println("Ha sido un golpe critico, has hecho " + danoGuerrero + " puntos de dano");
+                System.out.println("\nHa sido un golpe critico, has hecho " + danoGuerrero + " puntos de dano");
             } else {
-                System.out.println("Has hecho " + danoGuerrero + " puntos de dano");
+                System.out.println("\nHas hecho " + danoGuerrero + " puntos de dano");
             }
 
             //El monstruo recibe el daño
@@ -73,7 +65,7 @@ public class GestoraPeleas {
             if (monstruo.getVida() > 0) {
                 System.out.println("\nTurno de " + monstruo.getNombre());
                 Utilidad.esperar();
-                System.out.println("Tienes " + monstruo.getVida() + " HP y " + (monstruo.isDisponibilidadHabilidad() ? "tiene su habilidad disponible" : "no tienes su habilidad disponible"));
+                System.out.println("\nTienes " + monstruo.getVida() + " HP y " + (monstruo.isDisponibilidadHabilidad() ? "tiene su habilidad disponible" : "no tienes su habilidad disponible"));
 
                 System.out.println("\nElige que quieres hacer");
                 System.out.println("1. Atacar");
@@ -102,15 +94,16 @@ public class GestoraPeleas {
                     danoMonstruo *= 2;
                     monstruo.setDisponibilidadHabilidad(false);
                 } else if (!monstruo.isDisponibilidadHabilidad()) {
-                    System.out.println("Ya has usado la habilidad del monstruo");
+                    System.out.println("\nYa has usado la habilidad del monstruo, asi que haras un ataque normal");
+
                 }
                 probCriticoMonstruo = random.nextInt(100) + 1;
                 Utilidad.esperar();
                 if (probCriticoMonstruo <= guerrero.getProbCritico()) {
                     danoMonstruo *= 2;
-                    System.out.println("Ha sido un golpe critico, has hecho " + danoMonstruo + " puntos de dano");
+                    System.out.println("\nHa sido un golpe critico, has hecho " + danoMonstruo + " puntos de dano");
                 } else {
-                    System.out.println("Has hecho " + danoMonstruo + " puntos de dano");
+                    System.out.println("\nHas hecho " + danoMonstruo + " puntos de dano");
                 }
 
                 //Si el guerrero aún tiene escudo el ataque del monstruo será recibido por el escudo
@@ -119,26 +112,26 @@ public class GestoraPeleas {
                     //Si el escudo aguanta el golpe completo se le restan puntos al escudo
                     if (danoMonstruo <= guerrero.getEscudo()) {
                         guerrero.recibirDanoEscudo(danoMonstruo);
-                        System.out.println("El escudo de " + guerrero.getNombre() + " ha recibido " + danoMonstruo + " puntos de dano");
+                        System.out.println("\nEl escudo de " + guerrero.getNombre() + " ha recibido " + danoMonstruo + " puntos de dano");
 
                     }
                     //Si el escudo no aguanta todo el golpe del monstruo, el daño restante lo recibirá el guerrero
                     else {
                         danoRestanteMonstruo = danoMonstruo - guerrero.getEscudo();
-                        System.out.println("El escudo de " + guerrero.getNombre() + " ha recibido " + guerrero.getEscudo() + " y el ha recibido " + danoRestanteMonstruo + " punto/s de dano");
+                        System.out.println("\nEl escudo de " + guerrero.getNombre() + " ha recibido " + guerrero.getEscudo() + " y el ha recibido " + danoRestanteMonstruo + " punto/s de dano");
                         guerrero.recibirDanoEscudo(guerrero.getEscudo());
                         guerrero.recibirDano(danoRestanteMonstruo);
 
 
                     }
                     if (guerrero.getEscudo() == 0) {
-                        System.out.println("Tu escudo se ha roto");
+                        System.out.println("\nTu escudo se ha roto");
                     }
                 }
                 //Si no tiene escudo, entonces todo el daño lo recibe el guerrero
                 else {
                     guerrero.recibirDano(monstruo.getAtaque());
-                    System.out.println("El monstruo " + monstruo.getNombre() + " ha recibido " + danoMonstruo + " puntos de dano");
+                    System.out.println("\nEl monstruo " + monstruo.getNombre() + " ha recibido " + danoMonstruo + " puntos de dano");
                 }
             }
             Utilidad.esperar();
@@ -152,7 +145,7 @@ public class GestoraPeleas {
         }
 
         else {
-            System.out.println("Esperaba mas de ti guerrero");
+            System.out.println("\nEsperaba mas de ti guerrero");
         }
         combateRealizado = true;
         return combateRealizado;
