@@ -9,11 +9,11 @@ public class Arma {
         this.dano = dano;
     }
 
-    public String getNombre() {
+    public String getArmas() {
         return nombre;
     }
 
-    public void setNombre(String nombre) {
+    public void setArmas(String nombre) {
         this.nombre = nombre;
     }
 

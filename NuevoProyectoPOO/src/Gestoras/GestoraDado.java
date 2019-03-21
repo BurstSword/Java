@@ -5,12 +5,10 @@ import javax.swing.*;
 import java.awt.event.*;
 import java.util.*;
 
+/**
+ * Clase encargada de generar un dado con interfaz gráfica para elegir los jugadores
+ */
 public class GestoraDado extends JFrame {
-
-    /*public static void main(String[] args) {
-
-        new GestoraDado().setVisible(true);
-    }*/
 
     public static void lanzarDado() {
 

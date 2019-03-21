@@ -12,7 +12,7 @@ public class Guerrero extends Personaje {
     }
 
     //METODOS
-    public void recibirDanoEscudo(int escudo){
+    public void recibirDanioEscudo(int escudo){
         this.escudo -= escudo;
     }
 
