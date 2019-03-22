@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding" addBOMForNewFiles="with NO BOM">
+    <file url="file://$PROJECT_DIR$/src/CombateMain.java" charset="ISO-8859-1" />
+    <file url="file://$PROJECT_DIR$/src/Datos/AlmacenArmas.java" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/src/Entidades/Arma.java" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/src/Entidades/Guerrero.java" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/src/Entidades/Monstruo.java" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/src/Entidades/Personaje.java" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/src/Gestoras/GestoraDado.java" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/src/Gestoras/GestoraEntradaTeclado.java" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/src/Gestoras/GestoraGuerrero.java" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/src/Gestoras/GestoraMenus.java" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/src/Gestoras/GestoraMonstruo.java" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/src/Gestoras/GestoraPeleas.java" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/src/Utilidades/Utilidades.java" charset="windows-1252" />
+  </component>
+</project>
