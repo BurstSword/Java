@@ -12,6 +12,7 @@ import java.util.Scanner;
 public class GestoraPeleas {
     /**
      * Método encargado de gestionar la pelea entre el guerrero y el monstruo
+     *
      * @param monstruo
      * @param guerrero
      * @return boolean que nos dice si el combate está acabado o no
@@ -22,6 +23,8 @@ public class GestoraPeleas {
         int danoGuerrero, danoMonstruo, sumarORestar, probCriticoGuerrero, probCriticoMonstruo, danoRestanteMonstruo, opcionGuerrero = 0, opcionMonstruo = -1;
         Scanner teclado = new Scanner(System.in);
         Random random = new Random();
+
+
         System.out.println(guerrero.getNombre() + " VS. " + monstruo.getNombre());
         //Este do repite los turnos del guerrero y del monstruo hasta que uno de los dos muere
         do {
@@ -38,7 +41,6 @@ public class GestoraPeleas {
                 } finally {
                     teclado.nextLine();
                 }
-
             } while (opcionGuerrero < 1 || opcionGuerrero > 2);
             if (opcionGuerrero != 2) {
                 //Mediante un random de 0 a 1 vamos a calcular si le vamos a sumar o restar de 0 a 3 puntos de daño al ataque del guerrero
@@ -143,6 +145,7 @@ public class GestoraPeleas {
                 Utilidades.esperar();
                 //Finaliza el turno del monstruo
             }
+
 
         } while (monstruo.getVida() > 0 && guerrero.getVida() > 0);
 

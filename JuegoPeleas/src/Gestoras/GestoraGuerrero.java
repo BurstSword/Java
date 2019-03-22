@@ -15,6 +15,7 @@ public class GestoraGuerrero {
 
     /**
      * Método encargado de crear un nuevo guerrero con sus atributos inicializdos
+     *
      * @param nombre
      * @return guerrero que es el guerrero generado por el método
      */
@@ -22,9 +23,7 @@ public class GestoraGuerrero {
         Scanner teclado = new Scanner(System.in);
         int eleccion = -1;
         System.out.println("Seleccione su arma");
-        for (int i = 0; i < AlmacenArmas.armas.size(); i++) {
-            System.out.println("Nº " + i + " Tipo de arma: " + AlmacenArmas.armas.get(i).getNombre() + " Daño: " + AlmacenArmas.armas.get(i).getDano());
-        }
+        AlmacenArmas.mostrarArrayListArmas();
 
         do {
             try {
@@ -34,7 +33,7 @@ public class GestoraGuerrero {
             } finally {
                 teclado.nextLine();
             }
-        } while (eleccion < 0 || eleccion > 1);
+        } while (eleccion < 0 || eleccion > AlmacenArmas.armas.size());
 
         return new Guerrero(probCritico, vidaMax, AlmacenArmas.armas.get(eleccion).getDano(), vidaMax, nombre, escudoMax, escudoMax);
 

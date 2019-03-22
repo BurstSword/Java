@@ -38,15 +38,9 @@ public class Guerrero extends Personaje {
 
     @Override
     public String toString() {
-        return "Guerrero{" +
-                "nombre='" + this.getNombre() +
-                ", probCritico=" + this.getProbCritico() +
-                ", vidaMax=" + this.getVidaMax() +
-                ", ataque=" + this.getAtaque() +
-                ", vida=" + this.getVida() +
-                "escudo=" + this.escudo +
-                ", escudoMax=" + this.escudoMax +'\'' +
-                '}';
+        return "El guerrero " + this.nombre + " esta listo para luchar con las siguientes estadisticas: " + this.vidaMax + "" +
+                " HP, " + this.escudoMax + " puntos de escudo, " + this.probCritico + "% de probabilidad de critico, " +
+                " y " + this.ataque + " puntos de ataque";
     }
 
 }

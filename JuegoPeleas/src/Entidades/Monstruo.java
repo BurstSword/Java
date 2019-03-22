@@ -12,14 +12,6 @@ public class Monstruo extends Personaje {
         this.disponibilidadHabilidad = disponibilidadHabilidad;
     }
 
-    //Métodos y funcionalidades
-    public void usarHabilidad(int ataque) {
-        System.out.println("Ha usado super puñetazo!");
-        this.ataque = ataque * 2;
-        this.disponibilidadHabilidad = false;
-
-    }
-
     //Métodos Getter y Setter
     public boolean isDisponibilidadHabilidad() {
         return disponibilidadHabilidad;
@@ -33,13 +25,9 @@ public class Monstruo extends Personaje {
 
     @Override
     public String toString() {
-        return "Monstruo{" +
-                "nombre='" + this.getNombre() +
-                ", probCritico=" + this.getProbCritico() +
-                ", vidaMax=" + this.getVidaMax() +
-                ", ataque=" + this.getAtaque() +
-                ", vida=" + this.getVida() +
-                ", Uso de habilidad= " + (this.disponibilidadHabilidad ? " Disponible " : " No Disponible ");
+        return "El monstruo " + this.nombre + " esta listo para luchar con las siguientes estadisticas: " + this.vidaMax +
+                " HP, " + this.probCritico + "% de probabilidad de critico, " +
+                this.ataque + " puntos de ataque y " + (this.disponibilidadHabilidad? "tiene su habilidad disponible":"no tiene su habilidad disponible");
     }
 
 

@@ -14,4 +14,10 @@ public class AlmacenArmas {
 	//Conversión del array de tipo Arma a ArrayList
 	public static ArrayList<Arma> armas = new ArrayList<Arma>(Arrays.asList(listaArma));
 
+	public static void mostrarArrayListArmas(){
+		for (int i = 0; i < armas.size(); i++) {
+			System.out.println("Nº " + i + " Tipo de arma: " + armas.get(i).getNombre() + " Daño: " + armas.get(i).getDano());
+		}
+	}
+
 }

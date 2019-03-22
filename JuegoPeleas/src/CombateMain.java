@@ -84,8 +84,6 @@ public class CombateMain {
                 case 3:
                     System.out.println("\nAdiós");
                     break;
-
-
             }
         } while (opcion != 3 || combateAcabado);
     }

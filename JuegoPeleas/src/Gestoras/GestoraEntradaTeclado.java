@@ -7,6 +7,7 @@ public class GestoraEntradaTeclado {
 
     /**
      * Método encargado de comprobar que el nombre introducido sea correcto
+     *
      * @return boolean que tiene valor false si el nombre no tiene el formato correcto y true si el formato es correcto
      */
     public static String introducirNombre() {
@@ -26,6 +27,8 @@ public class GestoraEntradaTeclado {
         } while (!correcto);
         return nombre;
     }
+
+
 
 
 }

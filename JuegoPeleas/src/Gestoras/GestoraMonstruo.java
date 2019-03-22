@@ -13,6 +13,7 @@ public class GestoraMonstruo {
 
     /**
      * Método que generar un nuevo monstruo a partir de unos valores
+     *
      * @param nombre
      * @return monstruo con los valores arriba descritos
      */
@@ -20,9 +21,7 @@ public class GestoraMonstruo {
         Scanner teclado = new Scanner(System.in);
         int eleccion = -1;
         System.out.println("Seleccione su arma");
-        for (int i = 0; i < AlmacenArmas.armas.size(); i++) {
-            System.out.println("Nº " + i + " Tipo de arma: " + AlmacenArmas.armas.get(i).getNombre() + " Daño: " + AlmacenArmas.armas.get(i).getDano());
-        }
+        AlmacenArmas.mostrarArrayListArmas();
 
         do {
             try {
