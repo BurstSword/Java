@@ -73,12 +73,13 @@ public class Main {
                         }
                     } while (botonAlumno1 < -1 || botonAlumno1 > 1);
                     System.out.println("Alumno seleccionado con éxito");
-                    if (Datos.listaAlumnos.get(botonAlumno1).getNotas().size() < 2) {
+                    if (Datos.listaAlumnos.get(botonAlumno1).getNotas().size() < 3) {
+                        System.out.println("Introduzca su nota");
                         Float nota;
                         nota = teclado.nextFloat();
                         Datos.listaAlumnos.get(botonAlumno1).getNotas().add(nota);
                         System.out.println("Nota añadida con éxito");
-                    } else if (Datos.listaAlumnos.get(botonAlumno1).getNotas().size() == 2) {
+                    } else if (Datos.listaAlumnos.get(botonAlumno1).getNotas().size() > 3) {
                         System.out.println("No puede tener más de tres notas el alumno");
                     }
 
@@ -102,19 +103,20 @@ public class Main {
                         }
                     } while (botonAlumno2 < 2 || botonAlumno2 > 3);
                     System.out.println("Alumno seleccionado con éxito");
-                    if (Datos.listaAlumnos.get(botonAlumno2).getNotas().size() < 1) {
+                    if (Datos.listaAlumnos.get(botonAlumno2).getNotas().size() < 2) {
+                        System.out.println("Introduzca la nota");
                         Float nota;
                         nota = teclado.nextFloat();
                         Datos.listaAlumnos.get(botonAlumno2).getNotas().add(nota);
                         System.out.println("Nota añadida con éxito");
-                    } else if (Datos.listaAlumnos.get(botonAlumno2).getNotas().size() == 1) {
-                        System.out.println("No puede tener más de tres notas el alumno");
+                    } else if (Datos.listaAlumnos.get(botonAlumno2).getNotas().size() > 2) {
+                        System.out.println("No puede tener más de dos notas el alumno");
                     }
                     break;
                 case 4:
                     for (int i = 0; i < Datos.listaAlumnos.size(); i++) {
-                        if (!Datos.listaAlumnos.get(i).getNotas().isEmpty()) {
-                            System.out.println(Datos.listaAlumnos.get(i).getNombre() + "Tiene una media de" +
+                        if (Datos.listaAlumnos.get(i).getNotaMedia()!=0) {
+                            System.out.println(Datos.listaAlumnos.get(i).getNombre() + " Tiene una media de " +
                                     Datos.listaAlumnos.get(i).calcularMedia(Datos.listaAlumnos.get(i).getNotas()));
                         }
                     }
@@ -126,6 +128,5 @@ public class Main {
             }
 
         } while (boton != 5);
-
     }
 }

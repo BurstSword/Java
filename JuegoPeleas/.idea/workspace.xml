@@ -6,28 +6,7 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a4c57ff9-2a51-4d07-85de-f32a85286000" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Pruebas.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/JuegoPeleas_jar/JuegoPeleas.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JuegoPeleas/CombateMain.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JuegoPeleas/CombateMain.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JuegoPeleas/Datos/AlmacenArmas.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JuegoPeleas/Datos/AlmacenArmas.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JuegoPeleas/Entidades/Guerrero.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JuegoPeleas/Entidades/Guerrero.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JuegoPeleas/Entidades/Monstruo.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JuegoPeleas/Entidades/Monstruo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JuegoPeleas/Gestoras/GestoraEntradaTeclado.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JuegoPeleas/Gestoras/GestoraEntradaTeclado.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JuegoPeleas/Gestoras/GestoraGuerrero.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JuegoPeleas/Gestoras/GestoraGuerrero.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JuegoPeleas/Gestoras/GestoraMonstruo.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JuegoPeleas/Gestoras/GestoraMonstruo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JuegoPeleas/Gestoras/GestoraPeleas.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JuegoPeleas/Gestoras/GestoraPeleas.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/CombateMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CombateMain.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Datos/AlmacenArmas.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Datos/AlmacenArmas.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Entidades/Guerrero.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Entidades/Guerrero.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Entidades/Monstruo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Entidades/Monstruo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Gestoras/GestoraEntradaTeclado.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Gestoras/GestoraEntradaTeclado.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Gestoras/GestoraGuerrero.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Gestoras/GestoraGuerrero.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Gestoras/GestoraMonstruo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Gestoras/GestoraMonstruo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Gestoras/GestoraPeleas.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Gestoras/GestoraPeleas.java" afterDir="false" />
-    </list>
+    <list default="true" id="a4c57ff9-2a51-4d07-85de-f32a85286000" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -49,7 +28,7 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Pruebas.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="835">
+            <state relative-caret-position="867">
               <caret line="51" column="45" selection-start-line="51" selection-start-column="45" selection-end-line="51" selection-end-column="45" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -98,7 +77,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -146,6 +124,7 @@
         </subPane>
       </pane>
       <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -206,7 +185,7 @@
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.12783661" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.12934947" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -331,7 +310,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Pruebas.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="835">
+        <state relative-caret-position="867">
           <caret line="51" column="45" selection-start-line="51" selection-start-column="45" selection-end-line="51" selection-end-column="45" />
           <folding>
             <element signature="imports" expanded="true" />

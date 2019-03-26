@@ -8,22 +8,20 @@ public class AlumnoSegundoCurso extends Alumno {
     private boolean fctAprobada;
 
     //Método constructor de la clase AlumnoSegundoCurso
-    public AlumnoSegundoCurso(String nombre, String dni, int codigo, boolean fctAprobada) {
+    AlumnoSegundoCurso(String nombre, String dni, int codigo, boolean fctAprobada) {
         super(nombre, dni, codigo, 0);
         this.fctAprobada = fctAprobada;
     }
 
     //Método sobreescrito de la clase Alumno que se encarga de calcular la media del alumno de segundo curso
-    public Float calcularMedia(ArrayList<Float> notas) {
-        Float media = notas.get(0);
+    public float calcularMedia(ArrayList<Float> notas) {
+        float media = 0;
 
-        if (notas.size() < 1) {
-            System.out.println("Faltan notas por calcular");
-
-        } else if (notas.size() == 1) {
+        notas.size();
+        if (notas.size() == 1 && this.fctAprobada) {
 
 
-            media = (notas.get(0) + notas.get(1)) / 2;
+            media = (this.getNotas().get(0) + this.getNotas().get(1)) / 2;
 
 
         }

@@ -20,7 +20,7 @@ abstract public class Alumno {
     }
 
     //Métodos abstractos de la clase Alumno
-    abstract Float calcularMedia(ArrayList <Float> notas);
+    abstract float calcularMedia(ArrayList <Float> notas);
 
 
     //Métodos getters y Setters
