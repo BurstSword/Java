@@ -10,7 +10,6 @@ public class Main {
         int boton = 0;
         Scanner teclado = new Scanner(System.in);
         String nombre, dni;
-
         System.out.println("Introduzca su nombre");
         nombre = teclado.nextLine();
 
