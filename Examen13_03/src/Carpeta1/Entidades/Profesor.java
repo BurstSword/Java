@@ -1,4 +1,4 @@
-package Carpeta1;
+package Carpeta1.Entidades;
 
 public class Profesor {
     //Atributos de la clase profesor

@@ -9,23 +9,11 @@ import java.awt.event.MouseEvent;
 
 public class VentanaCalculadora extends JFrame {
 
-
-    private static final long serialVersionUID = 1583724102189855698L;
-
-
-    JTextField pantalla;
-
-
-    double resultado;
-
-
-    String operacion;
-
-
-    JPanel panelNumeros, panelOperaciones;
-
-
-    boolean nuevaOperacion = true;
+    private JTextField pantalla;
+    private double resultado;
+    private String operacion;
+    private JPanel panelNumeros, panelOperaciones;
+    private boolean nuevaOperacion = true;
 
 
     public VentanaCalculadora() {
@@ -71,6 +59,7 @@ public class VentanaCalculadora extends JFrame {
         nuevoBotonOperacion("C");
 
         panel.add("East", panelOperaciones);
+
 
         validate();
     }
@@ -150,7 +139,7 @@ public class VentanaCalculadora extends JFrame {
             resultado *= new Double(pantalla.getText());
         }
 
-        pantalla.setText("" + resultado);
+        pantalla.setText("Result: " + resultado);
         operacion = "";
     }
 }

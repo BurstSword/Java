@@ -1,4 +1,4 @@
-
+package PrimerEjercicio;
 
 import javax.swing.*;
 import java.awt.*;
@@ -17,11 +17,4 @@ public class HolaMundo extends JFrame {
         label.setForeground(white);
         label.setFont(new Font("Verdana", Font.BOLD, 24));
     }
-
-
-
-
-
-
-
 }

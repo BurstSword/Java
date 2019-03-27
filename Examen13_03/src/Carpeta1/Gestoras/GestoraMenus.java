@@ -1,4 +1,4 @@
-package Carpeta1;
+package Carpeta1.Gestoras;
 
 public class GestoraMenus {
     //Clase encargada de los menus del programa

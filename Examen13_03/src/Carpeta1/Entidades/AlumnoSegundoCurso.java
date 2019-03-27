@@ -1,4 +1,4 @@
-package Carpeta1;
+package Carpeta1.Entidades;
 
 import java.util.ArrayList;
 
@@ -8,7 +8,7 @@ public class AlumnoSegundoCurso extends Alumno {
     private boolean fctAprobada;
 
     //Método constructor de la clase AlumnoSegundoCurso
-    AlumnoSegundoCurso(String nombre, String dni, int codigo, boolean fctAprobada) {
+    public AlumnoSegundoCurso(String nombre, String dni, int codigo, boolean fctAprobada) {
         super(nombre, dni, codigo, 0);
         this.fctAprobada = fctAprobada;
     }

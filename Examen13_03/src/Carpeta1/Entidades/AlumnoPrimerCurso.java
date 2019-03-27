@@ -1,4 +1,4 @@
-package Carpeta1;
+package Carpeta1.Entidades;
 
 import java.util.ArrayList;
 

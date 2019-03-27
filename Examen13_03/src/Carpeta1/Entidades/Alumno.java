@@ -1,4 +1,4 @@
-package Carpeta1;
+package Carpeta1.Entidades;
 
 import java.util.ArrayList;
 
@@ -20,7 +20,7 @@ abstract public class Alumno {
     }
 
     //Métodos abstractos de la clase Alumno
-    abstract float calcularMedia(ArrayList <Float> notas);
+    abstract public float calcularMedia(ArrayList <Float> notas);
 
 
     //Métodos getters y Setters

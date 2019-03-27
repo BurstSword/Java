@@ -1,5 +1,9 @@
 package Carpeta1;
 
+import Carpeta1.Entidades.Profesor;
+import Carpeta1.Gestoras.GestoraDatos;
+import Carpeta1.Gestoras.GestoraMenus;
+
 import java.util.InputMismatchException;
 import java.util.Scanner;
 
@@ -22,7 +26,7 @@ public class Main {
         Profesor profesor = new Profesor(014, dni, nombre);
 
         System.out.println("Este es usted");
-        profesor.toString();
+        System.out.println(profesor.toString());
         //Bucle que controla la elección de opción del usuario
         do {
             do {
@@ -42,13 +46,13 @@ public class Main {
 
                 case 1:
 
-                    for (int i = 0; i < Datos.listaAlumnos.size(); i++) {
+                    for (int i = 0; i < GestoraDatos.listaAlumnos.size(); i++) {
                         if (i < 2) {
                             System.out.println("Alumno de primero nº " + i);
-                            System.out.println(Datos.listaAlumnos.get(i).getNombre());
+                            System.out.println(GestoraDatos.listaAlumnos.get(i).getNombre());
                         } else {
                             System.out.println("Alumno de segundo nº " + i);
-                            System.out.println(Datos.listaAlumnos.get(i).getNombre());
+                            System.out.println(GestoraDatos.listaAlumnos.get(i).getNombre());
                         }
 
                     }
@@ -59,7 +63,7 @@ public class Main {
                         for (int i = 0; i < 2; i++) {
 
                             System.out.println("Alumno de primero nº " + i);
-                            System.out.println(Datos.listaAlumnos.get(i).getNombre());
+                            System.out.println(GestoraDatos.listaAlumnos.get(i).getNombre());
 
                         }
                         System.out.println("Elija el alumno correspondiente");
@@ -72,13 +76,13 @@ public class Main {
                         }
                     } while (botonAlumno1 < -1 || botonAlumno1 > 1);
                     System.out.println("Alumno seleccionado con éxito");
-                    if (Datos.listaAlumnos.get(botonAlumno1).getNotas().size() < 3) {
+                    if (GestoraDatos.listaAlumnos.get(botonAlumno1).getNotas().size() < 3) {
                         System.out.println("Introduzca su nota");
                         Float nota;
                         nota = teclado.nextFloat();
-                        Datos.listaAlumnos.get(botonAlumno1).getNotas().add(nota);
+                        GestoraDatos.listaAlumnos.get(botonAlumno1).getNotas().add(nota);
                         System.out.println("Nota añadida con éxito");
-                    } else if (Datos.listaAlumnos.get(botonAlumno1).getNotas().size() > 3) {
+                    } else if (GestoraDatos.listaAlumnos.get(botonAlumno1).getNotas().size() > 3) {
                         System.out.println("No puede tener más de tres notas el alumno");
                     }
 
@@ -89,7 +93,7 @@ public class Main {
                         for (int i = 2; i < 4; i++) {
 
                             System.out.println("Alumno de segundo nº " + i);
-                            System.out.println(Datos.listaAlumnos.get(i).getNombre());
+                            System.out.println(GestoraDatos.listaAlumnos.get(i).getNombre());
 
                         }
                         System.out.println("Elija el alumno correspondiente");
@@ -102,22 +106,23 @@ public class Main {
                         }
                     } while (botonAlumno2 < 2 || botonAlumno2 > 3);
                     System.out.println("Alumno seleccionado con éxito");
-                    if (Datos.listaAlumnos.get(botonAlumno2).getNotas().size() < 2) {
+                    if (GestoraDatos.listaAlumnos.get(botonAlumno2).getNotas().size() < 2) {
                         System.out.println("Introduzca la nota");
                         Float nota;
                         nota = teclado.nextFloat();
-                        Datos.listaAlumnos.get(botonAlumno2).getNotas().add(nota);
+                        GestoraDatos.listaAlumnos.get(botonAlumno2).getNotas().add(nota);
                         System.out.println("Nota añadida con éxito");
-                    } else if (Datos.listaAlumnos.get(botonAlumno2).getNotas().size() > 2) {
+                    } else if (GestoraDatos.listaAlumnos.get(botonAlumno2).getNotas().size() > 2) {
                         System.out.println("No puede tener más de dos notas el alumno");
                     }
                     break;
                 case 4:
-                    for (int i = 0; i < Datos.listaAlumnos.size(); i++) {
-                        if (Datos.listaAlumnos.get(i).getNotaMedia()!=0) {
-                            System.out.println(Datos.listaAlumnos.get(i).getNombre() + " Tiene una media de " +
-                                    Datos.listaAlumnos.get(i).calcularMedia(Datos.listaAlumnos.get(i).getNotas()));
+                    for (int i = 0; i < GestoraDatos.listaAlumnos.size(); i++) {
+                        if (!GestoraDatos.listaAlumnos.get(i).getNotas().isEmpty()) {
+                            System.out.println(GestoraDatos.listaAlumnos.get(i).getNombre() + " Tiene una media de " +
+                                    GestoraDatos.listaAlumnos.get(i).calcularMedia(GestoraDatos.listaAlumnos.get(i).getNotas()));
                         }
+
                     }
                     System.out.println("Hecho");
                     break;
