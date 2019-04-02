@@ -1,8 +1,12 @@
 package Carpeta1.Entidades;
 
+
+import Carpeta1.Calculable;
+import Carpeta1.Imprimible;
+
 import java.util.ArrayList;
 
-abstract public class Alumno {
+public class Alumno implements Imprimible, Calculable {
     //Atributos de la clase abstracta Alumno
     private String nombre;
     private String dni;
@@ -18,10 +22,26 @@ abstract public class Alumno {
         this.notaMedia = notaMedia;
         this.notas = new ArrayList<>();
     }
+    @Override
+    public void imprimirString() {
+        System.out.println("Soy un alumno");
+    }
 
-    //Métodos abstractos de la clase Alumno
-    abstract public float calcularMedia(ArrayList <Float> notas);
+    @Override
+    public void imprimirArrayList() {
+        if(this.getNotas().isEmpty()){
+            System.out.println("No tienes notas");
+        }else{
+            for(int i =0;i<this.getNotas().size();i++){
+                System.out.println(this.getNotas().get(i));
+            }
+        }
+    }
 
+    @Override
+    public float calcularMedia(ArrayList<Float> notas) {
+        return 0;
+    }
 
     //Métodos getters y Setters
     public String getNombre() {

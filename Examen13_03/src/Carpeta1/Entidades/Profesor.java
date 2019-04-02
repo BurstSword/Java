@@ -1,6 +1,8 @@
 package Carpeta1.Entidades;
 
-public class Profesor {
+import Carpeta1.Imprimible;
+
+public class Profesor implements Imprimible {
     //Atributos de la clase profesor
     private int codigoEspecialidad;
     private String dni;
@@ -13,6 +15,15 @@ public class Profesor {
         this.nombre = nombre;
     }
 
+    @Override
+    public void imprimirString() {
+        System.out.println("Soy un profesor");
+    }
+
+    @Override
+    public void imprimirArrayList() {
+
+    }
 
     //Métodos getters y setters
     public int getCodigoEspecialidad() {

@@ -1,9 +1,11 @@
 package Carpeta1.Entidades;
 
+import Carpeta1.Imprimible;
+
 import java.util.ArrayList;
 
 //Clase que hereda de Alumno
-public class AlumnoPrimerCurso extends Alumno {
+public class AlumnoPrimerCurso extends Alumno  {
 
     //Método constructor de la clase AlumnoPrimerCurso
     public AlumnoPrimerCurso(String nombre, String dni, int codigo) {
@@ -24,5 +26,6 @@ public class AlumnoPrimerCurso extends Alumno {
         }
         return media;
     }
+
 
 }

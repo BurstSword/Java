@@ -23,7 +23,7 @@ public class Main {
 
         } while (!dni.matches("^[0-9]{8}[A-Z]{1}"));
 
-        Profesor profesor = new Profesor(014, dni, nombre);
+        Profesor profesor = new Profesor(14, dni, nombre);
 
         System.out.println("Este es usted");
         System.out.println(profesor.toString());

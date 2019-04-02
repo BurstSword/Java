@@ -28,6 +28,8 @@ public class AlumnoSegundoCurso extends Alumno {
         return media;
     }
 
+
+
     //Métodos Getter y Setter
     public boolean isFctAprobada() {
         return fctAprobada;
