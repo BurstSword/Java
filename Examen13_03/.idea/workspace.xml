@@ -3,15 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="4bb9d4d7-0ead-45f9-8249-ae51abeb2796" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Carpeta1/Entidades/Alumno.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Carpeta1/Entidades/Alumno.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Carpeta1/Entidades/AlumnoPrimerCurso.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Carpeta1/Entidades/AlumnoPrimerCurso.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Carpeta1/Entidades/AlumnoSegundoCurso.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Carpeta1/Entidades/AlumnoSegundoCurso.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Carpeta1/Entidades/Profesor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Carpeta1/Entidades/Profesor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Carpeta1/Gestoras/GestoraDatos.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Carpeta1/Gestoras/GestoraDatos.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Carpeta1/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Carpeta1/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../GUI/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../GUI/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../GUI/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../GUI/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../GUI/out/production/GUI/PrimerEjercicio/HolaMundo.class" beforeDir="false" afterPath="$PROJECT_DIR$/../GUI/out/production/GUI/PrimerEjercicio/HolaMundo.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -22,10 +13,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Carpeta1/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="442">
+            <state relative-caret-position="85">
               <caret line="29" column="62" selection-start-line="29" selection-start-column="62" selection-end-line="29" selection-end-column="62" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -50,7 +41,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Carpeta1/Calculable.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="136">
@@ -62,7 +53,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Carpeta1/Entidades/AlumnoPrimerCurso.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="425">
+            <state relative-caret-position="427">
               <caret line="29" selection-start-line="29" selection-end-line="29" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -177,7 +168,7 @@
   <component name="PropertiesComponent">
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1554196208376" />
     <property name="last.edited.regexp" value="65464567H" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../Junit" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
@@ -324,7 +315,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Carpeta1/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
+        <state relative-caret-position="85">
           <caret line="29" column="62" selection-start-line="29" selection-start-column="62" selection-end-line="29" selection-end-column="62" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -342,23 +333,6 @@
             <element signature="e#748#749#0" expanded="true" />
             <element signature="e#1124#1125#0" expanded="true" />
             <element signature="e#1148#1149#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Carpeta1/Calculable.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" selection-start-line="8" selection-end-line="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Carpeta1/Entidades/AlumnoPrimerCurso.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="29" selection-start-line="29" selection-end-line="29" />
-          <folding>
-            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -407,6 +381,23 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
           <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Carpeta1/Entidades/AlumnoPrimerCurso.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="427">
+          <caret line="29" selection-start-line="29" selection-end-line="29" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Carpeta1/Calculable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
         </state>
       </provider>
     </entry>
