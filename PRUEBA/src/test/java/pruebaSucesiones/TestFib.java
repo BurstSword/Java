@@ -1,15 +1,14 @@
 package pruebaSucesiones;
-
 import static org.junit.Assert.*;
 import static org.hamcrest.Matchers.is;
 import org.junit.Test;
 
+
 import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.Collections;
+
 
 public class TestFib {
-    static ArrayList <Integer> listaFib = new <Integer> ArrayList();
+    private static ArrayList <Integer> listaFib = new <Integer> ArrayList();
     public TestFib() {
         listaFib.add(1);
         listaFib.add(1);

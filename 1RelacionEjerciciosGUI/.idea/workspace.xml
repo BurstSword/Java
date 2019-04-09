@@ -2,12 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="783fa957-b133-41ce-870b-2ca53f5743af" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/1RelacionEjerciciosGUI/Ejercicio2/Ejercicio2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/1RelacionEjerciciosGUI/Ejercicio2/Ejercicio2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Ejercicio2/Ejercicio2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Ejercicio2/Ejercicio2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Ejercicio2/Prueba2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Ejercicio2/Prueba2.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../GUI/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../GUI/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../GUI/out/production/GUI/Prueba.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../GUI/out/production/GUI/TestPane$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../GUI/out/production/GUI/TestPane.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../GUI/src/PrimerEjercicio/HolaMundo.java" beforeDir="false" afterPath="$PROJECT_DIR$/../GUI/src/PrimerEjercicio/HolaMundo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../TrabajosPOO/CalculadoraPOO/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../TrabajosPOO/CalculadoraPOO/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TrabajosPOO/CalculadoraPOO/out/production/CalculadoraPOO/Calculadora/VentanaCalculadora.class" beforeDir="false" afterPath="$PROJECT_DIR$/../TrabajosPOO/CalculadoraPOO/out/production/CalculadoraPOO/Calculadora/VentanaCalculadora.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TrabajosPOO/CalculadoraPOO/src/Calculadora/VentanaCalculadora.java" beforeDir="false" afterPath="$PROJECT_DIR$/../TrabajosPOO/CalculadoraPOO/src/Calculadora/VentanaCalculadora.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -17,24 +20,12 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Ejercicio1/Ejercicio1.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="459">
-              <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/Ejercicio2/Ejercicio2.java">
+        <entry file="file://$PROJECT_DIR$/src/Ejercicio3/Formulario.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="16" column="32" selection-start-line="16" selection-start-column="32" selection-end-line="16" selection-end-column="32" />
+            <state relative-caret-position="359">
+              <caret line="28" lean-forward="true" selection-start-line="28" selection-end-line="28" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -43,10 +34,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Ejercicio1/Prueba.java">
+        <entry file="file://$PROJECT_DIR$/src/Ejercicio3/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="1" selection-start-line="1" selection-end-line="1" />
+            <state relative-caret-position="153">
+              <caret line="9" selection-start-line="9" selection-end-line="9" />
             </state>
           </provider>
         </entry>
@@ -67,18 +58,19 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/src/Ejercicio1/Ejercicio1.java" />
-        <option value="$PROJECT_DIR$/src/Ejercicio2/Prueba2.java" />
         <option value="$PROJECT_DIR$/src/Ejercicio2/fndj.form" />
         <option value="$PROJECT_DIR$/src/Ejercicio1/Prueba.java" />
+        <option value="$PROJECT_DIR$/src/Ejercicio2/Prueba2.java" />
         <option value="$PROJECT_DIR$/src/Ejercicio2/Ejercicio2.java" />
+        <option value="$PROJECT_DIR$/src/Ejercicio3/Main.java" />
+        <option value="$PROJECT_DIR$/src/Ejercicio3/Formulario.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="248" />
-    <option name="y" value="96" />
-    <option name="width" value="1040" />
-    <option name="height" value="744" />
+    <option name="x" value="676" />
+    <option name="width" value="697" />
+    <option name="height" value="735" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="1" id="Add" />
@@ -105,13 +97,7 @@
               <item name="1RelacionEjerciciosGUI" type="b2602c69:ProjectViewProjectNode" />
               <item name="1RelacionEjerciciosGUI" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Ejercicio1" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="1RelacionEjerciciosGUI" type="b2602c69:ProjectViewProjectNode" />
-              <item name="1RelacionEjerciciosGUI" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Ejercicio2" type="462c0819:PsiDirectoryNode" />
+              <item name="Ejercicio3" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -123,8 +109,9 @@
   <component name="PropertiesComponent">
     <property name="UI_DESIGNER_EDITOR_MODE.UIDesignerToolWindowManager.SHOW" value="false" />
     <property name="UI_DESIGNER_EDITOR_MODE.UIDesignerToolWindowManager.WIDTH" value="321" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1554455630899" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../TrabajosPOO/CalculadoraPOO" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1554803810028" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../PRUEBA" />
+    <property name="restartRequiresConfirmation" value="false" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -138,7 +125,20 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Prueba2">
+  <component name="RunManager" selected="Application.Main">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Ejercicio3.Main" />
+      <module name="1RelacionEjerciciosGUI" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Ejercicio3.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Prueba" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Ejercicio1.Prueba" />
       <module name="1RelacionEjerciciosGUI" />
@@ -167,6 +167,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main" />
         <item itemvalue="Application.Prueba2" />
         <item itemvalue="Application.Prueba" />
       </list>
@@ -187,57 +188,45 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info id="Image Layers" />
-      <window_info id="Designer" />
-      <window_info id="UI Designer" />
-      <window_info id="Capture Tool" />
-      <window_info id="Favorites" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24962178" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.5259027" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Terminal" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" weight="0.3289689" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.3289689" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32405892" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Palette" />
-      <window_info anchor="right" id="Theme Preview" />
-      <window_info anchor="right" id="Maven" />
-      <window_info anchor="right" id="Capture Analysis" />
-      <window_info anchor="right" id="Palette&#9;" />
+      <window_info anchor="bottom" id="Terminal" order="7" />
+      <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="9" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.3289689" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Maven" order="4" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="right" id="Capture Analysis" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
     </layout>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/Ee.java">
+    <entry file="file://$PROJECT_DIR$/src/Ee.java" />
+    <entry file="file://$PROJECT_DIR$/src/Ejercicio2/fndj.form" />
+    <entry file="file://$PROJECT_DIR$/src/Ejercicio2/fndj.java" />
+    <entry file="file://$PROJECT_DIR$/src/Ejercicio1/Ejercicio1.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="15" selection-start-column="15" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Ejercicio2/fndj.form">
-      <provider selected="true" editor-type-id="ui-designer" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Ejercicio2/fndj.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Ejercicio2/Prueba2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" selection-start-line="2" selection-end-line="2" />
+        <state relative-caret-position="425">
+          <caret line="27" selection-start-line="27" selection-end-line="27" />
           <folding>
-            <element signature="e#119#120#0" expanded="true" />
-            <element signature="e#150#151#0" expanded="true" />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -249,20 +238,34 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Ejercicio1/Ejercicio1.java">
+    <entry file="file://$PROJECT_DIR$/src/Ejercicio2/Prueba2.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
+        <state relative-caret-position="187">
+          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Ejercicio2/Ejercicio2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="20" column="27" selection-start-line="20" selection-start-column="27" selection-end-line="20" selection-end-column="27" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Ejercicio2/Ejercicio2.java">
+    <entry file="file://$PROJECT_DIR$/src/Ejercicio3/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="32" selection-start-line="16" selection-start-column="32" selection-end-line="16" selection-end-column="32" />
+        <state relative-caret-position="153">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Ejercicio3/Formulario.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="359">
+          <caret line="28" lean-forward="true" selection-start-line="28" selection-end-line="28" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

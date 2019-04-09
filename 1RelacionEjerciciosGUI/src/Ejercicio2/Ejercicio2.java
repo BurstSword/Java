@@ -5,21 +5,21 @@ import java.awt.*;
 
 
 public class Ejercicio2 extends JFrame {
-
+    private JLabel etiqueta;
+    private JButton boton1, boton2;
 
     public Ejercicio2() throws HeadlessException {
         super("Ejercicio 2");
         setSize(650, 250);
-        JButton a = new JButton("Registro");
-        JButton b = new JButton("Inicio de sesion");
-        b.setBounds(550,100,150, 40);
-        a.setBounds(750,100,100, 40);
-        getContentPane().add(b);
-        getContentPane().add(a);
-        getContentPane().add(new JLabel("Puedes registrarte e iniciar sesion", JLabel.CENTER));
+        this.boton1 = new JButton("Registro");
+        this.boton2 = new JButton("Inicio de sesion");
+        boton1.setBounds(550, 100, 150, 40);
+        boton2.setBounds(750, 100, 100, 40);
+        etiqueta = new JLabel("Puedes registrarte e iniciar sesion", JLabel.CENTER);
+        this.add(boton1);
+        this.add(boton2);
+        this.add(etiqueta);
         setLocation(500, 250);
-
-        setVisible(true);
         setDefaultCloseOperation(WindowConstants.EXIT_ON_CLOSE);
     }
 }

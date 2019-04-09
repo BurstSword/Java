@@ -21,7 +21,7 @@ public class VentanaCalculadora extends JFrame {
         setSize(250, 300);
         setTitle("Calculadora");
         setDefaultCloseOperation(WindowConstants.EXIT_ON_CLOSE);
-        setResizable(true);
+        setResizable(false);
 
 
         JPanel panel = (JPanel) this.getContentPane();

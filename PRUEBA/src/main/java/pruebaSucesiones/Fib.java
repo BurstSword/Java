@@ -1,7 +1,5 @@
 package pruebaSucesiones;
 
-
-
 public class Fib {
 
     public static int fibonacciIterativo(int n) {
