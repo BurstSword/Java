@@ -23,11 +23,11 @@ public class Formulario extends JFrame implements ActionListener {
     }
 
     public void actionPerformed(ActionEvent e) {
-        if (e.getSource() == boton1) {
+        if (e.getSource().equals(boton1)) {
             System.exit(0);
         }
 
-        if (e.getSource() == boton2) {
+        if (e.getSource().equals(boton2)) {
             this.getContentPane().setBackground(Color.RED);
         }
     }

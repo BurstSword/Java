@@ -3,14 +3,10 @@
   <component name="ChangeListManager">
     <list default="true" id="783fa957-b133-41ce-870b-2ca53f5743af" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/1RelacionEjerciciosGUI/Ejercicio2/Ejercicio2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/1RelacionEjerciciosGUI/Ejercicio2/Ejercicio2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Ejercicio2/Ejercicio2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Ejercicio2/Ejercicio2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Ejercicio2/Prueba2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Ejercicio2/Prueba2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Ejercicio3/Formulario.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Ejercicio3/Formulario.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../GUI/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../GUI/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../GUI/src/PrimerEjercicio/HolaMundo.java" beforeDir="false" afterPath="$PROJECT_DIR$/../GUI/src/PrimerEjercicio/HolaMundo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TrabajosPOO/CalculadoraPOO/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../TrabajosPOO/CalculadoraPOO/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TrabajosPOO/CalculadoraPOO/out/production/CalculadoraPOO/Calculadora/VentanaCalculadora.class" beforeDir="false" afterPath="$PROJECT_DIR$/../TrabajosPOO/CalculadoraPOO/out/production/CalculadoraPOO/Calculadora/VentanaCalculadora.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TrabajosPOO/CalculadoraPOO/src/Calculadora/VentanaCalculadora.java" beforeDir="false" afterPath="$PROJECT_DIR$/../TrabajosPOO/CalculadoraPOO/src/Calculadora/VentanaCalculadora.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PRUEBA/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../PRUEBA/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PRUEBA/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../PRUEBA/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -24,8 +20,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Ejercicio3/Formulario.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="359">
-              <caret line="28" lean-forward="true" selection-start-line="28" selection-end-line="28" />
+            <state relative-caret-position="476">
+              <caret line="28" selection-start-line="28" selection-end-line="28" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -81,6 +77,7 @@
     </navigator>
     <panes>
       <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -103,14 +100,13 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="UI_DESIGNER_EDITOR_MODE.UIDesignerToolWindowManager.SHOW" value="false" />
     <property name="UI_DESIGNER_EDITOR_MODE.UIDesignerToolWindowManager.WIDTH" value="321" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1554803810028" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../PRUEBA" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="restartRequiresConfirmation" value="false" />
   </component>
   <component name="RunDashboard">
@@ -189,7 +185,7 @@
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.5259027" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1860817" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -255,20 +251,20 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/Ejercicio3/Formulario.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="476">
+          <caret line="28" selection-start-line="28" selection-end-line="28" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/Ejercicio3/Main.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
           <caret line="9" selection-start-line="9" selection-end-line="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Ejercicio3/Formulario.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="359">
-          <caret line="28" lean-forward="true" selection-start-line="28" selection-end-line="28" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>

@@ -2,20 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="95445473-4eae-4582-9b7a-afa64802b7e7" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../1RelacionEjerciciosGUI/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../1RelacionEjerciciosGUI/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../1RelacionEjerciciosGUI/out/production/1RelacionEjerciciosGUI/Ejercicio2/Ejercicio2.class" beforeDir="false" afterPath="$PROJECT_DIR$/../1RelacionEjerciciosGUI/out/production/1RelacionEjerciciosGUI/Ejercicio2/Ejercicio2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../1RelacionEjerciciosGUI/out/production/1RelacionEjerciciosGUI/Ejercicio2/Prueba2.class" beforeDir="false" afterPath="$PROJECT_DIR$/../1RelacionEjerciciosGUI/out/production/1RelacionEjerciciosGUI/Ejercicio2/Prueba2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../1RelacionEjerciciosGUI/src/Ejercicio2/Ejercicio2.java" beforeDir="false" afterPath="$PROJECT_DIR$/../1RelacionEjerciciosGUI/src/Ejercicio2/Ejercicio2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../1RelacionEjerciciosGUI/src/Ejercicio2/Prueba2.java" beforeDir="false" afterPath="$PROJECT_DIR$/../1RelacionEjerciciosGUI/src/Ejercicio2/Prueba2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Examen13_03/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Examen13_03/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../GUI/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../GUI/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../GUI/src/PrimerEjercicio/HolaMundo.java" beforeDir="false" afterPath="$PROJECT_DIR$/../GUI/src/PrimerEjercicio/HolaMundo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/pruebaSucesiones/Fib.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/pruebaSucesiones/TestFib.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pruebaSucesiones/TestFib.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TrabajosPOO/CalculadoraPOO/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../TrabajosPOO/CalculadoraPOO/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TrabajosPOO/CalculadoraPOO/out/production/CalculadoraPOO/Calculadora/VentanaCalculadora.class" beforeDir="false" afterPath="$PROJECT_DIR$/../TrabajosPOO/CalculadoraPOO/out/production/CalculadoraPOO/Calculadora/VentanaCalculadora.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TrabajosPOO/CalculadoraPOO/src/Calculadora/VentanaCalculadora.java" beforeDir="false" afterPath="$PROJECT_DIR$/../TrabajosPOO/CalculadoraPOO/src/Calculadora/VentanaCalculadora.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -30,8 +18,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/pruebaSucesiones/Gauss.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="748">
-              <caret line="62" column="27" lean-forward="true" selection-start-line="62" selection-start-column="27" selection-end-line="62" selection-end-column="27" />
+            <state relative-caret-position="1105">
+              <caret line="65" selection-start-line="65" selection-end-line="65" />
             </state>
           </provider>
         </entry>
@@ -39,8 +27,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/pruebaSucesiones/Fib.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="663">
-              <caret line="39" column="20" selection-start-line="39" selection-start-column="20" selection-end-line="39" selection-end-column="20" />
+            <state relative-caret-position="476">
+              <caret line="46" selection-start-line="46" selection-end-line="46" />
             </state>
           </provider>
         </entry>
@@ -83,9 +71,10 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="953" />
-    <option name="width" value="974" />
-    <option name="height" value="1047" />
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1382" />
+    <option name="height" value="744" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -93,8 +82,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="ProjectPane" />
-      <pane id="PackagesPane" />
       <pane id="Scope">
         <subPane subId="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope">
           <expand>
@@ -153,6 +140,8 @@
           <select />
         </subPane>
       </pane>
+      <pane id="ProjectPane" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -161,7 +150,7 @@
     <property name="Repository.Attach.JavaDocs" value="false" />
     <property name="Repository.Attach.Sources" value="false" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1554834512319" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../tareaFibGa" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../GUI" />
     <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -321,10 +310,9 @@
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25586355" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25945538" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -363,15 +351,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/target/test-classes/pruebaSucesiones/Fib.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#0#678#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/target/test-classes/pruebaSucesiones/Fib.class" />
     <entry file="file://$PROJECT_DIR$/target/test-classes/pruebaSucesiones/TestFib.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1071">
@@ -389,13 +369,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/pruebaSucesiones/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="16" selection-start-line="7" selection-start-column="16" selection-end-line="7" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/pruebaSucesiones/Main.java" />
     <entry file="file://$PROJECT_DIR$/src/test/java/pruebaSucesiones/TestFib.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="739">
@@ -416,17 +390,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/pruebaSucesiones/Fib.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/pruebaSucesiones/Gauss.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="663">
-          <caret line="39" column="20" selection-start-line="39" selection-start-column="20" selection-end-line="39" selection-end-column="20" />
+        <state relative-caret-position="1105">
+          <caret line="65" selection-start-line="65" selection-end-line="65" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/pruebaSucesiones/Gauss.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/pruebaSucesiones/Fib.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="748">
-          <caret line="62" column="27" lean-forward="true" selection-start-line="62" selection-start-column="27" selection-end-line="62" selection-end-column="27" />
+        <state relative-caret-position="476">
+          <caret line="46" selection-start-line="46" selection-end-line="46" />
         </state>
       </provider>
     </entry>
