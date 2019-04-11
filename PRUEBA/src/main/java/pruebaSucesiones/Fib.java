@@ -1,6 +1,19 @@
 package pruebaSucesiones;
 
+import java.util.List;
+
 public class Fib {
+
+    public static final int NUMVUELTAS = 100000;
+
+
+    public static int numerosProbar(List<Integer> numerosProbar) {
+        int num = 0;
+        for (int i = 0; i < numerosProbar.size(); i++) {
+            num = numerosProbar.get(i);
+        }
+        return num;
+    }
 
     public static int fibonacciIterativo(int n) {
         if (n <= 1) {
@@ -19,8 +32,8 @@ public class Fib {
 
     public static long tiempoFibIt() {
         long start = System.currentTimeMillis();
-        for (int i = 0; i < 1000; i++) {
-            int n = fibonacciIterativo(i);
+        for (int i = 0; i < NUMVUELTAS; i++) {
+            int n = fibonacciIterativo(20);
         }
         long end = System.currentTimeMillis();
 
@@ -36,8 +49,8 @@ public class Fib {
 
     public static long tiempoFibRec() {
         long start = System.currentTimeMillis();
-        for (int i = 0; i < 1000; i++) {
-            int n = fibonacciRecursivo(i);
+        for (int i = 0; i < NUMVUELTAS; i++) {
+            int n = fibonacciRecursivo(20);
         }
         long end = System.currentTimeMillis();
 

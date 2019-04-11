@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="95445473-4eae-4582-9b7a-afa64802b7e7" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BoletinGUI2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../BoletinGUI2/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pruebaSucesiones/Fib.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pruebaSucesiones/Fib.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pruebaSucesiones/Gauss.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pruebaSucesiones/Gauss.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -15,20 +17,29 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/pruebaSucesiones/Gauss.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1105">
-              <caret line="65" selection-start-line="65" selection-end-line="65" />
+            <state relative-caret-position="340">
+              <caret line="20" column="18" selection-start-line="20" selection-start-column="18" selection-end-line="20" selection-end-column="18" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/pruebaSucesiones/PruebasTiempo.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="85">
+              <caret line="5" column="48" selection-start-line="5" selection-start-column="48" selection-end-line="5" selection-end-column="48" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/pruebaSucesiones/Fib.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="476">
-              <caret line="46" selection-start-line="46" selection-end-line="46" />
+            <state relative-caret-position="408">
+              <caret line="24" column="37" lean-forward="true" selection-start-line="24" selection-start-column="37" selection-end-line="24" selection-end-column="37" />
             </state>
           </provider>
         </entry>
@@ -58,8 +69,9 @@
         <option value="$PROJECT_DIR$/src/main/java/pruebaSucesiones/Main.java" />
         <option value="$PROJECT_DIR$/src/test/java/pruebaSucesiones/TestFib.java" />
         <option value="$PROJECT_DIR$/src/test/java/pruebaSucesiones/TestGauss.java" />
-        <option value="$PROJECT_DIR$/src/main/java/pruebaSucesiones/Fib.java" />
         <option value="$PROJECT_DIR$/src/main/java/pruebaSucesiones/Gauss.java" />
+        <option value="$PROJECT_DIR$/src/main/java/pruebaSucesiones/PruebasTiempo.java" />
+        <option value="$PROJECT_DIR$/src/main/java/pruebaSucesiones/Fib.java" />
       </list>
     </option>
   </component>
@@ -76,7 +88,9 @@
     <option name="width" value="1382" />
     <option name="height" value="744" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="ProjectView">
     <navigator currentView="Scope" currentSubView="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope" proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -140,8 +154,8 @@
           <select />
         </subPane>
       </pane>
-      <pane id="ProjectPane" />
       <pane id="PackagesPane" />
+      <pane id="ProjectPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -149,8 +163,8 @@
     <property name="Repository.Attach.Annotations" value="false" />
     <property name="Repository.Attach.JavaDocs" value="false" />
     <property name="Repository.Attach.Sources" value="false" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1554834512319" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../GUI" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1554970118424" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -173,8 +187,9 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.TestGauss.GaussIt1">
-    <configuration name="TestGauss.GaussForm1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Application.PruebasTiempo">
+    <configuration name="PruebasTiempo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="pruebaSucesiones.PruebasTiempo" />
       <module name="PRUEBA" />
       <extension name="coverage">
         <pattern>
@@ -182,10 +197,6 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="pruebaSucesiones" />
-      <option name="MAIN_CLASS_NAME" value="pruebaSucesiones.TestGauss" />
-      <option name="METHOD_NAME" value="GaussForm1" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -256,11 +267,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.PruebasTiempo" />
         <item itemvalue="JUnit.TestGauss.GaussIt1" />
         <item itemvalue="JUnit.TestGauss.GaussRec20" />
         <item itemvalue="JUnit.TestGauss.GaussFormBucle" />
         <item itemvalue="JUnit.TestGauss.GaussForm20" />
-        <item itemvalue="JUnit.TestGauss.GaussForm1" />
       </list>
     </recent_temporary>
   </component>
@@ -312,7 +323,7 @@
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25945538" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2632375" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -321,7 +332,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32827735" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32569557" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -370,16 +381,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/pruebaSucesiones/Main.java" />
-    <entry file="file://$PROJECT_DIR$/src/test/java/pruebaSucesiones/TestFib.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="739">
-          <caret line="51" column="44" selection-start-line="51" selection-start-column="44" selection-end-line="51" selection-end-column="44" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/pruebaSucesiones/TestGauss.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="773">
@@ -390,17 +391,34 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/pruebaSucesiones/TestFib.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="714">
+          <caret line="51" column="44" selection-start-line="51" selection-start-column="44" selection-end-line="51" selection-end-column="44" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/pruebaSucesiones/Gauss.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1105">
-          <caret line="65" selection-start-line="65" selection-end-line="65" />
+        <state relative-caret-position="340">
+          <caret line="20" column="18" selection-start-line="20" selection-start-column="18" selection-end-line="20" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/pruebaSucesiones/PruebasTiempo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="48" selection-start-line="5" selection-start-column="48" selection-end-line="5" selection-end-column="48" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/pruebaSucesiones/Fib.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="476">
-          <caret line="46" selection-start-line="46" selection-end-line="46" />
+        <state relative-caret-position="408">
+          <caret line="24" column="37" lean-forward="true" selection-start-line="24" selection-start-column="37" selection-end-line="24" selection-end-column="37" />
         </state>
       </provider>
     </entry>

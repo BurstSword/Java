@@ -3,6 +3,8 @@ package pruebaSucesiones;
 
 public class Gauss {
 
+    public static final int NUMVUELTAS = 100000;
+
     public static int GaussIt(int n) {
         int num = 0;
 
@@ -15,8 +17,8 @@ public class Gauss {
 
     public static long tiempoGaussIt() {
         long start = System.currentTimeMillis();
-        for (int i = 0; i < 1000; i++) {
-            int num = GaussIt(i);
+        for (int i = 0; i < NUMVUELTAS; i++) {
+            int num = GaussIt(20);
         }
         long end = System.currentTimeMillis();
 
@@ -25,7 +27,7 @@ public class Gauss {
 
     public static int GaussRec(int n) {
 
-        if (n == 1) {
+        if (n <= 1) {
 
             return 1;
         } else {
@@ -37,8 +39,8 @@ public class Gauss {
 
     public static long tiempoGaussRec() {
         long start = System.currentTimeMillis();
-        for (int i = 0; i < 1000; i++) {
-            int num = GaussRec(i);
+        for (int i = 0; i < NUMVUELTAS; i++) {
+            int num = GaussRec(20);
         }
         long end = System.currentTimeMillis();
 
@@ -55,8 +57,8 @@ public class Gauss {
 
     public static long tiempoGaussForm() {
         long start = System.currentTimeMillis();
-        for (int i = 0; i < 1000; i++) {
-            int num = GaussForm(i);
+        for (int i = 0; i < NUMVUELTAS; i++) {
+            int num = GaussForm(20);
         }
         long end = System.currentTimeMillis();
 
