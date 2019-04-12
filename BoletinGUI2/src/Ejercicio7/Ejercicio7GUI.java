@@ -18,6 +18,7 @@ public class Ejercicio7GUI extends JFrame {
         this.flowLayout = new FlowLayout();
         this.document = texto.getDocument();
         this.document.addDocumentListener(new JButtonListener(boton));
+        this.boton.setEnabled(false);
         getContentPane().setLayout(flowLayout);
         getContentPane().add(texto);
         getContentPane().add(boton);

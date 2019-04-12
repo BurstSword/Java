@@ -4,6 +4,7 @@ import javax.swing.*;
 import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
+import java.text.DecimalFormat;
 
 public class Ejercicio9GUI extends JFrame implements ActionListener {
     private JButton convertir;
@@ -43,6 +44,7 @@ public class Ejercicio9GUI extends JFrame implements ActionListener {
         String eurosStr;
         ptas = Double.parseDouble(ptasStr);
         euros = ptas / europtas;
+        euros = Math.floor(euros * 100) / 100;
         eurosStr = Double.toString(euros);
 
         return eurosStr;

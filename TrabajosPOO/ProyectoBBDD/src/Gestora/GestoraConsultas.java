@@ -120,7 +120,6 @@ public class GestoraConsultas {
                 System.out.println("Removed correctly");
             } else {
                 System.out.println("That ID doesn´t match with our database");
-
             }
         } catch (SQLException e) {
             e.printStackTrace();

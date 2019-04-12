@@ -1,0 +1,10 @@
+DROP TABLE Partida;
+
+Create table Partida (
+NombreEquipo varchar2(20),
+Tiempo date,
+Itinerario varchar2(15));
+
+
+alter table partida 
+add constraint valor_chk CHECK (ITINERARIO='Facil' or Itinerario='Dificil');
