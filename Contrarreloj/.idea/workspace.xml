@@ -20,11 +20,24 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Main.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="17">
+              <caret line="2" column="8" selection-start-line="2" selection-start-column="8" selection-end-line="2" selection-end-column="8" />
+              <folding>
+                <element signature="e#63#64#0" expanded="true" />
+                <element signature="e#99#100#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/CountdownTimer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="100" column="31" selection-start-line="100" selection-start-column="31" selection-end-line="100" selection-end-column="31" />
+            <state relative-caret-position="841">
+              <caret line="78" column="49" selection-start-line="78" selection-start-column="49" selection-end-line="78" selection-end-column="49" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -48,15 +61,17 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/src/Timer.java" />
+        <option value="$PROJECT_DIR$/src/CountDownTimer.java" />
+        <option value="$PROJECT_DIR$/src/CountdownTimerGUI.java" />
+        <option value="$PROJECT_DIR$/src/Main.java" />
         <option value="$PROJECT_DIR$/src/CountdownTimer.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="248" />
-    <option name="y" value="96" />
-    <option name="width" value="1040" />
-    <option name="height" value="744" />
+    <option name="x" value="-7" />
+    <option name="width" value="974" />
+    <option name="height" value="1047" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -80,13 +95,14 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1555924621459" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../BoletinGUI2" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1555953266749" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../EjerciciosStrings" />
+    <property name="restartRequiresConfirmation" value="false" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -100,7 +116,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.CountdownTimer">
+  <component name="RunManager" selected="Application.Main">
     <configuration name="Contrarreloj" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Contrarreloj" />
       <module name="Contrarreloj" />
@@ -108,8 +124,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CountdownTimer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="CountdownTimer" />
+    <configuration name="CountdownTimerGUI" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="CountdownTimerGUI" />
+      <module name="Contrarreloj" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="Contrarreloj" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -117,7 +140,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.CountdownTimer" />
+        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.CountdownTimerGUI" />
         <item itemvalue="Application.Contrarreloj" />
       </list>
     </recent_temporary>
@@ -136,10 +160,9 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25945538" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.21215352" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -148,7 +171,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.3289689" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32827735" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -156,7 +179,7 @@
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="9" />
-      <window_info anchor="bottom" id="Messages" order="10" weight="0.3289689" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.32827735" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -169,10 +192,22 @@
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/Contrarreloj.java" />
+    <entry file="file://$PROJECT_DIR$/src/CountdownTimerGUI.java" />
+    <entry file="file://$PROJECT_DIR$/src/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="2" column="8" selection-start-line="2" selection-start-column="8" selection-end-line="2" selection-end-column="8" />
+          <folding>
+            <element signature="e#63#64#0" expanded="true" />
+            <element signature="e#99#100#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/CountdownTimer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="100" column="31" selection-start-line="100" selection-start-column="31" selection-end-line="100" selection-end-column="31" />
+        <state relative-caret-position="841">
+          <caret line="78" column="49" selection-start-line="78" selection-start-column="49" selection-end-line="78" selection-end-column="49" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
