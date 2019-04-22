@@ -1,0 +1,464 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="95445473-4eae-4582-9b7a-afa64802b7e7" name="Default Changelist" comment="" />
+    <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/pruebaSucesiones/Gauss.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="17">
+              <caret line="5" column="42" selection-start-line="5" selection-start-column="42" selection-end-line="5" selection-end-column="42" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/test/java/pruebaSucesiones/Test.java" />
+        <option value="$PROJECT_DIR$/src/test/java/pruebaSucesiones/ArrayLists.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/test/java/pruebaSucesiones/Fib.java" />
+        <option value="$PROJECT_DIR$/src/test/java/pruebaSucesiones/Gauss.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Fib.java" />
+        <option value="$PROJECT_DIR$/src/main/java/MetodosSucesiones.java" />
+        <option value="$PROJECT_DIR$/src/main/java/pruebaSucesiones/Main.java" />
+        <option value="$PROJECT_DIR$/src/test/java/pruebaSucesiones/TestFib.java" />
+        <option value="$PROJECT_DIR$/src/test/java/pruebaSucesiones/TestGauss.java" />
+        <option value="$PROJECT_DIR$/src/main/java/pruebaSucesiones/PruebasTiempo.java" />
+        <option value="$PROJECT_DIR$/src/main/java/pruebaSucesiones/Gauss.java" />
+        <option value="$PROJECT_DIR$/src/main/java/pruebaSucesiones/Fib.java" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-7" />
+    <option name="width" value="974" />
+    <option name="height" value="1047" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="Scope" currentSubView="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope" proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope">
+        <subPane subId="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope">
+          <expand>
+            <path>
+              <item name="FibGaussTest" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="PRUEBA" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+            </path>
+            <path>
+              <item name="FibGaussTest" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="PRUEBA" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="FibGaussTest" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="PRUEBA" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="FibGaussTest" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="PRUEBA" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="FibGaussTest" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="PRUEBA" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="pruebaSucesiones" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="FibGaussTest" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="PRUEBA" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="test" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="ProjectPane" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="Downloaded.Files.Path.Enabled" value="false" />
+    <property name="Repository.Attach.Annotations" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1555504827147" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../EscapeRoom" />
+    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.PruebasTiempo">
+    <configuration name="PruebasTiempo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="pruebaSucesiones.PruebasTiempo" />
+      <module name="PRUEBA" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="pruebaSucesiones.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestGauss.GaussForm20" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="PRUEBA" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="pruebaSucesiones.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="pruebaSucesiones" />
+      <option name="MAIN_CLASS_NAME" value="pruebaSucesiones.TestGauss" />
+      <option name="METHOD_NAME" value="GaussForm20" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestGauss.GaussFormBucle" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="PRUEBA" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="pruebaSucesiones.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="pruebaSucesiones" />
+      <option name="MAIN_CLASS_NAME" value="pruebaSucesiones.TestGauss" />
+      <option name="METHOD_NAME" value="GaussFormBucle" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestGauss.GaussIt1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="PRUEBA" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="pruebaSucesiones.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="pruebaSucesiones" />
+      <option name="MAIN_CLASS_NAME" value="pruebaSucesiones.TestGauss" />
+      <option name="METHOD_NAME" value="GaussIt1" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestGauss.GaussRec20" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="PRUEBA" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="pruebaSucesiones.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="pruebaSucesiones" />
+      <option name="MAIN_CLASS_NAME" value="pruebaSucesiones.TestGauss" />
+      <option name="METHOD_NAME" value="GaussRec20" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.PruebasTiempo" />
+        <item itemvalue="JUnit.TestGauss.GaussIt1" />
+        <item itemvalue="JUnit.TestGauss.GaussRec20" />
+        <item itemvalue="JUnit.TestGauss.GaussFormBucle" />
+        <item itemvalue="JUnit.TestGauss.GaussForm20" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="95445473-4eae-4582-9b7a-afa64802b7e7" name="Default Changelist" comment="" />
+      <created>1554359933696</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1554359933696</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="TestGauss_GaussIt20 - 2019.04.09 at 18h 38m 02s.xml">
+      <configuration name="TestGauss.GaussIt20" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestGauss_GaussItBucle - 2019.04.09 at 18h 38m 06s.xml">
+      <configuration name="TestGauss.GaussItBucle" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestGauss_GaussRecBucle - 2019.04.09 at 18h 39m 39s.xml">
+      <configuration name="TestGauss.GaussRecBucle" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestGauss_GaussRec1 - 2019.04.09 at 18h 40m 34s.xml">
+      <configuration name="TestGauss.GaussRec1" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestGauss_GaussForm1 - 2019.04.09 at 18h 40m 38s.xml">
+      <configuration name="TestGauss.GaussForm1" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestGauss_GaussForm20 - 2019.04.09 at 18h 40m 42s.xml">
+      <configuration name="TestGauss.GaussForm20" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestGauss_GaussFormBucle - 2019.04.09 at 18h 40m 46s.xml">
+      <configuration name="TestGauss.GaussFormBucle" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestGauss_GaussRec20 - 2019.04.09 at 18h 42m 41s.xml">
+      <configuration name="TestGauss.GaussRec20" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestGauss_GaussIt1 - 2019.04.09 at 19h 12m 17s.xml">
+      <configuration name="TestGauss.GaussIt1" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestGauss_GaussIt1 - 2019.04.09 at 19h 35m 52s.xml">
+      <configuration name="TestGauss.GaussIt1" configurationId="JUnit" />
+    </history-entry>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2196162" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32719395" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Terminal" order="7" />
+      <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="9" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.32827735" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Maven" order="4" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="right" id="Capture Analysis" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+    </layout>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/test/java/pruebaSucesiones/ArrayLists.java" />
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_191/src.zip!/java/util/ArrayList.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/MetodosSucesiones.java" />
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="731">
+          <caret line="43" column="10" selection-start-line="43" selection-start-column="10" selection-end-line="43" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/target/test-classes/pruebaSucesiones/Fib.class" />
+    <entry file="file://$PROJECT_DIR$/target/test-classes/pruebaSucesiones/TestFib.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1071">
+          <caret line="66" column="78" selection-start-line="66" selection-start-column="78" selection-end-line="66" selection-end-column="78" />
+          <folding>
+            <element signature="e#0#2479#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/hamcrest/hamcrest/2.1/hamcrest-2.1.jar!/org/hamcrest/MatcherAssert.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="20" selection-start-line="20" selection-end-line="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/pruebaSucesiones/Main.java" />
+    <entry file="file://$PROJECT_DIR$/src/test/java/pruebaSucesiones/TestGauss.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="773">
+          <caret line="107" column="4" selection-start-line="107" selection-start-column="4" selection-end-line="107" selection-end-column="4" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/pruebaSucesiones/TestFib.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="714">
+          <caret line="51" column="44" selection-start-line="51" selection-start-column="44" selection-end-line="51" selection-end-column="44" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/pruebaSucesiones/Fib.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="714">
+          <caret line="42" column="3" lean-forward="true" selection-start-line="42" selection-start-column="3" selection-end-line="47" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/pruebaSucesiones/PruebasTiempo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="48" selection-start-line="5" selection-start-column="48" selection-end-line="5" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/pruebaSucesiones/Gauss.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="5" column="42" selection-start-line="5" selection-start-column="42" selection-end-line="5" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Python 3.7 interpreter library</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8.0_201</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>PRUEBA</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Maven: junit:junit:4.12</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

@@ -5,7 +5,7 @@ import java.sql.DriverManager;
 import java.sql.SQLException;
 
 public class Conexion {
-    private static String url = "jdbc:mysql://localhost:3306/";
+    private static String url = "jdbc:mysql://localhost:3306?useServerPrepStmts=true";
     private static String driver = "com.mysql.jdbc.Driver";
     private static String usuario = "root";
     private static String contrasena = "";
