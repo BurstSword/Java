@@ -8,15 +8,70 @@ import java.util.Calendar;
 
 public class CountdownTimer extends JLabel implements ActionListener {
 
-    private static final long serialVersionUID = 1L;
     private long count;
-    private long timerStart;
     private DateFormat dateFormat;
+    private Timer timer;
+    private boolean iniciado = false;
+    private static JButton botonIniciar, botonParar;
+    private static JLabel contador;
+    private static JFrame marco;
 
-    javax.swing.Timer timer = new javax.swing.Timer(1000, this);
+    /**
+     * Main que se encarga de ejecutar la ventana con el contador hacia atrás
+     *
+     * @param args
+     */
+    public static void main(String[] args) {
 
-    public CountdownTimer(int minutes, int seconds) {
-        // suppose to show as in 30 MIN 30 SEC.
+        marco = new JFrame();
+
+        marco.setTitle("Escape Room");
+        marco.setSize(300, 190);
+
+
+        JLabel etiqueta = new JLabel(" ----Tiempo Escape Room----");
+        etiqueta.setBounds(70, 10, 160, 12);
+
+        botonIniciar = new JButton("Iniciar");
+        botonIniciar.setBounds(95, 100, 100, 34);
+
+        botonParar = new JButton("Parar");
+        botonParar.setBounds(95, 100, 100, 34);
+        botonParar.setVisible(false);
+
+        contador = new JLabel("30:00");
+        contador.setFont(new Font("Verdana", Font.PLAIN, 32));
+        contador.setBounds(100, 10, 100, 94);
+
+
+        CountdownTimer c = new CountdownTimer(30, 0);
+        c.setFont(new Font("Verdana", Font.PLAIN, 32));
+        c.setBounds(100, 10, 100, 94);
+
+        marco.setLayout(null);
+        marco.getContentPane().add(etiqueta);
+        marco.getContentPane().add(c);
+        marco.getContentPane().add(botonIniciar);
+        marco.getContentPane().add(botonParar);
+        marco.getContentPane().add(contador);
+        marco.setVisible(true);
+        marco.getContentPane().setBackground(Color.white);
+        marco.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+        marco.setResizable(false);
+        marco.setLocation(500, 250);
+
+        botonIniciar.addActionListener(c);
+        botonParar.addActionListener(c);
+    }
+
+    /**
+     * Método encargado de realizar la cuenta atrás con unos parámetros
+     *
+     * @param minutes Los minutos del contador
+     * @param seconds Los segundos del contador
+     */
+    private CountdownTimer(int minutes, int seconds) {
+
         super(" ");
 
         Calendar cal = Calendar.getInstance();
@@ -26,9 +81,9 @@ public class CountdownTimer extends JLabel implements ActionListener {
 
         dateFormat = new SimpleDateFormat("mm:ss");
 
-        timer.start();
-        timerStart = System.currentTimeMillis();
-        long elapsedTime = System.currentTimeMillis()-timerStart;
+        timer = new Timer(1000, this);
+        long timerStart = System.currentTimeMillis();
+        long elapsedTime = System.currentTimeMillis() - timerStart;
 
         System.out.println(elapsedTime);
 
@@ -41,36 +96,27 @@ public class CountdownTimer extends JLabel implements ActionListener {
         if (dateFormat.format(count).equalsIgnoreCase("00:00")) {
             closeWindow();
 
+        } else if (e.getSource().equals(botonIniciar)) {
+            contador.setVisible(false);
+            this.timer.start();
+            this.iniciado = true;
+            botonIniciar.setVisible(false);
+            botonParar.setVisible(true);
+
+        }else if(e.getSource().equals(botonParar)){
+            this.timer.stop();
+            this.iniciado=false;
+            botonParar.setVisible(false);
+            botonIniciar.setVisible(true);
+
         }
     }
 
-    public void closeWindow() {
+    private void closeWindow() {
 
         System.exit(1);
 
     }
 
-    public static void main(String[] args) {
 
-        JFrame frame = new JFrame();
-
-        frame.setTitle("Escape Room");
-        frame.getContentPane().setBackground(Color.white);
-        frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-        frame.setSize(300, 150);
-
-        JPanel panel = new JPanel();
-        JLabel label = new JLabel(" ----Tiempo Escape Room----");
-        panel.add(label);
-
-        JTextField jTextField = new JTextField();
-        panel.add(jTextField);
-
-        CountdownTimer c = new CountdownTimer(30, 00);
-
-        frame.getContentPane().add(c);
-        frame.setVisible(true);
-        frame.getContentPane().add(panel);
-        frame.setVisible(true);
-    }
 }
