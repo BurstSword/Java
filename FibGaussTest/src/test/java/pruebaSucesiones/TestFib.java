@@ -77,4 +77,31 @@ public class TestFib {
             assertThat(resultadoCalculado,is(resultadoCorrecto));
         }
     }
+
+    @Test
+    public void fibConListaBucle(){
+        for(int i=0;i<20;i++){
+            int resultadoCorrecto = listaFib.get(i);
+            int resultadoCalculado = Fib.fibConLista(i+1);
+            assertThat(resultadoCalculado,is(resultadoCorrecto));
+        }
+    }
+
+    @Test
+    public void fibConLista1(){
+        for(int i=0;i<20;i++){
+            int resultadoCorrecto = listaFib.get(0);
+            int resultadoCalculado = Fib.fibConLista(1);
+            assertThat(resultadoCalculado,is(resultadoCorrecto));
+        }
+    }
+
+    @Test
+    public void fibConLista20(){
+        for(int i=0;i<20;i++){
+            int resultadoCorrecto = listaFib.get(19);
+            int resultadoCalculado = Fib.fibConLista(20);
+            assertThat(resultadoCalculado,is(resultadoCorrecto));
+        }
+    }
 }

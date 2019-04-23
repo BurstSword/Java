@@ -1,7 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="95445473-4eae-4582-9b7a-afa64802b7e7" name="Default Changelist" comment="" />
+    <list default="true" id="95445473-4eae-4582-9b7a-afa64802b7e7" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../BoletinGUI2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../BoletinGUI2/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BoletinGUI2/out/production/BoletinGUI2/Ejercicio10/Ejercicio10GUI$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/../BoletinGUI2/out/production/BoletinGUI2/Ejercicio10/Ejercicio10GUI$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BoletinGUI2/out/production/BoletinGUI2/Ejercicio10/Ejercicio10GUI$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/../BoletinGUI2/out/production/BoletinGUI2/Ejercicio10/Ejercicio10GUI$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BoletinGUI2/out/production/BoletinGUI2/Ejercicio10/Ejercicio10GUI.class" beforeDir="false" afterPath="$PROJECT_DIR$/../BoletinGUI2/out/production/BoletinGUI2/Ejercicio10/Ejercicio10GUI.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BoletinGUI2/out/production/BoletinGUI2/Ejercicio10/MainEj10.class" beforeDir="false" afterPath="$PROJECT_DIR$/../BoletinGUI2/out/production/BoletinGUI2/Ejercicio10/MainEj10.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BoletinGUI2/out/production/BoletinGUI2/Ejercicio8/Ejercicio8GUI.class" beforeDir="false" afterPath="$PROJECT_DIR$/../BoletinGUI2/out/production/BoletinGUI2/Ejercicio8/Ejercicio8GUI.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BoletinGUI2/out/production/BoletinGUI2/META-INF/BoletinGUI2.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BoletinGUI2/src/Ejercicio7/Ejercicio7GUI.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BoletinGUI2/src/Ejercicio7/JButtonListener.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BoletinGUI2/src/Ejercicio7/MainEj7.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BoletinGUI2/src/Ejercicio8/Ejercicio8GUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/../BoletinGUI2/src/Ejercicio8/Ejercicio8GUI.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Contrarreloj/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Contrarreloj/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Contrarreloj/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Contrarreloj/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Contrarreloj/out/production/Contrarreloj/CountdownTimer.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Contrarreloj/out/production/Contrarreloj/CountdownTimer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Contrarreloj/src/CountdownTimer.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Contrarreloj/src/CountdownTimer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EscapeRoom/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../EscapeRoom/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pruebaSucesiones/Fib.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pruebaSucesiones/Fib.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pruebaSucesiones/Gauss.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pruebaSucesiones/Gauss.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pruebaSucesiones/PruebasTiempo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pruebaSucesiones/PruebasTiempo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pruebaSucesiones/TestFib.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pruebaSucesiones/TestFib.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pruebaSucesiones/TestGauss.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pruebaSucesiones/TestGauss.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/PRUEBA.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/META-INF/PRUEBA.kotlin_module" beforeDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -12,11 +38,61 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/pruebaSucesiones/Gauss.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-281">
-              <caret line="5" column="42" selection-start-line="5" selection-start-column="42" selection-end-line="5" selection-end-column="42" />
+            <state relative-caret-position="170">
+              <caret line="10" column="4" lean-forward="true" selection-start-line="10" selection-start-column="4" selection-end-line="11" selection-end-column="5" />
+              <folding>
+                <element signature="e#2088#2097#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/pruebaSucesiones/PruebasTiempo.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="85">
+              <caret line="5" column="73" selection-start-line="5" selection-start-column="73" selection-end-line="5" selection-end-column="73" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/pruebaSucesiones/TestFib.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1734">
+              <caret line="102" column="55" selection-start-line="102" selection-start-column="55" selection-end-line="102" selection-end-column="55" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/pruebaSucesiones/Fib.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="153">
+              <caret line="9" column="18" selection-start-line="9" selection-start-column="18" selection-end-line="9" selection-end-column="18" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#1621#1630#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/pruebaSucesiones/TestGauss.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-15">
+              <caret line="87" lean-forward="true" selection-start-line="87" selection-end-line="87" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#262#271#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -44,11 +120,11 @@
         <option value="$PROJECT_DIR$/src/main/java/Fib.java" />
         <option value="$PROJECT_DIR$/src/main/java/MetodosSucesiones.java" />
         <option value="$PROJECT_DIR$/src/main/java/pruebaSucesiones/Main.java" />
-        <option value="$PROJECT_DIR$/src/test/java/pruebaSucesiones/TestFib.java" />
         <option value="$PROJECT_DIR$/src/test/java/pruebaSucesiones/TestGauss.java" />
+        <option value="$PROJECT_DIR$/src/test/java/pruebaSucesiones/TestFib.java" />
         <option value="$PROJECT_DIR$/src/main/java/pruebaSucesiones/PruebasTiempo.java" />
-        <option value="$PROJECT_DIR$/src/main/java/pruebaSucesiones/Gauss.java" />
         <option value="$PROJECT_DIR$/src/main/java/pruebaSucesiones/Fib.java" />
+        <option value="$PROJECT_DIR$/src/main/java/pruebaSucesiones/Gauss.java" />
       </list>
     </option>
   </component>
@@ -72,8 +148,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="ProjectPane" />
       <pane id="Scope">
         <subPane subId="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope">
           <expand>
@@ -113,10 +187,32 @@
               <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
               <item name="test" type="9f88c78c:ScopeViewTreeModel$FileNode" />
             </path>
+            <path>
+              <item name="FibGaussTest" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="PRUEBA" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="test" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="FibGaussTest" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="PRUEBA" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="test" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="pruebaSucesiones" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="FibGaussTest" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="PRUEBA" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="target" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="ProjectPane" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -124,7 +220,7 @@
     <property name="Repository.Attach.Annotations" value="false" />
     <property name="Repository.Attach.JavaDocs" value="false" />
     <property name="Repository.Attach.Sources" value="false" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1555504827147" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1556015801369" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.15" />
@@ -162,7 +258,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestGauss.GaussForm20" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TestFib" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="PRUEBA" />
       <extension name="coverage">
         <pattern>
@@ -171,14 +267,29 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="pruebaSucesiones" />
-      <option name="MAIN_CLASS_NAME" value="pruebaSucesiones.TestGauss" />
-      <option name="METHOD_NAME" value="GaussForm20" />
+      <option name="MAIN_CLASS_NAME" value="pruebaSucesiones.TestFib" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestFib.fibConLista" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="PRUEBA" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="pruebaSucesiones.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="pruebaSucesiones" />
+      <option name="MAIN_CLASS_NAME" value="pruebaSucesiones.TestFib" />
+      <option name="METHOD_NAME" value="fibConLista" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestGauss.GaussFormBucle" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TestFib.fibRec1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="PRUEBA" />
       <extension name="coverage">
         <pattern>
@@ -187,14 +298,14 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="pruebaSucesiones" />
-      <option name="MAIN_CLASS_NAME" value="pruebaSucesiones.TestGauss" />
-      <option name="METHOD_NAME" value="GaussFormBucle" />
+      <option name="MAIN_CLASS_NAME" value="pruebaSucesiones.TestFib" />
+      <option name="METHOD_NAME" value="fibRec1" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestGauss.GaussIt1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TestGauss" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="PRUEBA" />
       <extension name="coverage">
         <pattern>
@@ -204,35 +315,76 @@
       </extension>
       <option name="PACKAGE_NAME" value="pruebaSucesiones" />
       <option name="MAIN_CLASS_NAME" value="pruebaSucesiones.TestGauss" />
-      <option name="METHOD_NAME" value="GaussIt1" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestGauss.GaussRec20" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="PRUEBA" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="pruebaSucesiones.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="pruebaSucesiones" />
-      <option name="MAIN_CLASS_NAME" value="pruebaSucesiones.TestGauss" />
-      <option name="METHOD_NAME" value="GaussRec20" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
+    <configuration default="true" type="tests" factoryName="Nosetests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="" />
+      <option name="_new_regexPattern" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Twisted Trial">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Unittests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="py.test">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="Application.PruebasTiempo" />
-        <item itemvalue="JUnit.TestGauss.GaussIt1" />
-        <item itemvalue="JUnit.TestGauss.GaussRec20" />
-        <item itemvalue="JUnit.TestGauss.GaussFormBucle" />
-        <item itemvalue="JUnit.TestGauss.GaussForm20" />
+        <item itemvalue="JUnit.TestFib" />
+        <item itemvalue="JUnit.TestFib.fibRec1" />
+        <item itemvalue="JUnit.TestGauss" />
+        <item itemvalue="JUnit.TestFib.fibConLista" />
       </list>
     </recent_temporary>
   </component>
@@ -250,42 +402,42 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="TestGauss_GaussIt20 - 2019.04.09 at 18h 38m 02s.xml">
-      <configuration name="TestGauss.GaussIt20" configurationId="JUnit" />
+    <history-entry file="TestGauss_GaussConLista - 2019.04.23 at 12h 08m 19s.xml">
+      <configuration name="TestGauss.GaussConLista" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestGauss_GaussItBucle - 2019.04.09 at 18h 38m 06s.xml">
-      <configuration name="TestGauss.GaussItBucle" configurationId="JUnit" />
+    <history-entry file="TestGauss_GaussConLista - 2019.04.23 at 12h 08m 30s.xml">
+      <configuration name="TestGauss.GaussConLista" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestGauss_GaussRecBucle - 2019.04.09 at 18h 39m 39s.xml">
-      <configuration name="TestGauss.GaussRecBucle" configurationId="JUnit" />
+    <history-entry file="TestFib_fibConLista - 2019.04.23 at 12h 11m 29s.xml">
+      <configuration name="TestFib.fibConLista" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestGauss_GaussRec1 - 2019.04.09 at 18h 40m 34s.xml">
-      <configuration name="TestGauss.GaussRec1" configurationId="JUnit" />
+    <history-entry file="TestFib_fibConLista - 2019.04.23 at 12h 12m 16s.xml">
+      <configuration name="TestFib.fibConLista" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestGauss_GaussForm1 - 2019.04.09 at 18h 40m 38s.xml">
-      <configuration name="TestGauss.GaussForm1" configurationId="JUnit" />
+    <history-entry file="TestGauss - 2019.04.23 at 12h 14m 02s.xml">
+      <configuration name="TestGauss" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestGauss_GaussForm20 - 2019.04.09 at 18h 40m 42s.xml">
-      <configuration name="TestGauss.GaussForm20" configurationId="JUnit" />
+    <history-entry file="TestGauss - 2019.04.23 at 12h 15m 23s.xml">
+      <configuration name="TestGauss" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestGauss_GaussFormBucle - 2019.04.09 at 18h 40m 46s.xml">
-      <configuration name="TestGauss.GaussFormBucle" configurationId="JUnit" />
+    <history-entry file="TestFib_fibRec1 - 2019.04.23 at 12h 15m 30s.xml">
+      <configuration name="TestFib.fibRec1" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestGauss_GaussRec20 - 2019.04.09 at 18h 42m 41s.xml">
-      <configuration name="TestGauss.GaussRec20" configurationId="JUnit" />
+    <history-entry file="TestFib - 2019.04.23 at 12h 15m 36s.xml">
+      <configuration name="TestFib" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestGauss_GaussIt1 - 2019.04.09 at 19h 12m 17s.xml">
-      <configuration name="TestGauss.GaussIt1" configurationId="JUnit" />
+    <history-entry file="TestFib - 2019.04.23 at 12h 15m 53s.xml">
+      <configuration name="TestFib" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestGauss_GaussIt1 - 2019.04.09 at 19h 35m 52s.xml">
-      <configuration name="TestGauss.GaussIt1" configurationId="JUnit" />
+    <history-entry file="TestFib - 2019.04.23 at 12h 16m 33s.xml">
+      <configuration name="TestFib" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2217484" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.22541603" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -294,7 +446,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32719395" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32569557" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -315,7 +467,6 @@
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/test/java/pruebaSucesiones/ArrayLists.java" />
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_191/src.zip!/java/util/ArrayList.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/MetodosSucesiones.java" />
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
@@ -343,44 +494,59 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/pruebaSucesiones/Main.java" />
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_191/src.zip!/java/util/ArrayList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="129">
+          <caret line="656" selection-start-line="656" selection-end-line="656" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/pruebaSucesiones/TestGauss.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="773">
-          <caret line="107" column="4" selection-start-line="107" selection-start-column="4" selection-end-line="107" selection-end-column="4" />
+        <state relative-caret-position="-15">
+          <caret line="87" lean-forward="true" selection-start-line="87" selection-end-line="87" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#262#271#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/pruebaSucesiones/TestFib.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="714">
-          <caret line="51" column="44" selection-start-line="51" selection-start-column="44" selection-end-line="51" selection-end-column="44" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/pruebaSucesiones/Fib.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="714">
-          <caret line="42" column="3" lean-forward="true" selection-start-line="42" selection-start-column="3" selection-end-line="47" selection-end-column="5" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/pruebaSucesiones/PruebasTiempo.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
-          <caret line="5" column="48" selection-start-line="5" selection-start-column="48" selection-end-line="5" selection-end-column="48" />
+          <caret line="5" column="73" selection-start-line="5" selection-start-column="73" selection-end-line="5" selection-end-column="73" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/pruebaSucesiones/TestFib.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1734">
+          <caret line="102" column="55" selection-start-line="102" selection-start-column="55" selection-end-line="102" selection-end-column="55" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/pruebaSucesiones/Gauss.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-281">
-          <caret line="5" column="42" selection-start-line="5" selection-start-column="42" selection-end-line="5" selection-end-column="42" />
+        <state relative-caret-position="170">
+          <caret line="10" column="4" lean-forward="true" selection-start-line="10" selection-start-column="4" selection-end-line="11" selection-end-column="5" />
+          <folding>
+            <element signature="e#2088#2097#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/pruebaSucesiones/Fib.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="18" selection-start-line="9" selection-start-column="18" selection-end-line="9" selection-end-column="18" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1621#1630#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

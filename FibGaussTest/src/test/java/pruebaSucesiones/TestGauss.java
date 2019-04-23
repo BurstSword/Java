@@ -8,7 +8,7 @@ import static org.hamcrest.Matchers.is;
 import static org.junit.Assert.assertThat;
 
 public class TestGauss {
-    private static ArrayList<Integer> listaGauss = new <Integer>ArrayList();
+    private static ArrayList<Integer> listaGauss = new <Integer>ArrayList<Integer>();
 
     public TestGauss() {
         listaGauss.add(1);
@@ -106,5 +106,31 @@ public class TestGauss {
         }
     }
 
+    @Test
+    public void GaussConListaBucle() {
+        for (int i = 0; i < 20; i++) {
+            int resultadoCorrecto = listaGauss.get(i);
+            int resultadoCalculado = Gauss.gaussConLista(i + 1);
+            assertThat(resultadoCalculado, is(resultadoCorrecto));
+        }
+    }
+
+    @Test
+    public void GaussConLista1() {
+
+            int resultadoCorrecto = listaGauss.get(0);
+            int resultadoCalculado = Gauss.gaussConLista(1);
+            assertThat(resultadoCalculado, is(resultadoCorrecto));
+
+    }
+
+    @Test
+    public void GaussConLista20() {
+
+            int resultadoCorrecto = listaGauss.get(19);
+            int resultadoCalculado = Gauss.gaussConLista(20);
+            assertThat(resultadoCalculado, is(resultadoCorrecto));
+
+    }
 
 }

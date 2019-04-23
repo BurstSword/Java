@@ -14,7 +14,6 @@ public class CountdownTimer extends JLabel implements ActionListener {
     private static JButton botonIniciar, botonParar;
     private static JLabel contador;
     private static JFrame marco;
-    private boolean iniciado=false;
 
 
     /**
@@ -23,7 +22,7 @@ public class CountdownTimer extends JLabel implements ActionListener {
      * @param minutes Los minutos del contador
      * @param seconds Los segundos del contador
      */
-    public CountdownTimer(int minutes, int seconds) {
+    private CountdownTimer(int minutes, int seconds) {
 
         super(" ");
 
@@ -102,9 +101,9 @@ public class CountdownTimer extends JLabel implements ActionListener {
             timer.start();
             botonIniciar.setVisible(false);
             botonParar.setVisible(true);
-            this.iniciado=true;
 
-        } else if (e.getSource().equals(botonParar) && this.iniciado) {
+
+        } else if (e.getSource().equals(botonParar)) {
             this.timer.stop();
             botonParar.setVisible(false);
             botonIniciar.setVisible(true);

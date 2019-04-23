@@ -3,13 +3,16 @@
   <component name="ChangeListManager">
     <list default="true" id="58609187-d489-4736-b699-91aebc3a5fd7" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/../BoletinGUI2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../BoletinGUI2/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BoletinGUI2/out/production/BoletinGUI2/Ejercicio8/Ejercicio8GUI.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BoletinGUI2/src/Ejercicio7/Ejercicio7GUI.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BoletinGUI2/src/Ejercicio7/JButtonListener.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BoletinGUI2/src/Ejercicio7/MainEj7.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BoletinGUI2/src/Ejercicio8/Ejercicio8GUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/../BoletinGUI2/src/Ejercicio8/Ejercicio8GUI.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Contrarreloj/CountdownTimer.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Contrarreloj/CountdownTimer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Contrarreloj/META-INF/Contrarreloj.kotlin_module" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/CountdownTimer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CountdownTimer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TrabajosPOO/CalculadoraPOO/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../TrabajosPOO/CalculadoraPOO/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TrabajosPOO/CalculadoraPOO/src/Calculadora/VentanaCalculadora.java" beforeDir="false" afterPath="$PROJECT_DIR$/../TrabajosPOO/CalculadoraPOO/src/Calculadora/VentanaCalculadora.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EscapeRoom/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../EscapeRoom/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -21,25 +24,24 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Main.java">
+        <entry file="file://$PROJECT_DIR$/src/CountdownTimer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="2" column="8" selection-start-line="2" selection-start-column="8" selection-end-line="2" selection-end-column="8" />
+            <state relative-caret-position="544">
+              <caret line="38" selection-start-line="38" selection-end-line="38" />
               <folding>
-                <element signature="e#63#64#0" expanded="true" />
-                <element signature="e#99#100#0" expanded="true" />
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/CountdownTimer.java">
+        <entry file="file://$PROJECT_DIR$/src/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="841">
-              <caret line="78" column="49" selection-start-line="78" selection-start-column="49" selection-end-line="78" selection-end-column="49" />
+            <state>
               <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="e#63#64#0" expanded="true" />
+                <element signature="e#99#100#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -69,9 +71,10 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-7" />
-    <option name="width" value="974" />
-    <option name="height" value="1047" />
+    <option name="x" value="248" />
+    <option name="y" value="96" />
+    <option name="width" value="1040" />
+    <option name="height" value="744" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -79,6 +82,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -86,22 +91,15 @@
               <item name="Contrarreloj" type="b2602c69:ProjectViewProjectNode" />
               <item name="Contrarreloj" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="Contrarreloj" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Contrarreloj" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1555953266749" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../EjerciciosStrings" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1556005079832" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../BoletinGUI2" />
     <property name="restartRequiresConfirmation" value="false" />
   </component>
   <component name="RunDashboard">
@@ -160,9 +158,9 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.21215352" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22163388" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -171,7 +169,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32827735" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32569557" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -193,23 +191,22 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/Contrarreloj.java" />
     <entry file="file://$PROJECT_DIR$/src/CountdownTimerGUI.java" />
-    <entry file="file://$PROJECT_DIR$/src/Main.java">
+    <entry file="file://$PROJECT_DIR$/src/CountdownTimer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="2" column="8" selection-start-line="2" selection-start-column="8" selection-end-line="2" selection-end-column="8" />
+        <state relative-caret-position="544">
+          <caret line="38" selection-start-line="38" selection-end-line="38" />
           <folding>
-            <element signature="e#63#64#0" expanded="true" />
-            <element signature="e#99#100#0" expanded="true" />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/CountdownTimer.java">
+    <entry file="file://$PROJECT_DIR$/src/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="841">
-          <caret line="78" column="49" selection-start-line="78" selection-start-column="49" selection-end-line="78" selection-end-column="49" />
+        <state>
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#63#64#0" expanded="true" />
+            <element signature="e#99#100#0" expanded="true" />
           </folding>
         </state>
       </provider>
