@@ -31,6 +31,16 @@ public class TestGauss {
         listaGauss.add(171);
         listaGauss.add(190);
         listaGauss.add(210);
+        listaGauss.add(231);
+        listaGauss.add(253);
+        listaGauss.add(276);
+        listaGauss.add(300);
+        listaGauss.add(325);
+        listaGauss.add(351);
+        listaGauss.add(378);
+        listaGauss.add(406);
+        listaGauss.add(435);
+        listaGauss.add(465);
     }
 
     @Test

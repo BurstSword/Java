@@ -30,6 +30,16 @@ public class TestFib {
         listaFib.add(2584);
         listaFib.add(4181);
         listaFib.add(6765);
+        listaFib.add(10946);
+        listaFib.add(17711);
+        listaFib.add(28657);
+        listaFib.add(46368);
+        listaFib.add(75025);
+        listaFib.add(121393);
+        listaFib.add(196418);
+        listaFib.add(317811);
+        listaFib.add(514229);
+        listaFib.add(832040);
     }
 
     @Test

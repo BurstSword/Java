@@ -6,7 +6,7 @@ import java.util.ArrayList;
 public class Gauss {
 
 
-    public static final int NUMVUELTAS = 1000000;
+    public static final int NUMVUELTAS = 10000;
 
     public Gauss() {
     }
@@ -93,6 +93,16 @@ public class Gauss {
         listaGauss.add(171);
         listaGauss.add(190);
         listaGauss.add(210);
+        listaGauss.add(231);
+        listaGauss.add(253);
+        listaGauss.add(276);
+        listaGauss.add(300);
+        listaGauss.add(325);
+        listaGauss.add(351);
+        listaGauss.add(378);
+        listaGauss.add(406);
+        listaGauss.add(435);
+        listaGauss.add(465);
         int resultado;
         resultado = listaGauss.get(n - 1);
         return resultado;

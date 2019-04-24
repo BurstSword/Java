@@ -1,22 +1,16 @@
 package pruebaSucesiones;
 
 import java.util.ArrayList;
-import java.util.List;
+
 
 public class Fib {
 
-    public static final int NUMVUELTAS = 1000000;
+    public static final int NUMVUELTAS = 10000;
 
     public Fib() {
     }
 
-    public static int numerosProbar(List<Integer> numerosProbar) {
-        int num = 0;
-        for (int i = 0; i < numerosProbar.size(); i++) {
-            num = numerosProbar.get(i);
-        }
-        return num;
-    }
+
 
     public static int fibonacciIterativo(int n) {
         if (n <= 1) {
@@ -82,6 +76,16 @@ public class Fib {
         listaFib.add(2584);
         listaFib.add(4181);
         listaFib.add(6765);
+        listaFib.add(10946);
+        listaFib.add(17711);
+        listaFib.add(28657);
+        listaFib.add(46368);
+        listaFib.add(75025);
+        listaFib.add(121393);
+        listaFib.add(196418);
+        listaFib.add(317811);
+        listaFib.add(514229);
+        listaFib.add(832040);
         int resultado;
         resultado = listaFib.get(n - 1);
         return resultado;
