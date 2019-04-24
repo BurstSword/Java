@@ -60,6 +60,14 @@ public class Ejemplo2_1 extends JFrame {
         this.etiqueta3 = etiqueta3;
     }
 
+    public JLabel getEtiqueta4() {
+        return etiqueta4;
+    }
+
+    public void setEtiqueta4(JLabel etiqueta4) {
+        this.etiqueta4 = etiqueta4;
+    }
+
     public JLabel[] getEtiquetas() {
         return etiquetas;
     }

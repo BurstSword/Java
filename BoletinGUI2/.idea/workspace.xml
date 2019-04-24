@@ -2,22 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="21a6602a-82e5-45cc-ab6a-457627f36f04" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/BoletinGUI2/Ejercicio10/Ejercicio10GUI$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/BoletinGUI2/Ejercicio10/Ejercicio10GUI$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/BoletinGUI2/Ejercicio10/Ejercicio10GUI$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/BoletinGUI2/Ejercicio10/Ejercicio10GUI$2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/BoletinGUI2/Ejercicio10/Ejercicio10GUI.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/BoletinGUI2/Ejercicio10/Ejercicio10GUI.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/BoletinGUI2/Ejercicio10/MainEj10.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/BoletinGUI2/Ejercicio10/MainEj10.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/BoletinGUI2/Ejercicio8/Ejercicio8GUI.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/BoletinGUI2/Ejercicio8/Ejercicio8GUI.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/BoletinGUI2/META-INF/BoletinGUI2.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Ejercicio7/Ejercicio7GUI.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Ejercicio7/JButtonListener.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Ejercicio7/MainEj7.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Ejercicio8/Ejercicio8GUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Ejercicio8/Ejercicio8GUI.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Contrarreloj/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Contrarreloj/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Contrarreloj/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Contrarreloj/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Contrarreloj/out/production/Contrarreloj/CountdownTimer.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Contrarreloj/out/production/Contrarreloj/CountdownTimer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Contrarreloj/src/CountdownTimer.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Contrarreloj/src/CountdownTimer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../EscapeRoom/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../EscapeRoom/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Ejercicio10/Ejercicio10GUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Ejercicio10/Ejercicio10GUI.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EjemplosGUI/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../EjemplosGUI/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EjemplosGUI/out/production/EjemplosGUI/Ejemplo1GUI.class" beforeDir="false" afterPath="$PROJECT_DIR$/../EjemplosGUI/out/production/EjemplosGUI/Ejemplo1GUI.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EjemplosGUI/out/production/EjemplosGUI/Ejemplo2_1.class" beforeDir="false" afterPath="$PROJECT_DIR$/../EjemplosGUI/out/production/EjemplosGUI/Ejemplo2_1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EjemplosGUI/src/Ejemplo1GUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/../EjemplosGUI/src/Ejemplo1GUI.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EjemplosGUI/src/Ejemplo2_1.java" beforeDir="false" afterPath="$PROJECT_DIR$/../EjemplosGUI/src/Ejemplo2_1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FibGaussTest/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../FibGaussTest/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FibGaussTest/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../FibGaussTest/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FibGaussTest/target/classes/pruebaSucesiones/Fib.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FibGaussTest/target/classes/pruebaSucesiones/Gauss.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FibGaussTest/target/classes/pruebaSucesiones/PruebasTiempo.class" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -34,8 +29,38 @@
   <component name="CoverageViewManager">
     <option name="myElementSize" value="190" />
   </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="testRunner" value="GRADLE" />
+    <option name="delegatedBuild" value="true" />
+  </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Ejercicio10/Ejercicio10GUI.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="410">
+              <caret line="137" column="22" selection-start-line="137" selection-start-column="22" selection-end-line="137" selection-end-column="22" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#1975#2201#0" expanded="true" />
+                <element signature="e#2200#2201#0" expanded="true" />
+                <element signature="e#2417#2646#0" expanded="true" />
+                <element signature="e#2645#2646#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Ejercicio10/MainEj10.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="136">
+              <caret line="8" selection-start-line="8" selection-end-line="8" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -70,13 +95,13 @@
         <option value="$PROJECT_DIR$/src/Ejercicio9/Ejercicio9GUI.java" />
         <option value="$PROJECT_DIR$/src/Ejercicio8/MainEj8.java" />
         <option value="$PROJECT_DIR$/src/Ejercicio6/MainEj6.java" />
-        <option value="$PROJECT_DIR$/src/Ejercicio10/Ejercicio10GUI.java" />
         <option value="$PROJECT_DIR$/src/Ejercicio10/MainEj10.java" />
         <option value="$PROJECT_DIR$/src/Ejercicio7/Ejercicio7GUI.java" />
         <option value="$PROJECT_DIR$/src/Ejercicio7N/JButtonListener.java" />
         <option value="$PROJECT_DIR$/src/Ejercicio7N/MainEj7.java" />
         <option value="$PROJECT_DIR$/src/Ejercicio7N/Ejercicio7GUI.java" />
         <option value="$PROJECT_DIR$/src/Ejercicio8/Ejercicio8GUI.java" />
+        <option value="$PROJECT_DIR$/src/Ejercicio10/Ejercicio10GUI.java" />
       </list>
     </option>
   </component>
@@ -94,8 +119,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -112,27 +135,18 @@
               <item name="BoletinGUI2" type="b2602c69:ProjectViewProjectNode" />
               <item name="BoletinGUI2" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Ejercicio1" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="BoletinGUI2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="BoletinGUI2" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Ejercicio2" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="BoletinGUI2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="BoletinGUI2" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Ejercicio7" type="462c0819:PsiDirectoryNode" />
+              <item name="Ejercicio10" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1556006640943" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="restartRequiresConfirmation" value="false" />
@@ -149,7 +163,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.MainEj8">
+  <component name="RunManager" selected="Application.MainEj10">
     <configuration name="MainEj1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Ejercicio1.MainEj1" />
       <module name="BoletinGUI2" />
@@ -163,12 +177,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MainEj4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Ejercicio4.MainEj4" />
+    <configuration name="MainEj10" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Ejercicio10.MainEj10" />
       <module name="BoletinGUI2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Ejercicio4.*" />
+          <option name="PATTERN" value="Ejercicio10.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -176,12 +190,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MainEj6" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Ejercicio6.MainEj6" />
+    <configuration name="MainEj4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Ejercicio4.MainEj4" />
       <module name="BoletinGUI2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Ejercicio6.*" />
+          <option name="PATTERN" value="Ejercicio4.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -230,11 +244,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MainEj10" />
         <item itemvalue="Application.MainEj8" />
         <item itemvalue="Application.MainEj7" />
         <item itemvalue="Application.MainEj4" />
         <item itemvalue="Application.MainEj1" />
-        <item itemvalue="Application.MainEj6" />
       </list>
     </recent_temporary>
   </component>
@@ -254,7 +268,7 @@
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.3139183" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.3184569" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -325,7 +339,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Ejercicio10/MainEj10.java" />
     <entry file="file://$PROJECT_DIR$/src/Ejercicio5/Ejercicio5GUI.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="200">
@@ -360,13 +373,6 @@
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Ejercicio10/Ejercicio10GUI.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
         </state>
       </provider>
     </entry>
@@ -446,6 +452,27 @@
           <caret line="16" column="35" selection-start-line="16" selection-start-column="35" selection-end-line="16" selection-end-column="35" />
           <folding>
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Ejercicio10/MainEj10.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Ejercicio10/Ejercicio10GUI.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="410">
+          <caret line="137" column="22" selection-start-line="137" selection-start-column="22" selection-end-line="137" selection-end-column="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1975#2201#0" expanded="true" />
+            <element signature="e#2200#2201#0" expanded="true" />
+            <element signature="e#2417#2646#0" expanded="true" />
+            <element signature="e#2645#2646#0" expanded="true" />
           </folding>
         </state>
       </provider>

@@ -129,14 +129,19 @@ public class Ejercicio10GUI extends JFrame {
 
 
     private void calcularResultado() {
-        if (operacion.equals("+")) {
-            resultado += new Double(pantalla.getText());
-        } else if (operacion.equals("-")) {
-            resultado -= new Double(pantalla.getText());
-        } else if (operacion.equals("/")) {
-            resultado /= new Double(pantalla.getText());
-        } else if (operacion.equals("*")) {
-            resultado *= new Double(pantalla.getText());
+        switch (operacion) {
+            case "+":
+                resultado += new Double(pantalla.getText());
+                break;
+            case "-":
+                resultado -= new Double(pantalla.getText());
+                break;
+            case "/":
+                resultado /= new Double(pantalla.getText());
+                break;
+            case "*":
+                resultado *= new Double(pantalla.getText());
+                break;
         }
 
         pantalla.setText("Result: " + resultado);

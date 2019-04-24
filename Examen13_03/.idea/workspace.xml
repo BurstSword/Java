@@ -2,20 +2,25 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4bb9d4d7-0ead-45f9-8249-ae51abeb2796" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../1RelacionEjerciciosGUI/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../1RelacionEjerciciosGUI/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../1RelacionEjerciciosGUI/out/production/1RelacionEjerciciosGUI/Ejercicio2/Ejercicio2.class" beforeDir="false" afterPath="$PROJECT_DIR$/../1RelacionEjerciciosGUI/out/production/1RelacionEjerciciosGUI/Ejercicio2/Ejercicio2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../1RelacionEjerciciosGUI/out/production/1RelacionEjerciciosGUI/Ejercicio2/Prueba2.class" beforeDir="false" afterPath="$PROJECT_DIR$/../1RelacionEjerciciosGUI/out/production/1RelacionEjerciciosGUI/Ejercicio2/Prueba2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../1RelacionEjerciciosGUI/src/Ejercicio2/Ejercicio2.java" beforeDir="false" afterPath="$PROJECT_DIR$/../1RelacionEjerciciosGUI/src/Ejercicio2/Ejercicio2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../1RelacionEjerciciosGUI/src/Ejercicio2/Prueba2.java" beforeDir="false" afterPath="$PROJECT_DIR$/../1RelacionEjerciciosGUI/src/Ejercicio2/Prueba2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../GUI/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../GUI/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../GUI/src/PrimerEjercicio/HolaMundo.java" beforeDir="false" afterPath="$PROJECT_DIR$/../GUI/src/PrimerEjercicio/HolaMundo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PRUEBA/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../PRUEBA/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PRUEBA/src/test/java/pruebaSucesiones/Fib.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PRUEBA/src/test/java/pruebaSucesiones/TestFib.java" beforeDir="false" afterPath="$PROJECT_DIR$/../PRUEBA/src/test/java/pruebaSucesiones/TestFib.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TrabajosPOO/CalculadoraPOO/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../TrabajosPOO/CalculadoraPOO/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TrabajosPOO/CalculadoraPOO/out/production/CalculadoraPOO/Calculadora/VentanaCalculadora.class" beforeDir="false" afterPath="$PROJECT_DIR$/../TrabajosPOO/CalculadoraPOO/out/production/CalculadoraPOO/Calculadora/VentanaCalculadora.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TrabajosPOO/CalculadoraPOO/src/Calculadora/VentanaCalculadora.java" beforeDir="false" afterPath="$PROJECT_DIR$/../TrabajosPOO/CalculadoraPOO/src/Calculadora/VentanaCalculadora.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BoletinGUI2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../BoletinGUI2/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BoletinGUI2/out/production/BoletinGUI2/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BoletinGUI2/out/production/BoletinGUI2/Ejercicio10/Ejercicio10GUI$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/../BoletinGUI2/out/production/BoletinGUI2/Ejercicio10/Ejercicio10GUI$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BoletinGUI2/out/production/BoletinGUI2/Ejercicio10/Ejercicio10GUI$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/../BoletinGUI2/out/production/BoletinGUI2/Ejercicio10/Ejercicio10GUI$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BoletinGUI2/out/production/BoletinGUI2/Ejercicio10/Ejercicio10GUI.class" beforeDir="false" afterPath="$PROJECT_DIR$/../BoletinGUI2/out/production/BoletinGUI2/Ejercicio10/Ejercicio10GUI.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BoletinGUI2/out/production/BoletinGUI2/Ejercicio10/MainEj10.class" beforeDir="false" afterPath="$PROJECT_DIR$/../BoletinGUI2/out/production/BoletinGUI2/Ejercicio10/MainEj10.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BoletinGUI2/src/Ejercicio10/Ejercicio10GUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/../BoletinGUI2/src/Ejercicio10/Ejercicio10GUI.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EjemplosGUI/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../EjemplosGUI/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EjemplosGUI/out/production/EjemplosGUI/Ejemplo1GUI.class" beforeDir="false" afterPath="$PROJECT_DIR$/../EjemplosGUI/out/production/EjemplosGUI/Ejemplo1GUI.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EjemplosGUI/out/production/EjemplosGUI/Ejemplo2_1.class" beforeDir="false" afterPath="$PROJECT_DIR$/../EjemplosGUI/out/production/EjemplosGUI/Ejemplo2_1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EjemplosGUI/src/Ejemplo1GUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/../EjemplosGUI/src/Ejemplo1GUI.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EjemplosGUI/src/Ejemplo2_1.java" beforeDir="false" afterPath="$PROJECT_DIR$/../EjemplosGUI/src/Ejemplo2_1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FibGaussTest/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../FibGaussTest/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FibGaussTest/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../FibGaussTest/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FibGaussTest/target/classes/pruebaSucesiones/Fib.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FibGaussTest/target/classes/pruebaSucesiones/Gauss.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FibGaussTest/target/classes/pruebaSucesiones/PruebasTiempo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TrabajosPOO/Somaville/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../TrabajosPOO/Somaville/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TrabajosPOO/Somaville/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../TrabajosPOO/Somaville/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -66,7 +71,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Carpeta1/Entidades/AlumnoPrimerCurso.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="425">
+            <state relative-caret-position="427">
               <caret line="29" selection-start-line="29" selection-end-line="29" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -75,36 +80,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Carpeta1/Entidades/AlumnoSegundoCurso.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="510">
+            <state relative-caret-position="206">
               <caret line="30" selection-start-line="30" selection-end-line="30" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Carpeta1/Entidades/Profesor.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="7" column="23" selection-start-line="7" selection-start-column="23" selection-end-line="7" selection-end-column="23" />
-              <folding>
-                <element signature="e#510#511#0" expanded="true" />
-                <element signature="e#563#564#0" expanded="true" />
-                <element signature="e#697#698#0" expanded="true" />
-                <element signature="e#738#739#0" expanded="true" />
-                <element signature="e#803#804#0" expanded="true" />
-                <element signature="e#863#864#0" expanded="true" />
-                <element signature="e#893#894#0" expanded="true" />
-                <element signature="e#919#920#0" expanded="true" />
-                <element signature="e#957#958#0" expanded="true" />
-                <element signature="e#987#988#0" expanded="true" />
-                <element signature="e#1020#1021#0" expanded="true" />
-                <element signature="e#1049#1050#0" expanded="true" />
-                <element signature="e#1093#1094#0" expanded="true" />
-                <element signature="e#1129#1130#0" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -112,7 +92,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Carpeta1/Gestoras/GestoraDatos.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
+            <state relative-caret-position="221">
               <caret line="18" selection-start-line="18" selection-end-line="18" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -121,11 +101,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Carpeta2/EjercicioRecursividad.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="376">
-              <caret line="34" column="9" lean-forward="true" selection-start-line="29" selection-start-column="7" selection-end-line="34" selection-end-column="9" />
+              <caret line="34" column="9" selection-start-line="29" selection-start-column="7" selection-end-line="34" selection-end-column="9" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -189,6 +169,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -211,11 +193,10 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1554196208376" />
     <property name="last.edited.regexp" value="65464567H" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -288,7 +269,7 @@
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.27231467" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.27609682" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -378,16 +359,36 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Carpeta1/Calculable.java">
+    <entry file="file://$PROJECT_DIR$/src/Carpeta1/Gestoras/GestoraDatos.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" selection-start-line="8" selection-end-line="8" />
+        <state relative-caret-position="221">
+          <caret line="18" selection-start-line="18" selection-end-line="18" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Carpeta1/Gestoras/GestoraMenus.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Carpeta2/EjercicioRecursividad.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="376">
+          <caret line="34" column="9" selection-start-line="29" selection-start-column="7" selection-end-line="34" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Carpeta1/Entidades/AlumnoPrimerCurso.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
+        <state relative-caret-position="427">
           <caret line="29" selection-start-line="29" selection-end-line="29" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -395,17 +396,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Carpeta1/Entidades/AlumnoSegundoCurso.java">
+    <entry file="file://$PROJECT_DIR$/src/Carpeta1/Calculable.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="30" selection-start-line="30" selection-end-line="30" />
+        <state relative-caret-position="136">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Carpeta1/Entidades/Profesor.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="23" selection-start-line="7" selection-start-column="23" selection-end-line="7" selection-end-column="23" />
+        <state relative-caret-position="447">
+          <caret line="59" lean-forward="true" selection-start-line="59" selection-end-line="59" />
           <folding>
             <element signature="e#510#511#0" expanded="true" />
             <element signature="e#563#564#0" expanded="true" />
@@ -425,30 +426,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Carpeta1/Gestoras/GestoraMenus.java">
+    <entry file="file://$PROJECT_DIR$/src/Carpeta1/Entidades/AlumnoSegundoCurso.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Carpeta1/Gestoras/GestoraDatos.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" selection-start-line="18" selection-end-line="18" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Carpeta2/EjercicioRecursividad.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="376">
-          <caret line="34" column="9" lean-forward="true" selection-start-line="29" selection-start-column="7" selection-end-line="34" selection-end-column="9" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="206">
+          <caret line="30" selection-start-line="30" selection-end-line="30" />
         </state>
       </provider>
     </entry>
