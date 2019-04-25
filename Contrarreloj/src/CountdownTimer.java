@@ -98,7 +98,7 @@ public class CountdownTimer extends JLabel implements ActionListener {
 
         } else if (e.getSource().equals(botonIniciar)) {
             contador.setVisible(false);
-            timer.start();
+            timer.restart();
             botonIniciar.setVisible(false);
             botonParar.setVisible(true);
 

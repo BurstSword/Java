@@ -2,12 +2,12 @@ package documentacion;
 
 public class Punto4 {
     public static void main(String[] args) {
-        findFavoriteNumber(300);
+        findFavoriteNumber(4000);
     }
 
     /**
      * Method that finds our new favorite number using some calculations  with a maximum number
-     * @param maxNumber This number it is the limit of the method to generate the number
+     * @param maxNumber This number it is the method´s limit to generate the number
      */
     public static void findFavoriteNumber(int maxNumber) {
         int favoriteNumber = 0;
