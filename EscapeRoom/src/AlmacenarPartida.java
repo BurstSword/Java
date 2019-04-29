@@ -9,7 +9,7 @@ public class AlmacenarPartida {
 
     public static void prepareStatement() {
         try {
-            // Creamos el PreparedStatement si no estaba ya creado.
+            
             if (null == preparedStatement) {
                 preparedStatement = Conexion.prepareStatement(
                         "insert into partida values (?,?,?)");
