@@ -9,13 +9,19 @@ public class Partida {
         this.itinerario = itinerario;
     }
 
-
-    public void itinerarioFacil(){
-        this.itinerario="Facil";
+    public Partida() {
+        this.nombreEquipo = "";
+        this.Tiempo = 0;
+        this.itinerario = "Facil";
     }
 
-    public void itinerarioDificil(){
-        this.itinerario="Dificil";
+
+    public void itinerarioFacil() {
+        this.itinerario = "Facil";
+    }
+
+    public void itinerarioDificil() {
+        this.itinerario = "Dificil";
     }
 
     public String getNombreEquipo() {
