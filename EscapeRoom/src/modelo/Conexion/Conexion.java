@@ -1,4 +1,4 @@
-package Modelo.Conexion;
+package modelo.Conexion;
 
 import java.sql.Connection;
 import java.sql.DriverManager;
@@ -16,7 +16,7 @@ public class Conexion {
         try {
             Class.forName(driver);
             try {
-                con = DriverManager.getConnection(url,usuario, contrasena);
+                con = DriverManager.getConnection(url, usuario, contrasena);
                 System.out.println("Conectado");
             } catch (SQLException ex) {
                 ex.getStackTrace();
@@ -28,4 +28,7 @@ public class Conexion {
         }
         return con;
     }
+
+
+
 }
