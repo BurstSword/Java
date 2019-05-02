@@ -9,6 +9,7 @@ function initialize() {
   document.getElementById("btnStop").addEventListener("click", stopClock, false);
   document.getElementById("btnResume").addEventListener("click", resumeClock, false);
   restartClock();
+  stopClock();
 }
 
 function getTimeRemaining(endtime) {
@@ -51,6 +52,7 @@ function restartClock() {
   initializeClock();
   enableStopButton();
   disableResumeButton();
+  stopClock();
 }
 
 function stopClock() {
