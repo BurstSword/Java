@@ -1,4 +1,5 @@
 window.onload=initialize;
+
 var timeinterval;
 
 function initialize(){
@@ -6,6 +7,7 @@ document.getElementById("btnRestart").addEventListener("click",restartClock,fals
 initializeClock();
 
 }
+
 function getTimeRemaining(endtime) {
   var t = Date.parse(endtime) - Date.parse(new Date());
   var seconds = Math.floor((t / 1000) % 60);
@@ -42,5 +44,14 @@ function restartClock(){
   clearInterval(timeinterval);
   initializeClock();
 }
+
+function stopClock(){
+clearInterval(timeinterval);
+}
+
+function resumeClock(){
+   
+}
+
 
 
