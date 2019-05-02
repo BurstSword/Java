@@ -1,11 +1,14 @@
-window.onload=initialize;
+window.onload = initialize;
 
 var timeinterval;
+var timeRemaining;
 
-function initialize(){
-document.getElementById("btnRestart").addEventListener("click",restartClock,false);
-initializeClock();
 
+function initialize() {
+  document.getElementById("btnRestart").addEventListener("click", restartClock, false);
+  document.getElementById("btnStop").addEventListener("click", stopClock, false);
+  document.getElementById("btnResume").addEventListener("click", resumeClock, false);
+  restartClock();
 }
 
 function getTimeRemaining(endtime) {
@@ -21,7 +24,7 @@ function getTimeRemaining(endtime) {
 }
 
 function initializeClock() {
-  var deadline = new Date(Date.parse(new Date()) + 30 * 60 * 1000);
+  var deadline = new Date(Date.parse(new Date()) + timeRemaining);
   var clock = document.getElementById("clockdiv");
   var minutesSpan = clock.querySelector('.minutes');
   var secondsSpan = clock.querySelector('.seconds');
@@ -31,27 +34,50 @@ function initializeClock() {
 
     minutesSpan.innerHTML = ('0' + t.minutes).slice(-2);
     secondsSpan.innerHTML = ('0' + t.seconds).slice(-2);
-
+    timeRemaining -= 1000;
     if (t.total <= 0) {
       clearInterval(timeinterval);
+      disableStopButton();
+      disableResumeButton();
     }
   }
   updateClock();
-  timeinterval=setInterval(updateClock, 1000)
+  timeinterval = setInterval(updateClock, 1000)
 }
 
-function restartClock(){
+function restartClock() {
   clearInterval(timeinterval);
+  timeRemaining = 1800000;
   initializeClock();
+  enableStopButton();
+  disableResumeButton();
 }
 
-function stopClock(){
-clearInterval(timeinterval);
+function stopClock() {
+  clearInterval(timeinterval);
+  disableStopButton();
+  enableResumeButton();
 }
 
-function resumeClock(){
-   
+function resumeClock() {
+  initializeClock();
+  disableResumeButton();
+  enableStopButton();
 }
 
+function disableStopButton() {
+  document.getElementById('btnStop').disabled = true;
+}
 
+function enableStopButton() {
+  document.getElementById('btnStop').disabled = false;
+}
+
+function disableResumeButton() {
+  document.getElementById('btnResume').disabled = true;
+}
+
+function enableResumeButton() {
+  document.getElementById('btnResume').disabled = false;
+}
 

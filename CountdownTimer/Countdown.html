@@ -6,7 +6,16 @@
 </head>
 
 <body>
-  <h1>Escape Room</h1>
+  <link href='https://fonts.googleapis.com/css?family=Josefin+Sans' rel='stylesheet' type='text/css'>
+<h1>
+  <em class="planet left">E</em>
+  <em>S</em>
+  <em>C</em>
+  <em>A</em>
+  <em>P</em>
+  <em class="planet right">E</em>
+  
+</h1>
   <div id="clockdiv">
     <div>
       <span class="minutes"></span>
@@ -18,10 +27,13 @@
   <script src="js/Countdown.js"></script>
   <div>
     <div>
-      <button class="buttonRestart" id="btnRestart">Reiniciar</button>
+      <button class="customButton" id="btnRestart">Reiniciar</button>
     </div>
     <div>
-      <button class="buttonStop" onclick="stopClock()" type="button" id="btnStop">Parar</button>
+      <button class="customButton"  type="button" id="btnStop">Parar</button>
+    </div>
+    <div>
+      <button class="customButton"  type="button" id="btnResume" disabled="true">Reanudar</button>
     </div>
   </div>
 </body>
