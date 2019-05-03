@@ -3,6 +3,7 @@
 
 <head>
   <link rel="stylesheet" href="css/Countdown.css">
+  <script src="js/Countdown.js" src="js/jquery-3.4.1.min.js"></script>
 </head>
 
 <body>
@@ -16,6 +17,7 @@
   <em class="planet right">E</em>
   
 </h1>
+
   <div id="clockdiv">
     <div id="time">
       <span class="minutes"></span>
@@ -23,20 +25,20 @@
       <span class="seconds"></span>
     </div>
   </div>
-  <script src="js/Countdown.js"></script>
   <div>
-    <div>
-      <img src="imgs/stop.png" class="customButton" id="btnRestart"/>
+      <div>
+        <img src="imgs/stop.png"  class="btnStop" id="btnStop"/>
+      </div>
+      <div>
+        <img src="imgs/play.png" class="btnPlay"  type="button" id="btnPlay"/>
+      </div>
+      <div>
+        <img src="imgs/pause.png"  class="btnPause"  type="button" id="btnPause"/>
+      </div>
+      <div>
+        <img src="imgs/play.png"  class="btnResume"  type="button" id="btnResume"/>
+      </div>
     </div>
-    <div>
-      <img src="imgs/pause.png" class="customButton"  type="button" id="btnStop"/>
-    </div>
-    <div>
-      <img src="imgs/play.png" class="customButton"  type="button" id="btnResume"/>
-    </div>
-    <div>
-      <img src="imgs/pause.png" class="customButton"  type="button" id="btnStop" />
-    </div>
-  </div>
+  
 </body>
 </html>

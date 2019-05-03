@@ -2,12 +2,23 @@ window.onload = initialize;
 
 var timeinterval;
 var timeRemaining;
-
-
+var btnStop;
+var btnPlay;
+var btnPause;
+var btnResume;
 function initialize() {
-  document.getElementById("btnRestart").addEventListener("click", restartClock, false);
-  document.getElementById("btnStop").addEventListener("click", stopClock, false);
+  btnStop = document.getElementById("btnStop");
+  btnPlay = document.getElementById("btnPlay");
+  btnPause = document.getElementById("btnPause");
+  btnResume = document.getElementById("btnResume");
+  document.getElementById("btnStop").addEventListener("click", restartClock, false);
+  document.getElementById("btnPause").addEventListener("click", stopClock, false);
   document.getElementById("btnResume").addEventListener("click", resumeClock, false);
+  document.getElementById("btnPlay").addEventListener("click", resumeClock, false);
+  document.getElementById("btnStop").addEventListener("click", changeStop, false);
+  document.getElementById("btnPause").addEventListener("click", changePause, false);
+  document.getElementById("btnResume").addEventListener("click", changeResume, false);
+  document.getElementById("btnPlay").addEventListener("click", changePlay, false);
   restartClock();
   stopClock();
 }
@@ -38,8 +49,7 @@ function initializeClock() {
     timeRemaining -= 1000;
     if (t.total <= 0) {
       clearInterval(timeinterval);
-      disableStopButton();
-      disableResumeButton();
+
     }
   }
   updateClock();
@@ -50,36 +60,36 @@ function restartClock() {
   clearInterval(timeinterval);
   timeRemaining = 1800000;
   initializeClock();
-  enableStopButton();
-  disableResumeButton();
   stopClock();
 }
 
 function stopClock() {
   clearInterval(timeinterval);
-  disableStopButton();
-  enableResumeButton();
+
 }
 
 function resumeClock() {
   initializeClock();
-  disableResumeButton();
-  enableStopButton();
+
 }
 
-function disableStopButton() {
-  document.getElementById('btnStop').disabled = true;
+function changeStop() {
+  btnStop.style.display = 'none';
+  btnPlay.style.display = 'block';
 }
 
-function enableStopButton() {
-  document.getElementById('btnStop').disabled = false;
+function changePlay() {
+  btnStop.style.display = 'block';
+  btnPlay.style.display = 'none';
 }
 
-function disableResumeButton() {
-  document.getElementById('btnResume').disabled = true;
+function changePause() {
+  btnPause.style.display = 'none';
+  btnResume.style.display = 'block';
 }
 
-function enableResumeButton() {
-  document.getElementById('btnResume').disabled = false;
+function changeResume() {
+  btnPause.style.display = 'block';
+  btnResume.style.display = 'none';
 }
 
