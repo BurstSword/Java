@@ -1,15 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4be1f505-c9fb-4f1b-92d0-bac217d56b69" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../BoletinGUI2.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../BoletinGUI2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../BoletinGUI2/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../BoletinGUI2/out/production/BoletinGUI2/Ejercicio10/Ejercicio10GUI.class" beforeDir="false" afterPath="$PROJECT_DIR$/../BoletinGUI2/out/production/BoletinGUI2/Ejercicio10/Ejercicio10GUI.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../BoletinGUI2/src/Ejercicio10/Ejercicio10GUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/../BoletinGUI2/src/Ejercicio10/Ejercicio10GUI.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../CountdownTimer/CSS/Countdown.css" beforeDir="false" afterPath="$PROJECT_DIR$/../CountdownTimer/CSS/Countdown.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../CountdownTimer/Countdown.html" beforeDir="false" afterPath="$PROJECT_DIR$/../CountdownTimer/Countdown.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../EscapeRoom/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../EscapeRoom/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="4be1f505-c9fb-4f1b-92d0-bac217d56b69" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -53,7 +45,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -66,9 +57,11 @@
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="UI_DESIGNER_EDITOR_MODE.PaletteManager.STATE" value="left" />
     <property name="UI_DESIGNER_EDITOR_MODE.UIDesignerToolWindowManager.STATE" value="right" />
   </component>
@@ -100,7 +93,7 @@
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25340393" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25718608" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
