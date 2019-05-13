@@ -237,48 +237,28 @@ html {
 
 
 .btnStop {
-	width: 40%;
-		height: 40%;
+	width: 35%;
+		height: 35%;
 	display: none;
-<<<<<<< HEAD
 	margin-left: 10%;
-=======
-	margin-top: 8%;
->>>>>>> master
 }
 
 .btnResume {
-	width: 40%;
-		height: 40%;
+	width: 35%;
+		height: 35%;
 	display: none;
-<<<<<<< HEAD
 	margin-left: 10%;
 }
 
 .btnPlay {
-	width: 40%;
-		height: 40%;
+	width: 35%;
+		height: 35%;
 		margin-left: 10%;
 }
 
 .btnPause {
-	width: 40%;
-	height: 40%;
+	width: 35%;
+	height: 35%;
 	margin-left: 10%;
-=======
-	margin-top: 8%;
-}
-
-.btnPlay {
-	width: 30%;
-	height: 30%;
-	margin-top: 8%;
-}
-
-.btnPause {
-	width: 30%;
-	height: 30%;
-	margin-top: 8%;
->>>>>>> master
 }
 

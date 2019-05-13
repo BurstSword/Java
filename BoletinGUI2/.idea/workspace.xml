@@ -2,17 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="21a6602a-82e5-45cc-ab6a-457627f36f04" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../BoletinGUI2.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/BoletinGUI2/Ejercicio10/Ejercicio10GUI.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/BoletinGUI2/Ejercicio10/Ejercicio10GUI.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Ejercicio10/Ejercicio10GUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Ejercicio10/Ejercicio10GUI.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../EjemplosGUI/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../EjemplosGUI/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../EjemplosGUI/out/production/EjemplosGUI/Ejemplo1GUI.class" beforeDir="false" afterPath="$PROJECT_DIR$/../EjemplosGUI/out/production/EjemplosGUI/Ejemplo1GUI.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../EjemplosGUI/out/production/EjemplosGUI/Ejemplo2_1.class" beforeDir="false" afterPath="$PROJECT_DIR$/../EjemplosGUI/out/production/EjemplosGUI/Ejemplo2_1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../EjemplosGUI/src/Ejemplo1GUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/../EjemplosGUI/src/Ejemplo1GUI.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../EjemplosGUI/src/Ejemplo2_1.java" beforeDir="false" afterPath="$PROJECT_DIR$/../EjemplosGUI/src/Ejemplo2_1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../FibGaussTest/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../FibGaussTest/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../FibGaussTest/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../FibGaussTest/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../FibGaussTest/target/classes/pruebaSucesiones/Fib.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../FibGaussTest/target/classes/pruebaSucesiones/Gauss.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../FibGaussTest/target/classes/pruebaSucesiones/PruebasTiempo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CountdownTimer/CSS/Countdown.css" beforeDir="false" afterPath="$PROJECT_DIR$/../CountdownTimer/CSS/Countdown.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CountdownTimer/Countdown.html" beforeDir="false" afterPath="$PROJECT_DIR$/../CountdownTimer/Countdown.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EscapeRoom/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../EscapeRoom/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -30,22 +26,17 @@
     <option name="myElementSize" value="190" />
   </component>
   <component name="DefaultGradleProjectSettings">
-    <option name="testRunner" value="GRADLE" />
-    <option name="delegatedBuild" value="true" />
+    <option name="isMigrated" value="true" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Ejercicio10/Ejercicio10GUI.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="410">
-              <caret line="137" column="22" selection-start-line="137" selection-start-column="22" selection-end-line="137" selection-end-column="22" />
+            <state relative-caret-position="784">
+              <caret line="110" column="33" selection-start-line="110" selection-start-column="33" selection-end-line="110" selection-end-column="33" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#1975#2201#0" expanded="true" />
-                <element signature="e#2200#2201#0" expanded="true" />
-                <element signature="e#2417#2646#0" expanded="true" />
-                <element signature="e#2645#2646#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -119,6 +110,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -135,14 +127,13 @@
               <item name="BoletinGUI2" type="b2602c69:ProjectViewProjectNode" />
               <item name="BoletinGUI2" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Ejercicio10" type="462c0819:PsiDirectoryNode" />
+              <item name="Ejercicio7" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
       <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -163,7 +154,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.MainEj10">
+  <component name="RunManager" selected="Application.MainEj7">
     <configuration name="MainEj1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Ejercicio1.MainEj1" />
       <module name="BoletinGUI2" />
@@ -244,9 +235,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MainEj7" />
         <item itemvalue="Application.MainEj10" />
         <item itemvalue="Application.MainEj8" />
-        <item itemvalue="Application.MainEj7" />
         <item itemvalue="Application.MainEj4" />
         <item itemvalue="Application.MainEj1" />
       </list>
@@ -268,7 +259,7 @@
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.3184569" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.3290469" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -386,19 +377,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Ejercicio7/JButtonListener.java" />
     <entry file="file://$PROJECT_DIR$/out/production/BoletinGUI2/Ejercicio7N/MainEj7.class" />
     <entry file="file://$PROJECT_DIR$/src/Ejercicio4/MainEj4.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
           <caret line="4" column="8" selection-start-line="4" selection-start-column="8" selection-end-line="6" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Ejercicio7/MainEj7.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
         </state>
       </provider>
     </entry>
@@ -456,24 +439,34 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Ejercicio10/MainEj10.java">
+    <entry file="file://$PROJECT_DIR$/src/Ejercicio7/JButtonListener.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" selection-start-line="8" selection-end-line="8" />
+        <state relative-caret-position="68">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Ejercicio7/MainEj7.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Ejercicio10/Ejercicio10GUI.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="410">
-          <caret line="137" column="22" selection-start-line="137" selection-start-column="22" selection-end-line="137" selection-end-column="22" />
+        <state relative-caret-position="784">
+          <caret line="110" column="33" selection-start-line="110" selection-start-column="33" selection-end-line="110" selection-end-column="33" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1975#2201#0" expanded="true" />
-            <element signature="e#2200#2201#0" expanded="true" />
-            <element signature="e#2417#2646#0" expanded="true" />
-            <element signature="e#2645#2646#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Ejercicio10/MainEj10.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
         </state>
       </provider>
     </entry>

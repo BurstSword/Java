@@ -90,7 +90,7 @@ public class Ejercicio10GUI extends JFrame {
             @Override
             public void mouseReleased(MouseEvent evt) {
                 JButton btn = (JButton) evt.getSource();
-                operacionPulsado(btn.getText());
+                operacionPulsada(btn.getText());
             }
         });
 
@@ -108,7 +108,7 @@ public class Ejercicio10GUI extends JFrame {
     }
 
 
-    private void operacionPulsado(String tecla) {
+    private void operacionPulsada(String tecla) {
         if (tecla.equals("=")) {
             calcularResultado();
         } else if (tecla.equals("C")) {

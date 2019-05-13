@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ab7b009d-6aa0-4efd-8f0f-5da617a1a615" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../CountdownTimer/CSS/Countdown.css" beforeDir="false" afterPath="$PROJECT_DIR$/../CountdownTimer/CSS/Countdown.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../CountdownTimer/Countdown.html" beforeDir="false" afterPath="$PROJECT_DIR$/../CountdownTimer/Countdown.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../CountdownTimer/JS/Countdown.js" beforeDir="false" afterPath="$PROJECT_DIR$/../CountdownTimer/JS/Countdown.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -90,6 +88,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -112,7 +111,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
     </panes>
   </component>
@@ -123,7 +121,7 @@
     <property name="Repository.Attach.Sources" value="false" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1555855325094" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../BoletinGUI2" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -152,9 +150,8 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.27760968" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.28214827" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
