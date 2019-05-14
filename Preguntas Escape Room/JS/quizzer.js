@@ -82,23 +82,33 @@ $(function () {
 	
 	$('.play_again button').click(restart);
 
+	function hide(){
+		$('.countdown').hide();
+		$('.dot').hide();
+	}
+
+	function show(){
+		$('.countdown').show();
+		$('.dot').show();
+	}
+
+	
 
 	function restart() {
 		currentQuestion = 0;
 		timeLeftForQuestion = timeForQuestion;
-
+		hide();
 		$('.finish.card').hide();
 		$('div.start').show();
 		$('.times_up').hide();
-		$('.countdown').show();
 		generateCards();
 		updateTime();
 		clearTimeout(questionTimer);
 	}
-
+	hide();
 	
 	function start() {
-		
+		show();
 		$('div.start').fadeOut(200, function () {
 			moveToNextQuestion();
 		});
@@ -144,7 +154,7 @@ $(function () {
 
 	
 	function showQuestionCardAtIndex(index) { 
-		var $card = $('.question.card:nth-child(' + index + ')').show();
+		$('.question.card:nth-child(' + index + ')').show();
 	}
 
 	
@@ -159,6 +169,7 @@ $(function () {
 	}
 
 	
+
 	function updateTime() {
 		$('.countdown .time_left').html(timeLeftForQuestion);
 	}
@@ -170,21 +181,37 @@ $(function () {
 
 		if (selected == correct) {
 			moveToNextQuestion();
+			correctAnimation();
 		} else {
+			wrongAnimation();
 			restart();
 		}
 
 		if (currentQuestion == questions.length) {
 			clearTimeout(questionTimer);
-			return finish();
+			finish();
 		}
-		
+	}
+
+	function correctAnimation() {
+		animatePoints('right');
+	}
+
+	function wrongAnimation() {
+		animatePoints('wrong');
+	}
+
+	function animatePoints(cls) {
+		$('header .dot').addClass('animate ' + cls);
+		setTimeout(function() {
+			$('header .dot').removeClass('animate ' + cls);
+		}, 600);
 	}
 
 	function finish() {
 		$('.question.card:visible').hide();
 		$('.finish.card').show();
-		$('.countdown').hide();
+		hide();
 	}
 
 	restart();

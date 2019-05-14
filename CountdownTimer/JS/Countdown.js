@@ -1,6 +1,5 @@
 window.onload = initialize;
 
-<<<<<<< Updated upstream
 var timeinterval; //El intervalo de tiempo que se recorre
 var timeRemaining; //El tiempo restante que queda por recorrer
 var btnStop; //Botón que reiniciar el reloj y lo pone en 30 minutos
@@ -9,16 +8,6 @@ var btnPause//Botón que pausa la cuenta atrás en el punto en el que está
 var btnResum//Botón que que la reanuda
 
 //Método que inicializa todos los botones y los eventos de cada uno de ellos
-=======
-var timeinterval;
-var timeRemaining;
-var btnStop;
-var btnPlay;
-var btnPause;
-var btnResume;
-
-
->>>>>>> Stashed changes
 function initialize() {
   btnStop = document.getElementById("btnStop");
   btnPlay = document.getElementById("btnPlay");

@@ -190,17 +190,19 @@ html {
 	width: 13vmin;
 	height: 13vmin;
 	border-radius: 50%;
-	background: black;
+
   }
   
   em.planet.left {
 	-webkit-transform-origin: 40vmin 5vmin;
 	transform-origin: 40vmin 5vmin;
+	color:red;
   }
   
   em.planet.right {
 	-webkit-transform-origin: -20vmin 5vmin;
 	transform-origin: -20vmin 5vmin;
+	color:red;
   }
   
   @-webkit-keyframes planet-rotate {
