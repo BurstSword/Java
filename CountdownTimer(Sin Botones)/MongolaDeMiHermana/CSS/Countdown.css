@@ -196,11 +196,15 @@ html {
   em.planet.left {
 	-webkit-transform-origin: 40vmin 5vmin;
 	transform-origin: 40vmin 5vmin;
+		color:red;
+		
   }
   
   em.planet.right {
 	-webkit-transform-origin: -20vmin 5vmin;
 	transform-origin: -20vmin 5vmin;
+	color:red;
+
   }
   
   @-webkit-keyframes planet-rotate {
@@ -229,36 +233,36 @@ html {
 	font-size: 155%;
 	color: #fff;
 	position: relative;
-  top: 50%;
-  left: 50%;
-  margin-right: 50%;
-	transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+    margin-right: 50%;
+		transform: translate(-50%, -50%);
 }
 
 
 .btnStop {
-	width: 35%;
-		height: 35%;
+	width: 40%;
+		height: 40%;
 	display: none;
 	margin-left: 10%;
 }
 
 .btnResume {
-	width: 35%;
-		height: 35%;
+	width: 40%;
+		height: 40%;
 	display: none;
 	margin-left: 10%;
 }
 
 .btnPlay {
-	width: 35%;
-		height: 35%;
+	width: 40%;
+		height: 40%;
 		margin-left: 10%;
 }
 
 .btnPause {
-	width: 35%;
-	height: 35%;
+	width: 40%;
+	height: 40%;
 	margin-left: 10%;
 }
 
