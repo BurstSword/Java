@@ -39,7 +39,7 @@ var questions = [
 		"Bill Gates",
 		"Brendan Eich",
 		"Rasmus Lerdorf",
-		2
+		1
 	],
 ];
 
@@ -187,7 +187,7 @@ $(function () {
 			restart();
 		}
 
-		if (currentQuestion == questions.length) {
+		if (currentQuestion == questions.length+1) {
 			clearTimeout(questionTimer);
 			finish();
 		}
