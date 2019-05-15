@@ -18,54 +18,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/pruebaSucesiones/Gauss.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="8" column="43" selection-start-line="8" selection-start-column="43" selection-end-line="8" selection-end-column="43" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/pruebaSucesiones/PruebasTiempo.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="505">
-              <caret line="49" selection-start-line="49" selection-end-line="49" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/pruebaSucesiones/TestFib.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="782">
-              <caret line="51" column="9" selection-start-line="51" selection-start-column="9" selection-end-line="51" selection-end-column="9" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/pruebaSucesiones/Fib.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="7" column="43" selection-start-line="7" selection-start-column="43" selection-end-line="7" selection-end-column="43" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/pruebaSucesiones/TestGauss.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="646">
-              <caret line="43" column="5" selection-start-line="43" selection-start-column="5" selection-end-line="43" selection-end-column="5" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#262#271#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="255">
+              <caret line="15" selection-start-line="15" selection-end-line="15" />
             </state>
           </provider>
         </entry>
@@ -108,7 +65,7 @@
       </MavenImportingSettings>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-7" />
     <option name="width" value="974" />
     <option name="height" value="788" />
@@ -120,7 +77,73 @@
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
-    <panes />
+    <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="FibGaussTest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FibGaussTest" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="FibGaussTest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FibGaussTest" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="FibGaussTest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FibGaussTest" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="FibGaussTest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FibGaussTest" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="FibGaussTest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FibGaussTest" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="pruebaSucesiones" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="FibGaussTest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FibGaussTest" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="FibGaussTest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FibGaussTest" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="FibGaussTest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FibGaussTest" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="pruebaSucesiones" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="FibGaussTest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FibGaussTest" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="Downloaded.Files.Path.Enabled" value="false" />
@@ -128,7 +151,7 @@
     <property name="Repository.Attach.JavaDocs" value="false" />
     <property name="Repository.Attach.Sources" value="false" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1556091802910" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Examen2604" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -341,9 +364,9 @@
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="0" width="974" height="788" extended-state="0" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.22541603" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22707888" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -374,13 +397,6 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/test/java/pruebaSucesiones/ArrayLists.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/MetodosSucesiones.java" />
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="731">
-          <caret line="43" column="10" selection-start-line="43" selection-start-column="10" selection-end-line="43" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/target/test-classes/pruebaSucesiones/Fib.class" />
     <entry file="file://$PROJECT_DIR$/target/test-classes/pruebaSucesiones/TestFib.class">
       <provider selected="true" editor-type-id="text-editor">
@@ -401,30 +417,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/pruebaSucesiones/Main.java" />
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_191/src.zip!/java/util/ArrayList.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/pruebaSucesiones/Gauss.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="43" selection-start-line="8" selection-start-column="43" selection-end-line="8" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/pruebaSucesiones/TestFib.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="782">
-          <caret line="51" column="9" selection-start-line="51" selection-start-column="9" selection-end-line="51" selection-end-column="9" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/pruebaSucesiones/Fib.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="43" selection-start-line="7" selection-start-column="43" selection-end-line="7" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/pruebaSucesiones/TestGauss.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="646">
@@ -436,10 +428,41 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/pruebaSucesiones/Fib.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-876">
+          <caret line="7" column="43" selection-start-line="7" selection-start-column="43" selection-end-line="7" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="731">
+          <caret line="43" column="10" selection-start-line="43" selection-start-column="10" selection-end-line="43" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/pruebaSucesiones/TestFib.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="765">
+          <caret line="51" column="9" selection-start-line="51" selection-start-column="9" selection-end-line="51" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/pruebaSucesiones/PruebasTiempo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="505">
+        <state relative-caret-position="833">
           <caret line="49" selection-start-line="49" selection-end-line="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/pruebaSucesiones/Gauss.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
         </state>
       </provider>
     </entry>
