@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<tienda>
+  <clientes>
+    <cliente id="1" nombre="Pepe">
+      <pedidos>
+        <pedido id="1">
+          <fecha>15/03/2019</fecha>
+          <importe>125</importe>
+        </pedido>
+        <pedido id="2">
+          <fecha>15/05/2019</fecha>
+          <importe>75</importe>
+        </pedido>
+      </pedidos>
+    </cliente>
+    <cliente id="2" nombre="Luis">
+      <pedidos>
+        <pedido id="1">
+          <fecha>01/02/2019</fecha>
+          <importe>25</importe>
+        </pedido>
+      </pedidos>
+    </cliente>
+  </clientes>
+</tienda>

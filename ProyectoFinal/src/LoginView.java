@@ -1,3 +1,5 @@
+import javafx.event.ActionEvent;
+
 import javax.swing.*;
 import java.awt.*;
 import java.awt.event.ActionListener;
@@ -32,6 +34,6 @@ public class LoginView extends JFrame {
         setVisible(true);
         setSize(500,500);
         setDefaultCloseOperation(WindowConstants.EXIT_ON_CLOSE);
-        LoginButton.addActionListener(this);
+        LoginButton.addActionListener((ActionListener) LoginButton);
     }
 }

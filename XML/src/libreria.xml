@@ -1,0 +1,13 @@
+<libreria>
+<nombre> Libreria.Libreria IES Sotero Hernandez </nombre>
+<libros>
+<libro isbn="1234">
+<titulo>Piensa en Java</titulo>
+<autor>Bruce Eckel</autor>
+</libro>
+<libro isbn="6789">
+<titulo>Learn Java</titulo>
+<autor>Bruce Eckel</autor>
+</libro>
+</libros>
+</libreria>
