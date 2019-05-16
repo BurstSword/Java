@@ -184,7 +184,11 @@ $(function () {
 			correctAnimation();
 		} else {
 			wrongAnimation();
-			restart();
+			var delayInMilliseconds = 600; 
+
+			setTimeout(function() {
+				restart();
+			}, delayInMilliseconds);
 		}
 
 		if (currentQuestion == questions.length+1) {

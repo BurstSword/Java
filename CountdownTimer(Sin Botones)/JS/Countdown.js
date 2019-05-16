@@ -2,7 +2,10 @@ window.onload = initialize;
 
 var timeinterval;
 var timeRemaining;
+var button;
 function initialize() {
+  button = document.getElementById("footer")
+  document.getElementById("footer").addEventListener("click", stopClock, false);
   initializeClock();
 }
 
@@ -37,5 +40,9 @@ function initializeClock() {
   }
   updateClock();
   timeinterval = setInterval(updateClock, 1000)
+}
+
+function stopClock(){
+  clearInterval(timeinterval);
 }
 

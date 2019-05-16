@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="module_examen16mayo" default="compile.module.examen16mayo">
+  <dirname property="module.examen16mayo.basedir" file="${ant.file.module_examen16mayo}"/>
+  
+  <property name="module.jdk.home.examen16mayo" value="${project.jdk.home}"/>
+  <property name="module.jdk.bin.examen16mayo" value="${project.jdk.bin}"/>
+  <property name="module.jdk.classpath.examen16mayo" value="${project.jdk.classpath}"/>
+  
+  <property name="compiler.args.examen16mayo" value="-encoding UTF-8 -source 8 -target 8 ${compiler.args}"/>
+  
+  <property name="examen16mayo.output.dir" value="${module.examen16mayo.basedir}/target/classes"/>
+  <property name="examen16mayo.testoutput.dir" value="${module.examen16mayo.basedir}/target/test-classes"/>
+  
+  <path id="examen16mayo.module.bootclasspath">
+    <!-- Paths to be included in compilation bootclasspath -->
+  </path>
+  
+  <path id="examen16mayo.module.production.classpath">
+    <path refid="${module.jdk.classpath.examen16mayo}"/>
+  </path>
+  
+  <path id="examen16mayo.runtime.production.module.classpath">
+    <pathelement location="${examen16mayo.output.dir}"/>
+  </path>
+  
+  <path id="examen16mayo.module.classpath">
+    <path refid="${module.jdk.classpath.examen16mayo}"/>
+    <pathelement location="${examen16mayo.output.dir}"/>
+    <path refid="library.maven:_junit:junit:4.12.classpath"/>
+    <path refid="library.maven:_org.hamcrest:hamcrest-core:2.1.classpath"/>
+    <path refid="library.maven:_org.hamcrest:hamcrest:2.1.classpath"/>
+    <path refid="library.maven:_org.hamcrest:hamcrest-library:2.1.classpath"/>
+  </path>
+  
+  <path id="examen16mayo.runtime.module.classpath">
+    <pathelement location="${examen16mayo.testoutput.dir}"/>
+    <pathelement location="${examen16mayo.output.dir}"/>
+    <path refid="library.maven:_junit:junit:4.12.classpath"/>
+    <path refid="library.maven:_org.hamcrest:hamcrest-core:2.1.classpath"/>
+    <path refid="library.maven:_org.hamcrest:hamcrest:2.1.classpath"/>
+    <path refid="library.maven:_org.hamcrest:hamcrest-library:2.1.classpath"/>
+  </path>
+  
+  
+  <patternset id="excluded.from.module.examen16mayo">
+    <patternset refid="ignored.files"/>
+  </patternset>
+  
+  <patternset id="excluded.from.compilation.examen16mayo">
+    <patternset refid="excluded.from.module.examen16mayo"/>
+  </patternset>
+  
+  <path id="examen16mayo.module.sourcepath">
+    <dirset dir="${module.examen16mayo.basedir}">
+      <include name="src/main/java"/>
+      <include name="src/main/resources"/>
+    </dirset>
+  </path>
+  
+  <path id="examen16mayo.module.test.sourcepath">
+    <dirset dir="${module.examen16mayo.basedir}">
+      <include name="src/test/java"/>
+    </dirset>
+  </path>
+  
+  
+  <target name="compile.module.examen16mayo" depends="compile.module.examen16mayo.production,compile.module.examen16mayo.tests" description="Compile module Examen16Mayo"/>
+  
+  <target name="compile.module.examen16mayo.production" depends="register.custom.compilers" description="Compile module Examen16Mayo; production classes">
+    <mkdir dir="${examen16mayo.output.dir}"/>
+    <javac2 destdir="${examen16mayo.output.dir}" debug="${compiler.debug}" nowarn="${compiler.generate.no.warnings}" memorymaximumsize="${compiler.max.memory}" fork="true" executable="${module.jdk.bin.examen16mayo}/javac">
+      <compilerarg line="${compiler.args.examen16mayo}"/>
+      <bootclasspath refid="examen16mayo.module.bootclasspath"/>
+      <classpath refid="examen16mayo.module.production.classpath"/>
+      <src refid="examen16mayo.module.sourcepath"/>
+      <patternset refid="excluded.from.compilation.examen16mayo"/>
+    </javac2>
+    
+    <copy todir="${examen16mayo.output.dir}">
+      <fileset dir="${module.examen16mayo.basedir}/src/main/java">
+        <patternset refid="compiler.resources"/>
+        <type type="file"/>
+      </fileset>
+      <fileset dir="${module.examen16mayo.basedir}/src/main/resources">
+        <patternset refid="compiler.resources"/>
+        <type type="file"/>
+      </fileset>
+    </copy>
+  </target>
+  
+  <target name="compile.module.examen16mayo.tests" depends="register.custom.compilers,compile.module.examen16mayo.production" description="compile module Examen16Mayo; test classes" unless="skip.tests">
+    <mkdir dir="${examen16mayo.testoutput.dir}"/>
+    <javac2 destdir="${examen16mayo.testoutput.dir}" debug="${compiler.debug}" nowarn="${compiler.generate.no.warnings}" memorymaximumsize="${compiler.max.memory}" fork="true" executable="${module.jdk.bin.examen16mayo}/javac">
+      <compilerarg line="${compiler.args.examen16mayo}"/>
+      <bootclasspath refid="examen16mayo.module.bootclasspath"/>
+      <classpath refid="examen16mayo.module.classpath"/>
+      <src refid="examen16mayo.module.test.sourcepath"/>
+      <patternset refid="excluded.from.compilation.examen16mayo"/>
+    </javac2>
+    
+    <copy todir="${examen16mayo.testoutput.dir}">
+      <fileset dir="${module.examen16mayo.basedir}/src/test/java">
+        <patternset refid="compiler.resources"/>
+        <type type="file"/>
+      </fileset>
+    </copy>
+  </target>
+  
+  <target name="clean.module.examen16mayo" description="cleanup module">
+    <delete dir="${examen16mayo.output.dir}"/>
+    <delete dir="${examen16mayo.testoutput.dir}"/>
+  </target>
+</project>
