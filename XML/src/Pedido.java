@@ -5,22 +5,22 @@ import javax.xml.bind.annotation.XmlType;
 import java.util.Date;
 
 @XmlRootElement(name = "pedido")
-@XmlType(propOrder = {"id","fecha","importe"})
+@XmlType(propOrder = {"id", "fecha", "importe"})
 public class Pedido {
     private int id;
-    private Date fecha;
+    private String fecha;
     private int importe;
 
-    public Pedido(int id, Date fecha, int importe) {
+    public Pedido(int id, String fecha, int importe) {
         this.id = id;
         this.fecha = fecha;
         this.importe = importe;
     }
 
-    public Pedido(){
-        this.id=0;
-        this.fecha= new Date();
-        this.importe=0;
+    public Pedido() {
+        this.id = 0;
+        this.fecha = "";
+        this.importe = 0;
     }
 
     @XmlAttribute(name = "id")
@@ -33,11 +33,12 @@ public class Pedido {
     }
 
     @XmlElement(name = "fecha")
-    public Date getFecha() {
+    public String getFecha() {
         return fecha;
     }
 
-    public void setFecha(Date fecha) {
+
+    public void setFecha(String fecha) {
         this.fecha = fecha;
     }
 

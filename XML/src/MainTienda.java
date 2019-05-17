@@ -3,6 +3,10 @@ import javax.xml.bind.JAXBContext;
 import javax.xml.bind.JAXBException;
 import javax.xml.bind.Unmarshaller;
 import java.io.File;
+import java.text.DateFormat;
+import java.text.ParseException;
+import java.text.SimpleDateFormat;
+import java.util.Date;
 
 
 public class MainTienda {
@@ -16,22 +20,39 @@ public class MainTienda {
             for (int i = 0; i < tienda.getClientes().size(); i++) {
                 System.out.println("ID: " + tienda.getClientes().get(i).getId());
                 System.out.println("Nombre: " + tienda.getClientes().get(i).getNombre());
+            }
+            System.out.println("--------------------------------------------------------");
+            for (int i = 0; i < tienda.getClientes().size(); i++) {
+                for (int j = 0; j < tienda.getClientes().get(i).getPedidos().size(); j++) {
+                    String dateStr = tienda.getClientes().get(i).getPedidos().get(j).getFecha();
+                    String date = tienda.getClientes().get(0).getPedidos().get(0).getFecha();
+                    DateFormat df = new SimpleDateFormat("dd/MM/yyyy");
+                    Date date1 = df.parse(date);
+                    Date date2 = df.parse(dateStr);
 
-                for(int j=0;j<tienda.getClientes().get(i).getPedidos().size();j++){
-                    System.out.println("Fecha: " + tienda.getClientes().get(j).getPedidos().get(i).getFecha());
+                    if (date1.compareTo(date2) > 0) {
+                        System.out.println(tienda.getClientes().get(i).getNombre());
+                        System.out.println(tienda.getClientes().get(i).getPedidos().get(j).getFecha());
+                    }
                 }
             }
-/*
-            for (int j = 0; j < tienda.getClientes().size(); j++) {
+            System.out.println("--------------------------------------------------------");
+            for (int i = 0; i < tienda.getClientes().size(); i++) {
+                for (int j = 0; j < tienda.getClientes().get(i).getPedidos().size(); j++) {
+                    int importe1 = tienda.getClientes().get(i).getPedidos().get(j).getImporte();
+                    int importe = tienda.getClientes().get(0).getPedidos().get(0).getImporte();
 
-                if(importemayor<tienda.getClientes().get(j).getPedidos().get(j).getImporte()){
-                    importemayor=tienda.getClientes().get(j).getPedidos().get(j).getImporte();
+                    if (importe > importe1) {
+                        if (j < tienda.getClientes().size()-1) {
+                            System.out.println(tienda.getClientes().get(i).getNombre());
+                            System.out.println(tienda.getClientes().get(i).getPedidos().get(j).getFecha());
+                            System.out.println(tienda.getClientes().get(i).getPedidos().get(j).getImporte());
+                        }
+                    }
                 }
-
             }
-            System.out.println(importemayor);
-*/
-        } catch (JAXBException e) {
+
+        } catch (JAXBException | ParseException e) {
             e.printStackTrace();
         }
     }
