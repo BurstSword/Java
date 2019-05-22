@@ -8,6 +8,8 @@ import java.text.ParseException;
 import java.text.SimpleDateFormat;
 import java.util.Date;
 
+import static java.lang.Integer.parseInt;
+
 
 public class MainTienda {
     public static void main(String[] args) {
@@ -31,6 +33,31 @@ public class MainTienda {
 
             System.out.println("---FECHAS---");
             ordernarPorFecha(tienda);
+/*
+            String menor = "";
+            for (int i = 0; i < tienda.getClientes().size()-1; i++) {
+                for (int j = 1; j < tienda.getClientes().size() ; j++) {
+                    if (parseInt(tienda.getClientes().get(i).getPedidos().get(i).getFecha().substring(6, 10)) < parseInt(tienda.getClientes().get(j).getPedidos().get(j).getFecha().substring(6, 10))) {
+                        menor = tienda.getClientes().get(i).getPedidos().get(i).getFecha();
+                    } else if (parseInt(tienda.getClientes().get(i).getPedidos().get(i).getFecha().substring(6, 10)) > parseInt(tienda.getClientes().get(j).getPedidos().get(j).getFecha().substring(6, 10))) {
+                        menor = tienda.getClientes().get(j).getPedidos().get(i).getFecha();
+                    } else {
+                        if (parseInt(tienda.getClientes().get(i).getPedidos().get(i).getFecha().substring(3, 5)) < parseInt(tienda.getClientes().get(j).getPedidos().get(j).getFecha().substring(3, 5))) {
+                            menor = tienda.getClientes().get(i).getPedidos().get(i).getFecha();
+                        } else if (parseInt(tienda.getClientes().get(i).getPedidos().get(i).getFecha().substring(3, 5)) > parseInt(tienda.getClientes().get(j).getPedidos().get(j).getFecha().substring(3, 5))) {
+                            menor = tienda.getClientes().get(j).getPedidos().get(i).getFecha();
+                        } else {
+                            if (parseInt(tienda.getClientes().get(i).getPedidos().get(i).getFecha().substring(1, 3)) < parseInt(tienda.getClientes().get(j).getPedidos().get(j).getFecha().substring(1, 3))) {
+                                menor = tienda.getClientes().get(i).getPedidos().get(i).getFecha();
+                            } else if (parseInt(tienda.getClientes().get(i).getPedidos().get(i).getFecha().substring(1, 3)) < parseInt(tienda.getClientes().get(j).getPedidos().get(j).getFecha().substring(1, 3))) {
+                                menor = tienda.getClientes().get(j).getPedidos().get(i).getFecha();
+                            }
+                        }
+                    }
+                }
+            }
+            System.out.println(menor);
+            */
 
         } catch (JAXBException | ParseException e) {
 
@@ -47,7 +74,7 @@ public class MainTienda {
 
 
         date = new SimpleDateFormat("dd/MM/yyyy").parse(clientes[0].getPedidos().get(0).getFecha());
-        for (int i = 0; i < clientes.length-1; i++) {
+        for (int i = 0; i < clientes.length - 1; i++) {
             for (int j = 1; j < clientes.length; j++) {
                 if (date.compareTo(new SimpleDateFormat("dd/MM/yyyy").parse(clientes[i].getPedidos().get(j).getFecha())) < 0) {
                     Cliente temp = clientes[i];
@@ -70,8 +97,8 @@ public class MainTienda {
 
     private static void extraerFechaMenor(DateFormat df, int indiceFechaMayor, Tienda tienda) throws ParseException {
         Cliente cliente = tienda.getClientes().get(0);
-        Date date;
-        date = df.parse(tienda.getClientes().get(0).getPedidos().get(0).getFecha());
+        Date date = df.parse(tienda.getClientes().get(0).getPedidos().get(0).getFecha());
+
         for (int i = 0; i < tienda.getClientes().size(); i++) {
             for (int j = 0; j < tienda.getClientes().get(i).getPedidos().size(); j++) {
                 if (df.parse(tienda.getClientes().get(i).getPedidos().get(j).getFecha()).compareTo(date) < 0) {

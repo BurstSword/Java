@@ -5,8 +5,6 @@ import java.util.ArrayList;
 
 public class TiendaMueblesDAOImplementacion implements TiendaMueblesDAO {
     private Connection conexion;
-    private Statement st;
-    private ResultSet rs;
 
 
     public TiendaMueblesDAOImplementacion(){
@@ -35,8 +33,8 @@ public class TiendaMueblesDAOImplementacion implements TiendaMueblesDAO {
     public ArrayList<Articulo> buscarTodosLosArticulos() throws SQLException {
         ArrayList<Articulo> articulos = new ArrayList<>();
         conexion = getDBConnection();
-        st = conexion.createStatement();
-        rs = st.executeQuery("Select id_articulo, nombre, importe, descuento FROM articulo");
+        Statement st = conexion.createStatement();
+        ResultSet rs = st.executeQuery("Select id_articulo, nombre, importe, descuento FROM articulo");
         while (rs.next()) {
             Articulo articulo = new Articulo();
 
