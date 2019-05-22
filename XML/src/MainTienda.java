@@ -11,7 +11,6 @@ import java.util.Date;
 
 public class MainTienda {
     public static void main(String[] args) {
-        Cliente cliente = null;
         DateFormat df = new SimpleDateFormat("dd/mm/yyyy");
         int indiceFechaMayor = 0;
         int indiceImporteMayor = 0;
@@ -23,16 +22,15 @@ public class MainTienda {
 
             extraerClientes(tienda);
             System.out.println("------------------------------------------------------------------");
-            extraerFechaMenor(cliente, df, indiceFechaMayor, tienda);
+            extraerFechaMenor(df, indiceFechaMayor, tienda);
 
             System.out.println("------------------------------------------------------------------");
 
 
             extraerImporteMayor(indiceImporteMayor, tienda);
 
-            System.out.println("------------------------------------------------------------------");
-
-            ordernarPorFecha(df, tienda);
+            System.out.println("---FECHAS---");
+            ordernarPorFecha(tienda);
 
         } catch (JAXBException | ParseException e) {
 
@@ -40,17 +38,18 @@ public class MainTienda {
         }
     }
 
-    private static void ordernarPorFecha(DateFormat df, Tienda tienda) throws ParseException {
+    private static void ordernarPorFecha(Tienda tienda) throws ParseException {
         Date date;
         Cliente[] clientes = new Cliente[tienda.getClientes().size()];
         for (int i = 0; i < tienda.getClientes().size(); i++) {
             clientes[i] = tienda.getClientes().get(i);
         }
 
-        date = df.parse(clientes[0].getPedidos().get(0).getFecha());
-        for (int i = 0; i < clientes.length; i++) {
-            for (int j = 0; j < clientes.length; j++) {
-                if (date.compareTo(df.parse(clientes[i].getPedidos().get(j).getFecha())) > 0) {
+
+        date = new SimpleDateFormat("dd/MM/yyyy").parse(clientes[0].getPedidos().get(0).getFecha());
+        for (int i = 0; i < clientes.length-1; i++) {
+            for (int j = 1; j < clientes.length; j++) {
+                if (date.compareTo(new SimpleDateFormat("dd/MM/yyyy").parse(clientes[i].getPedidos().get(j).getFecha())) < 0) {
                     Cliente temp = clientes[i];
                     clientes[i] = clientes[j];
                     clientes[j] = temp;
@@ -69,7 +68,8 @@ public class MainTienda {
         }
     }
 
-    private static void extraerFechaMenor(Cliente cliente, DateFormat df, int indiceFechaMayor, Tienda tienda) throws ParseException {
+    private static void extraerFechaMenor(DateFormat df, int indiceFechaMayor, Tienda tienda) throws ParseException {
+        Cliente cliente = tienda.getClientes().get(0);
         Date date;
         date = df.parse(tienda.getClientes().get(0).getPedidos().get(0).getFecha());
         for (int i = 0; i < tienda.getClientes().size(); i++) {
@@ -82,6 +82,7 @@ public class MainTienda {
             }
         }
 
+        assert cliente != null;
         System.out.println(cliente.getNombre());
         System.out.println(cliente.getPedidos().get(indiceFechaMayor).getFecha());
         System.out.println(cliente.getPedidos().get(indiceFechaMayor).getImporte());

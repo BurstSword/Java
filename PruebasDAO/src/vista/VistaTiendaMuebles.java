@@ -1,15 +1,15 @@
-package Vista;
+package vista;
 
-import Modelo.Libro;
+import modelo.Articulo;
 
 import javax.swing.*;
 import java.awt.*;
 import java.util.ArrayList;
 
-public class VistaLibreria extends JFrame {
+public class VistaTiendaMuebles extends JFrame {
     private int altura = 20;
 
-    public VistaLibreria() throws HeadlessException {
+    public VistaTiendaMuebles() throws HeadlessException {
         setVisible(true);
         setDefaultCloseOperation(WindowConstants.EXIT_ON_CLOSE);
         getContentPane().setLayout(null);
@@ -17,9 +17,9 @@ public class VistaLibreria extends JFrame {
     }
 
 
-    public void MostrarListadoLibros(ArrayList<Libro> libros) {
-        for (Libro libro : libros) {
-            generarJLabel(libro.getTitulo());
+    public void MostrarListadoMuebles(ArrayList<Articulo> articulos) {
+        for (Articulo articulo : articulos) {
+            generarJLabel(articulo.getNombre());
             altura += 20;
         }
     }

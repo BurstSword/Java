@@ -1,15 +1,15 @@
-package Modelo;
+package modelo;
 
 import java.sql.*;
 import java.util.ArrayList;
 
-public class LibreriaDAOImplementacion implements LibreriaDAO {
+public class TiendaMueblesDAOImplementacion implements TiendaMueblesDAO {
     private Connection conexion;
     private Statement st;
     private ResultSet rs;
 
 
-    public LibreriaDAOImplementacion(){
+    public TiendaMueblesDAOImplementacion(){
 
     }
 
@@ -32,19 +32,20 @@ public class LibreriaDAOImplementacion implements LibreriaDAO {
     }
 
     @Override
-    public ArrayList<Libro> buscarTodosLosLibros() throws SQLException {
-        ArrayList<Libro> libros = new ArrayList<>();
+    public ArrayList<Articulo> buscarTodosLosArticulos() throws SQLException {
+        ArrayList<Articulo> articulos = new ArrayList<>();
         conexion = getDBConnection();
         st = conexion.createStatement();
-        rs = st.executeQuery("Select isbn, titulo, autor FROM libro");
+        rs = st.executeQuery("Select id_articulo, nombre, importe, descuento FROM articulo");
         while (rs.next()) {
-            Libro libro = new Libro();
+            Articulo articulo = new Articulo();
 
-            libro.setIsbn(rs.getInt(1));
-            libro.setAutor(rs.getString(3));
-            libro.setTitulo(rs.getString(2));
-            libros.add(libro);
+            articulo.setId_articulo(rs.getInt(1));
+            articulo.setNombre(rs.getString(2));
+            articulo.setImporte(rs.getDouble(3));
+            articulo.setDescuento(rs.getDouble(4));
+            articulos.add(articulo);
         }
-        return libros;
+        return articulos;
     }
 }
