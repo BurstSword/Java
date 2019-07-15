@@ -1,14 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="84667f8b-68c0-4521-b168-cf93746b4739" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../CountdownTimer(Sin Botones)/CSS/Countdown.css" beforeDir="false" afterPath="$PROJECT_DIR$/../CountdownTimer(Sin Botones)/CSS/Countdown.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PruebasDAO/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../PruebasDAO/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PruebasDAO/src/modelo/TiendaMueblesDAOImplementacion.java" beforeDir="false" afterPath="$PROJECT_DIR$/../PruebasDAO/src/modelo/TiendaMueblesDAOImplementacion.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/XML/MainTienda.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/XML/MainTienda.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/MainTienda.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MainTienda.java" afterDir="false" />
-    </list>
+    <list default="true" id="84667f8b-68c0-4521-b168-cf93746b4739" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -38,7 +31,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Cliente.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="289">
@@ -71,7 +64,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/MainTienda.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="374">
@@ -131,6 +124,11 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+<<<<<<< HEAD
+=======
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+>>>>>>> master
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -147,8 +145,11 @@
           <select />
         </subPane>
       </pane>
+<<<<<<< HEAD
       <pane id="PackagesPane" />
       <pane id="Scope" />
+=======
+>>>>>>> master
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -206,9 +207,15 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
+<<<<<<< HEAD
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.27292112" />
+=======
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2685325" />
+>>>>>>> master
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -293,6 +300,29 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/Pedido.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="493">
+          <caret line="36" selection-start-line="36" selection-end-line="36" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#838#839#0" expanded="true" />
+            <element signature="e#980#981#0" expanded="true" />
+            <element signature="e#1010#1011#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/MainTienda.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="447">
+          <caret line="144" selection-start-line="144" selection-end-line="144" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/Tienda.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="221">
@@ -324,6 +354,7 @@
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/src/Pedido.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="493">
@@ -347,5 +378,7 @@
         </state>
       </provider>
     </entry>
+=======
+>>>>>>> master
   </component>
 </project>
